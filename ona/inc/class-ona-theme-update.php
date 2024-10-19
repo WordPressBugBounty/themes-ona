@@ -41,7 +41,7 @@ if ( ! class_exists( 'Ona_Theme_Update' ) ) {
 			'ona-coffee-shop' 	=> '1.0.4',
 			'ona-travel' 				=> '1.0.4',
 			'ona-magazine' 			=> '1.0.3',
-			'ona-fashion' 			=> '1.0.5',
+			'ona-fashion' 			=> '1.0.6',
 			'ona-environmental' => '1.0.3',
 			'ona-agency' 				=> '1.0.2',
 			'ona-business' 			=> '1.0.3',

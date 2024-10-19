@@ -35,7 +35,7 @@ return array(
 			<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"1rem"}}}} -->
 			<div class="wp-block-columns" style="margin-bottom:1rem"><!-- wp:column {"className":"ona-sm-down-text-align-center"} -->
 			<div class="wp-block-column ona-sm-down-text-align-center"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light","className":"mb-1 ona-copyright","fontSize":"tiny"} -->
-			<p class="mb-1 ona-copyright has-text-light-color has-text-color has-link-color has-tiny-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-full-site-editing-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
+			<p class="mb-1 ona-copyright has-text-light-color has-text-color has-link-color has-tiny-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:navigation {"overlayMenu":"never","textColor":"text-light","className":"ona-sm-down-justify-content-center","style":{"spacing":{"blockGap":"20px"}},"fontSize":"tiny"} -->

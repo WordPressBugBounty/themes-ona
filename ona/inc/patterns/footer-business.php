@@ -41,7 +41,7 @@ return array(
 			<!-- wp:columns {"verticalAlignment":"center"} -->
 			<div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"100%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:100%"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light","className":"ona-copyright ona-sm-down-text-align-center","fontSize":"small"} -->
-			<p class="ona-copyright ona-sm-down-text-align-center has-text-light-color has-text-color has-link-color has-small-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-full-site-editing-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
+			<p class="ona-copyright ona-sm-down-text-align-center has-text-light-color has-text-color has-link-color has-small-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
 			<!-- /wp:paragraph --></div>
 			<!-- /wp:column -->
 

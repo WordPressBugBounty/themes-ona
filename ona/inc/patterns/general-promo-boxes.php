@@ -15,8 +15,8 @@ return array(
 
 			<!-- wp:columns -->
 			<div class="wp-block-columns"><!-- wp:column -->
-			<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_1.jpg' ) ) . '","id":46,"dimRatio":0,"contentPosition":"center center","className":"hover-scale"} -->
-			<div class="wp-block-cover hover-scale"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-46" alt="ona_promo_box_1" src="' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_1.jpg' ) ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"contentJustification":"center"} -->
+			<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_1.jpg' ) ) . '","id":46,"dimRatio":0,"contentPosition":"center center","className":"hover-scale is-style-ona-full-link"} -->
+			<div class="wp-block-cover hover-scale is-style-ona-full-link"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-46" alt="ona_promo_box_1" src="' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_1.jpg' ) ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"contentJustification":"center"} -->
 			<div class="wp-block-buttons is-content-justification-center"><!-- wp:button {"width":50,"style":{"spacing":{"padding":{"top":"16px","bottom":"16px"}}},"className":"is-style-fill","fontSize":"tiny","fontFamily":"base"} -->
 			<div class="wp-block-button has-custom-width wp-block-button__width-50 has-custom-font-size is-style-fill has-base-font-family has-tiny-font-size"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-bottom:16px">' . __( 'FASHION', 'ona' ) . '</a></div>
 			<!-- /wp:button --></div>
@@ -29,8 +29,8 @@ return array(
 			<!-- /wp:column -->
 
 			<!-- wp:column -->
-			<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_2.jpg' ) ) . '","id":48,"dimRatio":0,"contentPosition":"center center","isDark":false,"className":"hover-scale"} -->
-			<div class="wp-block-cover is-light hover-scale"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-48" alt="ona_promo_box_2" src="' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_2.jpg' ) ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"contentJustification":"center"} -->
+			<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_2.jpg' ) ) . '","id":48,"dimRatio":0,"contentPosition":"center center","isDark":false,"className":"hover-scale is-style-ona-full-link"} -->
+			<div class="wp-block-cover is-light hover-scale is-style-ona-full-link"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-48" alt="ona_promo_box_2" src="' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_2.jpg' ) ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"contentJustification":"center"} -->
 			<div class="wp-block-buttons is-content-justification-center"><!-- wp:button {"width":50,"style":{"spacing":{"padding":{"top":"16px","bottom":"16px"}}},"className":"is-style-fill","fontSize":"tiny","fontFamily":"base"} -->
 			<div class="wp-block-button has-custom-width wp-block-button__width-50 has-custom-font-size is-style-fill has-base-font-family has-tiny-font-size"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-bottom:16px">' . __( 'LIFESTYLE', 'ona' ) . '</a></div>
 			<!-- /wp:button --></div>
@@ -43,8 +43,8 @@ return array(
 			<!-- /wp:column -->
 
 			<!-- wp:column -->
-			<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_3.jpg' ) ) . '","id":49,"dimRatio":0,"contentPosition":"center center","className":"hover-scale"} -->
-			<div class="wp-block-cover hover-scale"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-49" alt="ona_promo_box_3" src="' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_3.jpg' ) ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"contentJustification":"center"} -->
+			<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_3.jpg' ) ) . '","id":49,"dimRatio":0,"contentPosition":"center center","className":"hover-scale is-style-ona-full-link"} -->
+			<div class="wp-block-cover hover-scale is-style-ona-full-link"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-49" alt="ona_promo_box_3" src="' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_3.jpg' ) ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"contentJustification":"center"} -->
 			<div class="wp-block-buttons is-content-justification-center"><!-- wp:button {"width":50,"style":{"spacing":{"padding":{"top":"16px","bottom":"16px"}}},"className":"is-style-fill","fontSize":"tiny","fontFamily":"base"} -->
 			<div class="wp-block-button has-custom-width wp-block-button__width-50 has-custom-font-size is-style-fill has-base-font-family has-tiny-font-size"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-bottom:16px">' . __( 'TRAVEL', 'ona' ) . '</a></div>
 			<!-- /wp:button --></div>
@@ -57,8 +57,8 @@ return array(
 			<!-- /wp:column -->
 
 			<!-- wp:column -->
-			<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_4.jpg' ) ) . '","id":50,"dimRatio":0,"contentPosition":"center center","isDark":false,"className":"hover-scale"} -->
-			<div class="wp-block-cover is-light hover-scale"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-50" alt="ona_promo_box_4" src="' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_4.jpg' ) ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"contentJustification":"center"} -->
+			<div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_4.jpg' ) ) . '","id":50,"dimRatio":0,"contentPosition":"center center","isDark":false,"className":"hover-scale is-style-ona-full-link"} -->
+			<div class="wp-block-cover is-light hover-scale is-style-ona-full-link"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-50" alt="ona_promo_box_4" src="' . esc_url( get_theme_file_uri( 'assets/img/ona_promo_box_4.jpg' ) ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"contentJustification":"center"} -->
 			<div class="wp-block-buttons is-content-justification-center"><!-- wp:button {"width":50,"style":{"spacing":{"padding":{"top":"16px","bottom":"16px"}}},"className":"is-style-fill","fontSize":"tiny","fontFamily":"base"} -->
 			<div class="wp-block-button has-custom-width wp-block-button__width-50 has-custom-font-size is-style-fill has-base-font-family has-tiny-font-size"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-bottom:16px">' . __( 'STORIES', 'ona' ) . '</a></div>
 			<!-- /wp:button --></div>

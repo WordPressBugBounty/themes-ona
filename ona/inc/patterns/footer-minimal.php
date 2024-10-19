@@ -65,7 +65,7 @@ return array(
 			<!-- wp:columns {"verticalAlignment":null} -->
 			<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center"} -->
 			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light","className":"is-style-no-spacing ona-copyright ona-sm-down-text-align-center","fontSize":"tiny"} -->
-			<p class="is-style-no-spacing ona-copyright ona-sm-down-text-align-center has-text-light-color has-text-color has-link-color has-tiny-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-full-site-editing-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
+			<p class="is-style-no-spacing ona-copyright ona-sm-down-text-align-center has-text-light-color has-text-color has-link-color has-tiny-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
 			<!-- /wp:paragraph --></div>
 			<!-- /wp:column -->
 

@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) {
     exit( 'Direct script access denied.' );
 }
 // Constants
-define( 'ONA_VERSION', '1.21.4' );
+define( 'ONA_VERSION', '1.22.1' );
 define( 'ONA_DIR', get_template_directory() );
 define( 'ONA_URI', get_template_directory_uri() );
 if ( !function_exists( 'ona_fs' ) ) {

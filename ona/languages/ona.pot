@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language-Team: DeoThemes <hello@deothemes.com>\n"
 "Last-Translator: Alexander Samokhin <hello@deothemes.com>\n"
-"POT-Creation-Date: 2024-09-24 01:31+0000\n"
+"POT-Creation-Date: 2024-10-18 13:08+0000\n"
 "Report-Msgid-Bugs-To: https://deothemes/contact/\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "Creative"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:73, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:49
+#: wp-content/themes/ona/inc/admin/theme-admin.php:73, wp-content/themes/ona/inc/patterns/footer-fashion.php:49
 msgid "Travel"
 msgstr ""
 
@@ -85,7 +85,7 @@ msgstr ""
 msgid "Coffee Shop"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:129, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:50
+#: wp-content/themes/ona/inc/admin/theme-admin.php:129, wp-content/themes/ona/inc/patterns/footer-fashion.php:50
 msgid "Fashion"
 msgstr ""
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Startup"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:150, wp-content/themes/ona/inc/patterns/footer-environmental.php:71, wp-content/themes/ona/inc/patterns/header-business.php:20, wp-content/themes/ona/inc/patterns/header-centered-logo.php:33, wp-content/themes/ona/inc/patterns/header-creative.php:25, wp-content/themes/ona/inc/patterns/header-default.php:22, wp-content/themes/ona/inc/patterns/header-environmental.php:47, wp-content/themes/ona/inc/patterns/header-health.php:25, wp-content/themes/ona/inc/patterns/header-minimal.php:16, wp-content/themes/ona/inc/patterns/header-news.php:16, wp-content/themes/ona/inc/patterns/header-news.php:58, wp-content/themes/ona/inc/patterns/header-photography.php:17, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:27, wp-content/themes/ona/inc/patterns/header-travel.php:18, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:58, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:28, wp-content/themes/ona/inc/patterns/pro/header-agency.php:21, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:24, wp-content/themes/ona/inc/patterns/pro/header-fashion.php:19, wp-content/themes/ona/inc/patterns/pro/header-startup.php:21
+#: wp-content/themes/ona/inc/admin/theme-admin.php:150, wp-content/themes/ona/inc/patterns/footer-environmental.php:71, wp-content/themes/ona/inc/patterns/header-business.php:20, wp-content/themes/ona/inc/patterns/header-centered-logo.php:33, wp-content/themes/ona/inc/patterns/header-creative.php:25, wp-content/themes/ona/inc/patterns/header-default.php:22, wp-content/themes/ona/inc/patterns/header-environmental.php:47, wp-content/themes/ona/inc/patterns/header-fashion.php:19, wp-content/themes/ona/inc/patterns/header-health.php:25, wp-content/themes/ona/inc/patterns/header-minimal.php:16, wp-content/themes/ona/inc/patterns/header-news.php:16, wp-content/themes/ona/inc/patterns/header-news.php:58, wp-content/themes/ona/inc/patterns/header-photography.php:17, wp-content/themes/ona/inc/patterns/header-studio.php:24, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:27, wp-content/themes/ona/inc/patterns/header-travel.php:18, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:58, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:28, wp-content/themes/ona/inc/patterns/pro/header-agency.php:21, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:24, wp-content/themes/ona/inc/patterns/pro/header-startup.php:21
 msgid "News"
 msgstr ""
 
@@ -169,7 +169,7 @@ msgstr ""
 msgid "Install"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:349, wp-content/themes/ona/inc/patterns/footer-news.php:47, wp-content/themes/ona/inc/patterns/footer-travel.php:42, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:27, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:37
+#: wp-content/themes/ona/inc/admin/theme-admin.php:349, wp-content/themes/ona/inc/patterns/footer-fashion.php:27, wp-content/themes/ona/inc/patterns/footer-news.php:47, wp-content/themes/ona/inc/patterns/footer-travel.php:42, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:37
 msgid "Useful Links"
 msgstr ""
 
@@ -325,51 +325,59 @@ msgstr ""
 msgid "Stroke frame"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:415, wp-content/themes/ona/inc/block-styles.php:424, wp-content/themes/ona/inc/block-styles.php:433
+#: wp-content/themes/ona/inc/block-styles.php:415
+msgid "Hover scale"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:433
+msgid "Full link"
+msgstr ""
+
+#: wp-content/themes/ona/inc/block-styles.php:450, wp-content/themes/ona/inc/block-styles.php:459, wp-content/themes/ona/inc/block-styles.php:468
 msgid "Offset left"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:442
+#: wp-content/themes/ona/inc/block-styles.php:477
 msgid "Offset right"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:451, wp-content/themes/ona/inc/block-styles.php:460
+#: wp-content/themes/ona/inc/block-styles.php:486, wp-content/themes/ona/inc/block-styles.php:495
 msgid "Offset bottom"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:469, wp-content/themes/ona/inc/block-styles.php:478
+#: wp-content/themes/ona/inc/block-styles.php:504, wp-content/themes/ona/inc/block-styles.php:513
 msgid "Offset top"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:487, wp-content/themes/ona/inc/block-styles.php:496
+#: wp-content/themes/ona/inc/block-styles.php:522, wp-content/themes/ona/inc/block-styles.php:531
 msgid "Shift right"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:505, wp-content/themes/ona/inc/block-styles.php:514
+#: wp-content/themes/ona/inc/block-styles.php:540, wp-content/themes/ona/inc/block-styles.php:549
 msgid "Shift left"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:523, wp-content/themes/ona/inc/block-styles.php:532
+#: wp-content/themes/ona/inc/block-styles.php:558, wp-content/themes/ona/inc/block-styles.php:567
 msgid "Hide on Tablet"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:541, wp-content/themes/ona/inc/block-styles.php:550
+#: wp-content/themes/ona/inc/block-styles.php:576, wp-content/themes/ona/inc/block-styles.php:585
 msgid "Hide on Mobile"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:559, wp-content/themes/ona/inc/block-styles.php:575
+#: wp-content/themes/ona/inc/block-styles.php:594, wp-content/themes/ona/inc/block-styles.php:610
 msgid "Sticky"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:589
+#: wp-content/themes/ona/inc/block-styles.php:624
 msgid "Arrow icon"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:618
+#: wp-content/themes/ona/inc/block-styles.php:653
 msgid "Color on hover"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:640
+#: wp-content/themes/ona/inc/block-styles.php:675
 msgid "Grid Gap 70"
 msgstr ""
 
@@ -840,15 +848,15 @@ msgstr ""
 msgid "Get Started"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-business.php:44, wp-content/themes/ona/inc/patterns/footer-creative.php:38, wp-content/themes/ona/inc/patterns/footer-default.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:94, wp-content/themes/ona/inc/patterns/footer-health.php:37, wp-content/themes/ona/inc/patterns/footer-minimal.php:68, wp-content/themes/ona/inc/patterns/footer-news.php:81, wp-content/themes/ona/inc/patterns/footer-photography.php:17, wp-content/themes/ona/inc/patterns/footer-travel.php:63, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:84, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:71, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:81, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:62, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:115, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:72, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:84
+#: wp-content/themes/ona/inc/patterns/footer-business.php:44, wp-content/themes/ona/inc/patterns/footer-creative.php:38, wp-content/themes/ona/inc/patterns/footer-default.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:94, wp-content/themes/ona/inc/patterns/footer-fashion.php:81, wp-content/themes/ona/inc/patterns/footer-health.php:37, wp-content/themes/ona/inc/patterns/footer-minimal.php:68, wp-content/themes/ona/inc/patterns/footer-news.php:81, wp-content/themes/ona/inc/patterns/footer-photography.php:17, wp-content/themes/ona/inc/patterns/footer-travel.php:63, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:84, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:71, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:62, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:115, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:72, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:84
 msgid "© %d Powered by "
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-business.php:44, wp-content/themes/ona/inc/patterns/footer-creative.php:38, wp-content/themes/ona/inc/patterns/footer-default.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:94, wp-content/themes/ona/inc/patterns/footer-health.php:37, wp-content/themes/ona/inc/patterns/footer-minimal.php:68, wp-content/themes/ona/inc/patterns/footer-news.php:81, wp-content/themes/ona/inc/patterns/footer-photography.php:17, wp-content/themes/ona/inc/patterns/footer-travel.php:63, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:84, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:71, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:81, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:62, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:115, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:72, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:84
+#: wp-content/themes/ona/inc/patterns/footer-business.php:44, wp-content/themes/ona/inc/patterns/footer-creative.php:38, wp-content/themes/ona/inc/patterns/footer-default.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:94, wp-content/themes/ona/inc/patterns/footer-fashion.php:81, wp-content/themes/ona/inc/patterns/footer-health.php:37, wp-content/themes/ona/inc/patterns/footer-minimal.php:68, wp-content/themes/ona/inc/patterns/footer-news.php:81, wp-content/themes/ona/inc/patterns/footer-photography.php:17, wp-content/themes/ona/inc/patterns/footer-travel.php:63, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:84, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:71, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:62, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:115, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:72, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:84
 msgid "Ona WordPress theme"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-business.php:51, wp-content/themes/ona/inc/patterns/footer-creative.php:42, wp-content/themes/ona/inc/patterns/footer-default.php:47, wp-content/themes/ona/inc/patterns/footer-environmental.php:98, wp-content/themes/ona/inc/patterns/footer-health.php:45, wp-content/themes/ona/inc/patterns/footer-minimal.php:74, wp-content/themes/ona/inc/patterns/footer-news.php:85, wp-content/themes/ona/inc/patterns/footer-photography.php:24, wp-content/themes/ona/inc/patterns/footer-travel.php:85, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:88, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:79, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:88, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:66, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:84, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:121, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:92
+#: wp-content/themes/ona/inc/patterns/footer-business.php:51, wp-content/themes/ona/inc/patterns/footer-creative.php:42, wp-content/themes/ona/inc/patterns/footer-default.php:47, wp-content/themes/ona/inc/patterns/footer-environmental.php:98, wp-content/themes/ona/inc/patterns/footer-fashion.php:88, wp-content/themes/ona/inc/patterns/footer-health.php:45, wp-content/themes/ona/inc/patterns/footer-minimal.php:74, wp-content/themes/ona/inc/patterns/footer-news.php:85, wp-content/themes/ona/inc/patterns/footer-photography.php:24, wp-content/themes/ona/inc/patterns/footer-travel.php:85, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:88, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:79, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:66, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:84, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:121, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:92
 msgid "Privacy Policy"
 msgstr ""
 
@@ -860,15 +868,15 @@ msgstr ""
 msgid "Footer creative"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-creative.php:18, wp-content/themes/ona/inc/patterns/footer-environmental.php:57, wp-content/themes/ona/inc/patterns/footer-health.php:16, wp-content/themes/ona/inc/patterns/footer-minimal.php:24, wp-content/themes/ona/inc/patterns/header-business.php:19, wp-content/themes/ona/inc/patterns/header-centered-logo.php:32, wp-content/themes/ona/inc/patterns/header-creative.php:24, wp-content/themes/ona/inc/patterns/header-default.php:21, wp-content/themes/ona/inc/patterns/header-environmental.php:46, wp-content/themes/ona/inc/patterns/header-health.php:22, wp-content/themes/ona/inc/patterns/header-minimal.php:15, wp-content/themes/ona/inc/patterns/header-news.php:57, wp-content/themes/ona/inc/patterns/header-photography.php:16, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:24, wp-content/themes/ona/inc/patterns/header-travel.php:15, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:44, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:19, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:31, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:39, wp-content/themes/ona/inc/patterns/pro/header-agency.php:20, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:21, wp-content/themes/ona/inc/patterns/pro/header-fashion.php:16, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:20, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:20, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:46, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:43, wp-content/themes/ona/inc/patterns/pro/header-startup.php:20
+#: wp-content/themes/ona/inc/patterns/footer-creative.php:18, wp-content/themes/ona/inc/patterns/footer-environmental.php:57, wp-content/themes/ona/inc/patterns/footer-fashion.php:31, wp-content/themes/ona/inc/patterns/footer-health.php:16, wp-content/themes/ona/inc/patterns/footer-minimal.php:24, wp-content/themes/ona/inc/patterns/header-business.php:19, wp-content/themes/ona/inc/patterns/header-centered-logo.php:32, wp-content/themes/ona/inc/patterns/header-creative.php:24, wp-content/themes/ona/inc/patterns/header-default.php:21, wp-content/themes/ona/inc/patterns/header-environmental.php:46, wp-content/themes/ona/inc/patterns/header-fashion.php:16, wp-content/themes/ona/inc/patterns/header-health.php:22, wp-content/themes/ona/inc/patterns/header-minimal.php:15, wp-content/themes/ona/inc/patterns/header-news.php:57, wp-content/themes/ona/inc/patterns/header-photography.php:16, wp-content/themes/ona/inc/patterns/header-studio.php:21, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:24, wp-content/themes/ona/inc/patterns/header-travel.php:15, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:44, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:19, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:39, wp-content/themes/ona/inc/patterns/pro/header-agency.php:20, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:21, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:20, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:20, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:46, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:43, wp-content/themes/ona/inc/patterns/pro/header-startup.php:20
 msgid "Home"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-creative.php:19, wp-content/themes/ona/inc/patterns/footer-environmental.php:59, wp-content/themes/ona/inc/patterns/footer-health.php:17, wp-content/themes/ona/inc/patterns/footer-minimal.php:26, wp-content/themes/ona/inc/patterns/footer-news.php:51, wp-content/themes/ona/inc/patterns/header-business.php:21, wp-content/themes/ona/inc/patterns/header-centered-logo.php:34, wp-content/themes/ona/inc/patterns/header-creative.php:26, wp-content/themes/ona/inc/patterns/header-default.php:23, wp-content/themes/ona/inc/patterns/header-environmental.php:48, wp-content/themes/ona/inc/patterns/header-health.php:23, wp-content/themes/ona/inc/patterns/header-minimal.php:17, wp-content/themes/ona/inc/patterns/header-news.php:59, wp-content/themes/ona/inc/patterns/header-photography.php:18, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:25, wp-content/themes/ona/inc/patterns/header-travel.php:16, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:46, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:20, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:32, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:40, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:27, wp-content/themes/ona/inc/patterns/pro/general-page-title-coffee-shop.php:11, wp-content/themes/ona/inc/patterns/pro/header-agency.php:24, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:22, wp-content/themes/ona/inc/patterns/pro/header-fashion.php:17, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:23, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:23, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:48, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:45, wp-content/themes/ona/inc/patterns/pro/header-startup.php:24, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:17
+#: wp-content/themes/ona/inc/patterns/footer-creative.php:19, wp-content/themes/ona/inc/patterns/footer-environmental.php:59, wp-content/themes/ona/inc/patterns/footer-fashion.php:32, wp-content/themes/ona/inc/patterns/footer-health.php:17, wp-content/themes/ona/inc/patterns/footer-minimal.php:26, wp-content/themes/ona/inc/patterns/footer-news.php:51, wp-content/themes/ona/inc/patterns/footer-studio.php:33, wp-content/themes/ona/inc/patterns/header-business.php:21, wp-content/themes/ona/inc/patterns/header-centered-logo.php:34, wp-content/themes/ona/inc/patterns/header-creative.php:26, wp-content/themes/ona/inc/patterns/header-default.php:23, wp-content/themes/ona/inc/patterns/header-environmental.php:48, wp-content/themes/ona/inc/patterns/header-fashion.php:17, wp-content/themes/ona/inc/patterns/header-health.php:23, wp-content/themes/ona/inc/patterns/header-minimal.php:17, wp-content/themes/ona/inc/patterns/header-news.php:59, wp-content/themes/ona/inc/patterns/header-photography.php:18, wp-content/themes/ona/inc/patterns/header-studio.php:22, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:25, wp-content/themes/ona/inc/patterns/header-travel.php:16, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:46, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:20, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:40, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:27, wp-content/themes/ona/inc/patterns/pro/general-page-title-coffee-shop.php:11, wp-content/themes/ona/inc/patterns/pro/header-agency.php:24, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:22, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:23, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:23, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:48, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:45, wp-content/themes/ona/inc/patterns/pro/header-startup.php:24, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:17
 msgid "About"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-creative.php:20, wp-content/themes/ona/inc/patterns/footer-environmental.php:60, wp-content/themes/ona/inc/patterns/footer-health.php:18, wp-content/themes/ona/inc/patterns/footer-minimal.php:28, wp-content/themes/ona/inc/patterns/footer-news.php:52, wp-content/themes/ona/inc/patterns/header-business.php:22, wp-content/themes/ona/inc/patterns/header-centered-logo.php:35, wp-content/themes/ona/inc/patterns/header-creative.php:27, wp-content/themes/ona/inc/patterns/header-default.php:24, wp-content/themes/ona/inc/patterns/header-environmental.php:49, wp-content/themes/ona/inc/patterns/header-health.php:24, wp-content/themes/ona/inc/patterns/header-minimal.php:18, wp-content/themes/ona/inc/patterns/header-news.php:19, wp-content/themes/ona/inc/patterns/header-news.php:60, wp-content/themes/ona/inc/patterns/header-photography.php:19, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:26, wp-content/themes/ona/inc/patterns/header-travel.php:17, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:47, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:22, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:34, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:41, wp-content/themes/ona/inc/patterns/pro/header-agency.php:26, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:23, wp-content/themes/ona/inc/patterns/pro/header-fashion.php:18, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:24, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:24, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:20, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:49, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:46, wp-content/themes/ona/inc/patterns/pro/header-startup.php:26, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:17
+#: wp-content/themes/ona/inc/patterns/footer-creative.php:20, wp-content/themes/ona/inc/patterns/footer-environmental.php:60, wp-content/themes/ona/inc/patterns/footer-fashion.php:34, wp-content/themes/ona/inc/patterns/footer-health.php:18, wp-content/themes/ona/inc/patterns/footer-minimal.php:28, wp-content/themes/ona/inc/patterns/footer-news.php:52, wp-content/themes/ona/inc/patterns/footer-studio.php:34, wp-content/themes/ona/inc/patterns/header-business.php:22, wp-content/themes/ona/inc/patterns/header-centered-logo.php:35, wp-content/themes/ona/inc/patterns/header-creative.php:27, wp-content/themes/ona/inc/patterns/header-default.php:24, wp-content/themes/ona/inc/patterns/header-environmental.php:49, wp-content/themes/ona/inc/patterns/header-fashion.php:18, wp-content/themes/ona/inc/patterns/header-health.php:24, wp-content/themes/ona/inc/patterns/header-minimal.php:18, wp-content/themes/ona/inc/patterns/header-news.php:19, wp-content/themes/ona/inc/patterns/header-news.php:60, wp-content/themes/ona/inc/patterns/header-photography.php:19, wp-content/themes/ona/inc/patterns/header-studio.php:23, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:26, wp-content/themes/ona/inc/patterns/header-travel.php:17, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:47, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:22, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:41, wp-content/themes/ona/inc/patterns/pro/header-agency.php:26, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:23, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:24, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:24, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:20, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:49, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:46, wp-content/themes/ona/inc/patterns/pro/header-startup.php:26, wp-content/themes/ona/inc/patterns/pro/page-contact-coffee-shop.php:17
 msgid "Contact"
 msgstr ""
 
@@ -876,7 +884,7 @@ msgstr ""
 msgid "Default footer"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-default.php:48, wp-content/themes/ona/inc/patterns/footer-health.php:46, wp-content/themes/ona/inc/patterns/footer-photography.php:25, wp-content/themes/ona/inc/patterns/footer-travel.php:86, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:80, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:89, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:67, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:70, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:122
+#: wp-content/themes/ona/inc/patterns/footer-default.php:48, wp-content/themes/ona/inc/patterns/footer-fashion.php:89, wp-content/themes/ona/inc/patterns/footer-health.php:46, wp-content/themes/ona/inc/patterns/footer-photography.php:25, wp-content/themes/ona/inc/patterns/footer-travel.php:86, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:80, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:67, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:70, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:122
 msgid "Terms & Conditions"
 msgstr ""
 
@@ -888,15 +896,15 @@ msgstr ""
 msgid "Subscribe to New Posts"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-environmental.php:48, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:20
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:48, wp-content/themes/ona/inc/patterns/footer-fashion.php:20
 msgid "A minimal, functional theme. All the latest news and creative articles are available at our news portal to encourage inspiration."
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-environmental.php:58, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:45, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:33
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:58, wp-content/themes/ona/inc/patterns/footer-fashion.php:33, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:45
 msgid "Authors"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-environmental.php:69, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:56, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:35
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:69, wp-content/themes/ona/inc/patterns/footer-fashion.php:35, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:56
 msgid "Demos"
 msgstr ""
 
@@ -904,7 +912,7 @@ msgstr ""
 msgid "Team"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-environmental.php:72, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:59, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:36
+#: wp-content/themes/ona/inc/patterns/footer-environmental.php:72, wp-content/themes/ona/inc/patterns/footer-fashion.php:36, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:59
 msgid "Get Theme"
 msgstr ""
 
@@ -922,6 +930,34 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/footer-environmental.php:84, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:71
 msgid "Dribbble"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-fashion.php:6
+msgid "Footer fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-fashion.php:43, wp-content/themes/ona/inc/patterns/posts-list-with-sidebar-news.php:83
+msgid "Categories"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-fashion.php:47
+msgid "Design"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-fashion.php:48, wp-content/themes/ona/inc/patterns/footer-travel.php:49, wp-content/themes/ona/inc/patterns/header-news.php:17
+msgid "Lifestyle"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-fashion.php:51
+msgid "Beauty"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-fashion.php:52
+msgid "Buy Now"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-fashion.php:59
+msgid "Follow Us"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/footer-health.php:6
@@ -976,6 +1012,22 @@ msgstr ""
 msgid "Footer photography"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/footer-studio.php:6
+msgid "Footer studio"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-studio.php:24
+msgid "+64 93 310 70 50"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-studio.php:35, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:25, wp-content/themes/ona/inc/patterns/pro/header-agency.php:25, wp-content/themes/ona/inc/patterns/pro/header-startup.php:25, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:13
+msgid "Services"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/footer-studio.php:36
+msgid "Jobs"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/footer-travel.php:8
 msgid "Footer travel"
 msgstr ""
@@ -988,7 +1040,7 @@ msgstr ""
 msgid "1-888-925-8067 | help@onashop.com"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-travel.php:34, wp-content/themes/ona/inc/patterns/posts-grid-3-columns-environmental.php:11, wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-fashion.php:11, wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:84, wp-content/themes/ona/inc/patterns/sidebar-default.php:50
+#: wp-content/themes/ona/inc/patterns/footer-travel.php:34, wp-content/themes/ona/inc/patterns/posts-grid-3-columns-environmental.php:11, wp-content/themes/ona/inc/patterns/posts-grid-3-columns-fashion.php:11, wp-content/themes/ona/inc/patterns/pro/posts-list-with-sidebar.php:84, wp-content/themes/ona/inc/patterns/sidebar-default.php:50
 msgid "Popular Posts"
 msgstr ""
 
@@ -1002,10 +1054,6 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/footer-travel.php:48
 msgid "Tips & Guide"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/footer-travel.php:49, wp-content/themes/ona/inc/patterns/header-news.php:17, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:48
-msgid "Lifestyle"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/footer-travel.php:50
@@ -1080,6 +1128,18 @@ msgstr ""
 msgid "Ad banner news"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/general-cta-studio.php:6
+msgid "CTA studio"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-cta-studio.php:11
+msgid "We’ll engage clients and businesess"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-cta-studio.php:16, wp-content/themes/ona/inc/patterns/general-hero-studio.php:23
+msgid "Start Here"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/general-gallery-5-columns.php:6
 msgid "Gallery 5 columns"
 msgstr ""
@@ -1090,6 +1150,10 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-gallery-5-columns.php:15
 msgid "Check my latest photos"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-gallery-studio.php:6
+msgid "Gallery studio"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-hero-business.php:6
@@ -1152,6 +1216,18 @@ msgstr ""
 msgid "Portrait • Landscape • Architecture • Wedding"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/general-hero-studio.php:6
+msgid "Hero studio"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-studio.php:12
+msgid "Visualize Your Creativity"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-hero-studio.php:17
+msgid "We help founders at the formative stages of their venture, to take an idea from concept through to launch"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:6
 msgid "Icon boxes business"
 msgstr ""
@@ -1184,6 +1260,14 @@ msgstr ""
 msgid "SEO and PPC"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-studio.php:6
+msgid "Icon Boxes Studio"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-studio.php:54
+msgid "Ona is a simple and elegant template with tons of features. Lorem ipsum dolor sit amet, consectetur."
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/general-instagram-feed-health.php:6
 msgid "Instagram feed health"
 msgstr ""
@@ -1194,6 +1278,18 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-instagram-feed-health.php:16
 msgid "@onatheme"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-intro-studio.php:6
+msgid "Intro studio"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-intro-studio.php:13
+msgid "Perfect tool for your real business and startup"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-intro-studio.php:23
+msgid "We help founders at the formative stages of their venture, to take an idea from concept through to launch. We’re an engineering and design studio with an entrepreneurial spirit."
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-latest-youtube-video.php:6
@@ -1226,6 +1322,18 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-partner-logos-business.php:11
 msgid "trusted by hundreds of brands"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-partner-logos-fashion.php:6
+msgid "Partner logos fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-partner-logos-studio.php:6
+msgid "Partner logos studio"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-partner-logos-studio.php:11
+msgid "High-level Design studio with an entrepreneurial spirit."
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-projects-business.php:6
@@ -1330,6 +1438,14 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-promo-section.php:32
 msgid "Joebyragpa"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-quote-fashion.php:6
+msgid "Quote fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-quote-fashion.php:17
+msgid "Fashion is what you're offered four times a year by designers. And style is what you choose."
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-statistic-business.php:6
@@ -1492,6 +1608,10 @@ msgstr ""
 msgid "Header environmental"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/header-fashion.php:6
+msgid "Header fashion"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/header-health.php:6
 msgid "Header health"
 msgstr ""
@@ -1506,6 +1626,14 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/header-photography.php:6
 msgid "Header photography"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-studio.php:6
+msgid "Header studio"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/header-studio.php:30
+msgid "Get in Touch"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/header-transparent-creative.php:6
@@ -1596,7 +1724,7 @@ msgstr ""
 msgid "No posts found."
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/posts-grid-2-columns-masonry.php:43, wp-content/themes/ona/inc/patterns/pro/posts-grid-2-columns-sticky-on-scroll-style-3.php:21
+#: wp-content/themes/ona/inc/patterns/posts-grid-2-columns-masonry.php:43, wp-content/themes/ona/inc/patterns/posts-grid-2-columns-sticky-on-scroll-style-3.php:22
 msgid "Featured"
 msgstr ""
 
@@ -1608,12 +1736,32 @@ msgstr ""
 msgid "Posts grid 2 columns no image"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/posts-grid-2-columns-sticky-on-scroll-style-3.php:9
+msgid "Posts grid 2 columns sticky on scroll style 3"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-2-columns-sticky-on-scroll-style-3.php:15
+msgid "Thoughts, stories<br>and ideas"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/posts-grid-2-columns-sticky-on-scroll.php:6
 msgid "Posts grid 2 columns sticky on scroll"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/posts-grid-3-columns-environmental.php:6
 msgid "Posts grid 3 columns environmental"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-3-columns-fashion.php:6
+msgid "Posts grid 3 columns fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-3-columns-fashion.php:16
+msgid "SEE WHAT WE’VE WRITTEN LATELY"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-3-columns-fashion.php:40, wp-content/themes/ona/inc/patterns/pro/posts-slider-startup.php:46
+msgid "View More Posts"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/posts-grid-3-columns-health.php:6
@@ -1646,6 +1794,14 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/posts-grid-3-columns.php:15
 msgid "LATEST NEWS"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-4-columns-fashion.php:6
+msgid "Posts grid 4 columns fashion"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/posts-grid-4-columns-fashion.php:15
+msgid "Can't be missed…"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/posts-grid-4-columns-health.php:6
@@ -1702,10 +1858,6 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/posts-list-with-sidebar-news.php:57
 msgid "Top Stories"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/posts-list-with-sidebar-news.php:83, wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:43
-msgid "Categories"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/posts-masonry-news.php:6
@@ -1770,26 +1922,6 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:56
 msgid "Coffee Homemade"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:6
-msgid "Footer fashion"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:47
-msgid "Design"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:51
-msgid "Beauty"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:52
-msgid "Buy Now"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/footer-fashion.php:59
-msgid "Follow Us"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:9
@@ -1894,10 +2026,6 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:8
 msgid "Footer startup"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:25, wp-content/themes/ona/inc/patterns/pro/header-agency.php:25, wp-content/themes/ona/inc/patterns/pro/header-startup.php:25, wp-content/themes/ona/inc/patterns/pro/page-services-agency.php:13
-msgid "Services"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/footer-startup.php:29
@@ -2328,10 +2456,6 @@ msgstr ""
 msgid "Trusted by over 250,000+ Clients worldwide"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/pro/general-partner-logos-fashion.php:6
-msgid "Partner logos fashion"
-msgstr ""
-
 #: wp-content/themes/ona/inc/patterns/pro/general-partner-logos-online-store.php:6
 msgid "Partner logos online store"
 msgstr ""
@@ -2480,14 +2604,6 @@ msgstr ""
 msgid "— Matt Mullenweg, 2017"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/pro/general-quote-fashion.php:6
-msgid "Quote fashion"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/general-quote-fashion.php:17
-msgid "Fashion is what you're offered four times a year by designers. And style is what you choose."
-msgstr ""
-
 #: wp-content/themes/ona/inc/patterns/pro/general-team-agency.php:6
 msgid "Team agency"
 msgstr ""
@@ -2566,10 +2682,6 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:6
 msgid "Header coffee shop"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/header-fashion.php:6
-msgid "Header fashion"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:6
@@ -2992,14 +3104,6 @@ msgstr ""
 msgid "Posts grid 2 columns sticky on scroll style 2"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-columns-sticky-on-scroll-style-3.php:9
-msgid "Posts grid 2 columns sticky on scroll style 3"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-columns-sticky-on-scroll-style-3.php:14
-msgid "Thoughts, stories<br>and ideas"
-msgstr ""
-
 #: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-then-3-columns.php:6
 msgid "Posts grid 2 then 3 columns"
 msgstr ""
@@ -3012,32 +3116,12 @@ msgstr ""
 msgid "Latest Posts"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-fashion.php:6
-msgid "Posts grid 3 columns fashion"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-fashion.php:16
-msgid "SEE WHAT WE’VE WRITTEN LATELY"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/posts-grid-3-columns-fashion.php:40, wp-content/themes/ona/inc/patterns/pro/posts-slider-startup.php:46
-msgid "View More Posts"
-msgstr ""
-
 #: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-agency.php:6
 msgid "Posts grid 4 columns agency"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-agency.php:13
 msgid "Latest articles from our blogs"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-fashion.php:6
-msgid "Posts grid 4 columns fashion"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-fashion.php:15
-msgid "Can't be missed…"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/posts-grid-4-columns-offset.php:6

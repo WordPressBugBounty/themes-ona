@@ -78,7 +78,7 @@ return array(
 			<div class="wp-block-group has-dark-background-color has-background"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"0.7rem","bottom":"0.5rem"},"blockGap":"10px"}}} -->
 			<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0.7rem;margin-bottom:0.5rem"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light","className":"mb-1 ona-copyright","fontSize":"small"} -->
-			<p class="mb-1 ona-copyright has-text-light-color has-text-color has-link-color has-small-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-full-site-editing-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
+			<p class="mb-1 ona-copyright has-text-light-color has-text-color has-link-color has-small-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:navigation {"textColor":"text-light","overlayMenu":"never","layout":{"type":"flex"},"style":{"spacing":{"blockGap":"24px"}},"fontSize":"small"} -->

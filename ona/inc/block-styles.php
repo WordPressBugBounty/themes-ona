@@ -337,6 +337,33 @@ if ( function_exists( 'register_block_style' ) ) {
 				background-color: transparent!important;
 			}',
     ) );
+    register_block_style( 'core/cover', array(
+        'name'         => 'ona-hover-scale',
+        'label'        => esc_html__( 'Hover scale', 'ona' ),
+        'inline_style' => '.is-style-ona-hover-scale {
+				overflow: hidden;
+			}
+			.is-style-ona-hover-scale img {
+				transition: transform 0.4s var(--ona-transition);
+				will-change: transform;
+			}
+			.is-style-ona-hover-scale:hover img {
+				transform: scale(1.05);
+			}',
+    ) );
+    register_block_style( 'core/cover', array(
+        'name'         => 'ona-full-link',
+        'label'        => esc_html__( 'Full link', 'ona' ),
+        'inline_style' => '.is-style-ona-full-link a::after {
+				display:block;
+				position:absolute;
+				left:0;
+				top:0;
+				width:100%;
+				height:100%;
+				content:"";
+			}',
+    ) );
     register_block_style( 'core/group', array(
         'name'         => 'ona-negative-offset-left',
         'label'        => esc_html__( 'Offset left', 'ona' ),

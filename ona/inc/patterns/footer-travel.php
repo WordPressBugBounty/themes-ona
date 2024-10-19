@@ -60,7 +60,7 @@ return array(
 			<div class="wp-block-group" style="padding-top:34px;padding-right:1.5rem;padding-bottom:28px;padding-left:1.5rem"><!-- wp:columns {"style":{"spacing":{"blockGap":"10px"}}} -->
 			<div class="wp-block-columns"><!-- wp:column {"className":"ona-sm-down-text-align-center"} -->
 			<div class="wp-block-column ona-sm-down-text-align-center"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light","className":"mb-1 ona-copyright","fontSize":"tiny"} -->
-			<p class="mb-1 ona-copyright has-text-light-color has-text-color has-link-color has-tiny-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-full-site-editing-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
+			<p class="mb-1 ona-copyright has-text-light-color has-text-color has-link-color has-tiny-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
 			<!-- /wp:paragraph --></div>
 			<!-- /wp:column -->
 

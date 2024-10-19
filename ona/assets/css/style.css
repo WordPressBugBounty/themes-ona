@@ -172,23 +172,15 @@ input[type=checkbox] {
 .ona-field input[type=email],
 .ona-field input[type=text],
 .ona-field textarea {
-	padding-left: 0;
-	padding-right: 0;
-	padding-top: 0;
-	border-radius: 0;
-	border-top: 0;
-	border-right: 0;
-	border-left: 0;
-	background-color: transparent;
+	border-radius: 3px;
 }
 
 .ona-field-type-submit {
+	margin-top: 1rem;
 	text-align: center;
 }
 .ona-field-type-submit input[type=submit] {
 	width: auto;
-	padding: calc(1.36em + 2px) calc(2.3em + 2px);
-	font-size: var(--wp--preset--font-size--small);
 }
 .ona-field-type-submit--align-left {
 	text-align: left;
@@ -239,7 +231,7 @@ button:not(:disabled) {
 
 .wp-block-button.is-style-outline > .wp-block-button__link,
 .wp-block-button .wp-block-button__link.is-style-outline {
-	padding: calc(1.215em + 2px) calc(2em + 2px);
+	padding: var(--wp--custom--button-padding--medium);
 	border-width: 1px;
 }
 
@@ -598,13 +590,16 @@ textarea:focus {
 /*--------------------------------------------------------------
 # Helper Classes
 --------------------------------------------------------------*/
+.is-style-ona-hover-scale,
 .hover-scale {
 	overflow: hidden;
 }
+.is-style-ona-hover-scale img,
 .hover-scale img {
 	transition: transform 0.4s var(--ona-transition);
 	will-change: transform;
 }
+.is-style-ona-hover-scale:hover img,
 .hover-scale:hover img {
 	transform: scale(1.05);
 }

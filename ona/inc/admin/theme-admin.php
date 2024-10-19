@@ -126,7 +126,7 @@ function ona_admin_page_content() {
             'url'     => $urls['theme-url'] . 'fashion',
             'preview' => ONA_URI . '/assets/admin/img/fashion_preview.jpg',
             'slug'    => 'ona-fashion',
-            'pro'     => true,
+            'pro'     => false,
         ),
         array(
             'title'   => esc_html__( 'Agency', 'ona' ),
@@ -161,21 +161,21 @@ function ona_admin_page_content() {
         'theme-installation'       => array(
             'links' => array(array(
                 'link_url'     => 'https://www.youtube.com/watch?v=W02j1SU0zNo&list=PLaPNmyRO67T2R252KsIRvP5cN9EY69OIN&index=1&ab_channel=DeoThemes',
-                'link_text'    => __( 'Theme Installation', 'ona' ),
+                'link_text'    => esc_html__( 'Theme Installation', 'ona' ),
                 'link_img_src' => ONA_URI . '/assets/admin/img/videos/theme_installation.jpg',
             )),
         ),
         'edit-templates-and-pages' => array(
             'links' => array(array(
                 'link_url'     => 'https://www.youtube.com/watch?v=hQbl77zvspI&list=PLaPNmyRO67T2R252KsIRvP5cN9EY69OIN&index=2&ab_channel=DeoThemes',
-                'link_text'    => __( 'Edit Templates and Pages', 'ona' ),
+                'link_text'    => esc_html__( 'Edit Templates and Pages', 'ona' ),
                 'link_img_src' => ONA_URI . '/assets/admin/img/videos/edit_templates_and_pages.jpg',
             )),
         ),
         'edit-navigation-menu'     => array(
             'links' => array(array(
                 'link_url'     => 'https://www.youtube.com/watch?v=34gEg6uHxrU&list=PLaPNmyRO67T2R252KsIRvP5cN9EY69OIN&index=4&ab_channel=DeoThemes',
-                'link_text'    => __( 'Edit Navigation Menu', 'ona' ),
+                'link_text'    => esc_html__( 'Edit Navigation Menu', 'ona' ),
                 'link_img_src' => ONA_URI . '/assets/admin/img/videos/edit_navigation_menu.jpg',
             )),
         ),
