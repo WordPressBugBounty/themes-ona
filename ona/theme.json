@@ -65,6 +65,11 @@
 			"postTypes": ["page", "post"]
 		},
 		{
+			"name": "page-container-wide",
+			"title": "Page Container Wide",
+			"postTypes": ["page", "post"]
+		},
+		{
 			"name": "page-header-footer-only",
 			"title": "Header and Footer Only",
 			"postTypes": ["page", "post"]
