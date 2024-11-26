@@ -343,6 +343,7 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--base)",
 					"fontSize": "var(--wp--preset--font-size--base)",
+					"lineHeight": "1",
 					"fontWeight": "600"
 				}
 			},

@@ -16,17 +16,17 @@ return array(
 			<!-- /wp:image -->
 
 			<!-- wp:group {"className":"ona-md-down-justify-content-center","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-			<div class="wp-block-group ona-md-down-justify-content-center"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-regular"}}}},"textColor":"text-regular"} -->
-			<p class="has-text-regular-color has-text-color has-link-color"><a href="mailto:hello@support.com">hello@support.com</a></p>
+			<div class="wp-block-group ona-md-down-justify-content-center"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light"} -->
+			<p class="has-text-light-color has-text-color has-link-color"><a href="mailto:hello@support.com">hello@support.com</a></p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-regular"}}}},"textColor":"text-regular"} -->
-			<p class="has-text-regular-color has-text-color has-link-color"><a href="mailto:hello@support.com">' . esc_html__( '+64 93 310 70 50', 'ona' ) . '</a></p>
+			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-light"}}}},"textColor":"text-light"} -->
+			<p class="has-text-light-color has-text-color has-link-color"><a href="mailto:hello@support.com">' . esc_html__( '+64 93 310 70 50', 'ona' ) . '</a></p>
 			<!-- /wp:paragraph --></div>
 			<!-- /wp:group --></div>
 			<!-- /wp:column -->
 
-			<!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"bottom":"40px"},"blockGap":"var:preset|spacing|60"}}} -->
+			<!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"bottom":"40px"},"blockGap":"var:preset|spacing|70"}}} -->
 			<div class="wp-block-column" style="padding-bottom:40px;flex-basis:50%">
 			
 			<!-- wp:navigation {"textColor":"light","overlayMenu":"never","className":"is-style-ona-tablet-justify-center","style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","orientation":"horizontal","justifyContent":"right"}} -->

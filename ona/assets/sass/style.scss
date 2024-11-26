@@ -242,7 +242,8 @@ textarea:focus {
 		will-change: transform;
 	}
 
-	&:hover img {
+	&:hover img,
+	&:focus-within img {
 		transform: scale(1.05);
 	}
 }
