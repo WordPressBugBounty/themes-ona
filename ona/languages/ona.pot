@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language-Team: DeoThemes <hello@deothemes.com>\n"
 "Last-Translator: Alexander Samokhin <hello@deothemes.com>\n"
-"POT-Creation-Date: 2024-11-26 06:04+0000\n"
+"POT-Creation-Date: 2024-12-03 10:17+0000\n"
 "Report-Msgid-Bugs-To: https://deothemes/contact/\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -103,6 +103,10 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/admin/theme-admin.php:157
 msgid "Photography"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:164
+msgid "Studio"
 msgstr ""
 
 #: wp-content/themes/ona/inc/admin/theme-admin.php:177
@@ -1160,15 +1164,15 @@ msgstr ""
 msgid "Hero architecture"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-hero-architecture.php:12
+#: wp-content/themes/ona/inc/patterns/general-hero-architecture.php:13
 msgid "Blueprints Down Under"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-hero-architecture.php:16
+#: wp-content/themes/ona/inc/patterns/general-hero-architecture.php:17
 msgid "Beautifully Designed For Everyday Living"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-hero-architecture.php:21
+#: wp-content/themes/ona/inc/patterns/general-hero-architecture.php:22
 msgid "Discover More"
 msgstr ""
 
@@ -1244,6 +1248,34 @@ msgstr ""
 msgid "We help founders at the formative stages of their venture, to take an idea from concept through to launch"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-architecture.php:6
+msgid "Icon Boxes Architecture"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-architecture.php:19
+msgid "Custom Build"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-architecture.php:23
+msgid "Bring your unique vision to life. Our bespoke design process transforms your ideas into a one-of-a-kind home tailored to your lifestyle and preferences."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-architecture.php:37
+msgid "New Homes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-architecture.php:41
+msgid "Create your dream home from the ground up. We blend innovative design with functionality to craft beautiful, efficient living spaces that stand the test of time."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-architecture.php:55
+msgid "Extensions"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-icon-boxes-architecture.php:59
+msgid "Expand your horizons without changing address. Our extension designs seamlessly integrate with your existing property, and adding value to your home."
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/general-icon-boxes-business.php:6
 msgid "Icon boxes business"
 msgstr ""
@@ -1294,6 +1326,18 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-instagram-feed-health.php:16
 msgid "@onatheme"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-intro-architecture.php:6
+msgid "Intro architecture"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-intro-architecture.php:19
+msgid "Architectural more innovative and coherent your concept"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-intro-architecture.php:23
+msgid "An idea that takes the parts of a structure and turns them into a whole system. Practice is the frequent and continued contemplation of the mode of executing any given work, or of the mere operation of the hands."
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-intro-studio.php:6
@@ -1360,6 +1404,50 @@ msgstr ""
 msgid "High-level Design studio with an entrepreneurial spirit."
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:6
+msgid "Projects architecture"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:12
+msgid "Our Best Projects"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:16
+msgid "Innovative Designs, Timeless Impact: Our Latest Architectural Endeavors"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:30
+msgid "Maple Grove Homes"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:34
+msgid "A cozy development of 15 single-family homes nestled among mature maple trees, offering a perfect blend of natural beauty."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:38, wp-content/themes/ona/inc/patterns/general-projects-architecture.php:60, wp-content/themes/ona/inc/patterns/general-projects-architecture.php:82
+msgid "View Project"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:52
+msgid "Greenwood Commons"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:56
+msgid "A modern complex of 30 eco-friendly houses along the riverside, featuring shared green spaces and a community boathouse"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:74
+msgid "Parkview Place"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:78
+msgid "A boutique collection of 10 luxury condominiums overlooking the city's central park, offering premium amenities and panoramic views."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-projects-architecture.php:90
+msgid "View All Projects"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/general-projects-business.php:6
 msgid "Projects business"
 msgstr ""
@@ -1406,6 +1494,46 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-promo-boxes.php:63
 msgid "STORIES"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:6
+msgid "Promo CTA"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:14, wp-content/themes/ona/inc/patterns/page-about-studio.php:346
+msgid "Discover how we can bring your architectural dreams to life."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:18, wp-content/themes/ona/inc/patterns/page-about-studio.php:350
+msgid "From concept to completion, we're with you every step of the way. Ready to start your journey? Contact us today for a free consultation and let's create something extraordinary together."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:28, wp-content/themes/ona/inc/patterns/page-about-studio.php:360
+msgid "25+ Years of Excellence"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:38, wp-content/themes/ona/inc/patterns/page-about-studio.php:370
+msgid "1,564+ Satisfied Clients"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:48, wp-content/themes/ona/inc/patterns/page-about-studio.php:380
+msgid "50 Industry Awards"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:55, wp-content/themes/ona/inc/patterns/page-about-studio.php:387, wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:48
+msgid "Let's Work Together"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:64
+msgid "cta_promo_1"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:68
+msgid "cta_promo_2"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-promo-cta.php:72
+msgid "cta_promo_3"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-promo-health.php:6
@@ -1558,6 +1686,66 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-team-business.php:120, wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:167
 msgid "Sales Marketing"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:6
+msgid "Testimonials architecture"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:12
+msgid "What our customers are saying"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:16
+msgid "Here’s what people think about the Ona Architecture"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:29
+msgid "Christine Clark"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:33
+msgid "CEO of Skyline"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:44
+msgid "Ona Architecture's community-first approach set them apart. They listened to residents' concerns and incorporated our feedback at every stage. The resulting community center has become the heart of our neighborhood."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:57, wp-content/themes/ona/inc/patterns/page-about-studio.php:177
+msgid "Sarah Chen"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:61
+msgid "Horizon Properties"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:72
+msgid "Ona Architecture transformed our vision into reality with their innovative sustainable design approach. Their attention to detail and commitment to environmental consciousness resulted in a building that not only looks stunning but also achieved LEED Platinum certification."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:85
+msgid "Marcus Rodriguez"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:89
+msgid "Metropolitan Council"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:100
+msgid "Working with Ona Architecture on our downtown revitalization project was a game-changer. Their ability to blend modern design with historical preservation created a perfect harmony that has revitalized our city center."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:113
+msgid "Emily Weber"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:117
+msgid "Tech Innovations"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:128
+msgid "The team at Ona Architecture designed our new headquarters with incredible vision. They created a space that perfectly reflects our company culture while maximizing productivity and employee well-being. The result is simply breathtaking."
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/general-testimonials-business.php:6
@@ -1784,10 +1972,6 @@ msgstr ""
 msgid "Founder"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:177
-msgid "Sarah Chen"
-msgstr ""
-
 #: wp-content/themes/ona/inc/patterns/page-about-studio.php:181
 msgid "Senior Project Manager"
 msgstr ""
@@ -1838,30 +2022,6 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/page-about-studio.php:327
 msgid "Sustainability Specialist"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:346
-msgid "Discover how we can bring your architectural dreams to life."
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:350
-msgid "From concept to completion, we're with you every step of the way. Ready to start your journey? Contact us today for a free consultation and let's create something extraordinary together."
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:360
-msgid "25+ Years of Excellence"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:370
-msgid "1,564+ Satisfied Clients"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:380
-msgid "50 Industry Awards"
-msgstr ""
-
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:387, wp-content/themes/ona/inc/patterns/pro/page-about-startup.php:48
-msgid "Let's Work Together"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/page-about.php:6

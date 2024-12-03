@@ -155,6 +155,13 @@ function ona_admin_page_content() {
             'preview' => ONA_URI . '/assets/admin/img/photography_preview.jpg',
             'slug'    => 'ona-photography',
             'pro'     => false,
+        ),
+        array(
+            'title'   => esc_html__( 'Studio', 'ona' ),
+            'url'     => $urls['theme-url'] . 'studio',
+            'preview' => ONA_URI . '/assets/admin/img/studio_preview.jpg',
+            'slug'    => 'ona-studio',
+            'pro'     => false,
         )
     );
     $videos = array(

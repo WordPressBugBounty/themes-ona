@@ -514,6 +514,22 @@ textarea:focus {
 	content: "\e903";
 }
 
+.is-style-ona-menu-new-label .wp-block-navigation-item__label {
+	display: inline-flex;
+	align-items: center;
+}
+.is-style-ona-menu-new-label .wp-block-navigation-item__label::after {
+	content: "new";
+	display: block;
+	font-size: 0.75rem;
+	line-height: 1;
+	border-radius: 4px;
+	padding: 4px 8px;
+	margin-right: 8px;
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--light);
+}
+
 /*--------------------------------------------------------------
 # Site footer
 --------------------------------------------------------------*/
