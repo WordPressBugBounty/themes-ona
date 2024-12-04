@@ -48,7 +48,7 @@ if ( ! class_exists( 'Ona_Theme_Update' ) ) {
 			'ona-startup' 			=> '1.0.2',
 			'ona-news' 					=> '0.1',
 			'ona-photography' 	=> '1.0.0',
-			'ona-studio' 				=> '0.1',
+			'ona-studio' 				=> '1.0.0',
 		);
 
 		/**
