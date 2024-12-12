@@ -36,6 +36,11 @@
 	-moz-column-gap: 30px !important;
 	     column-gap: 30px !important;
 }
+@media only screen and (min-width: 1025px) {
+	.is-style-ona-post-grid-gap-30 {
+		row-gap: 30px !important;
+	}
+}
 
 .is-style-ona-post-grid-gap-40 {
 	-moz-column-gap: 40px !important;

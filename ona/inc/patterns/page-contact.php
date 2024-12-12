@@ -6,8 +6,8 @@ return array(
 	'title'      => __( 'Page contact', 'ona' ),
 	'categories' => array( 'ona-pages' ),
 	'content'    => '
-			<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_contact_background.jpg' ) ) . '","id":254,"hasParallax":true,"dimRatio":0,"minHeight":85,"minHeightUnit":"vh","contentPosition":"center center","isDark":false} -->
-			<div class="wp-block-cover is-light has-parallax" style="background-image:url(' . esc_url( get_theme_file_uri( 'assets/img/ona_contact_background.jpg' ) ) . ');min-height:85vh"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":false,"contentSize":"970px"}} -->
+			<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/ona_contact_background.webp' ) ) . '","id":254,"hasParallax":true,"dimRatio":0,"minHeight":85,"minHeightUnit":"vh","contentPosition":"center center","isDark":false} -->
+			<div class="wp-block-cover is-light has-parallax" style="background-image:url(' . esc_url( get_theme_file_uri( 'assets/img/ona_contact_background.webp' ) ) . ');min-height:85vh"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":false,"contentSize":"970px"}} -->
 			<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","right":"15%","bottom":"80px","left":"15%"}}},"backgroundColor":"background","layout":{"inherit":false}} -->
 			<div class="wp-block-group has-background-background-color has-background" style="padding-top:80px;padding-right:15%;padding-bottom:80px;padding-left:15%">
 			

@@ -28,7 +28,9 @@ select,
 textarea,
 .select2-container--default .select2-selection--single {
 	border: 1px solid var(--wp--preset--color--stroke);
-	border-radius: 0;
+	border-radius: var(--wp--custom--border-radius, 0);
+	background-color: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--foreground);
 	width: 100%;
 	margin-bottom: 16px;
 	padding: 10px;
@@ -80,6 +82,29 @@ input[type="checkbox"] {
 	padding: 0;
 }
 
+select {
+	appearance: none;
+	line-height: 1.2;
+	color: inherit;
+	fill: inherit;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path fill="%23595959" d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"/></svg>');
+	background-repeat: no-repeat, repeat;
+	background-position: right 0.7em top 50%, 0 0;
+	background-size: 1.2em auto, 100%;
+	padding-right: 38px;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+label {
+	font-size: 1rem;
+	font-family: var(--wp--preset--font-family--headings);
+	font-weight: var(--wp--custom--typography--font-weight);
+	color: var(--wp--preset--color--foreground);
+}
+
 /*--------------------------------------------------------------
 # Comment Form
 --------------------------------------------------------------*/
@@ -94,7 +119,7 @@ input[type="checkbox"] {
 
 .wp-block-post-comments-form input:not([type="submit"]),
 .wp-block-post-comments-form textarea {
-	border-color: var(--wp--preset--color--text-lighter);
+	border-color: var(--wp--preset--color--stroke);
 }
 
 .comment-form-cookies-consent {
@@ -122,15 +147,20 @@ input[type="checkbox"] {
 /*--------------------------------------------------------------
 # Contact Form 7
 --------------------------------------------------------------*/
+.ona-field-group {
+	margin-bottom: 1rem;
+}
+
 .ona-field-row {
 	gap: 40px;
+	margin-bottom: 0;
 }
 
 .ona-form-fields-wrapper {
 	.wpcf7-acceptance {
 		display: inline-block;
 		margin-bottom: 16px;
-		margin-top: 32px;
+		margin-top: 16px;
 	}
 	.wpcf7-list-item {
 		margin: 0;
@@ -141,8 +171,10 @@ input[type="checkbox"] {
 	}
 
 	.wpcf7-list-item-label {
+		font-family: var(--wp--preset--font-family--base);
 		font-size: 1rem;
 		line-height: 1;
+		font-weight: normal;
 	}
 
 	.wpcf7-spinner {

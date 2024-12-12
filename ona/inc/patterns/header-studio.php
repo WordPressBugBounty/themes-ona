@@ -17,7 +17,7 @@ return array(
 		<div class="wp-block-column is-vertically-aligned-center is-style-default" style="flex-basis:75%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 		<div class="wp-block-group">
 		
-		<!-- wp:navigation {"className":"ona-sm-down-justify-content-end is-style-ona-tablet-justify-center","style":{"typography":{"fontSize":"1.125rem"}},"layout":{"type":"flex","orientation":"horizontal"}} -->
+		<!-- wp:navigation {"textColor":"headings","className":"ona-sm-down-justify-content-end is-style-ona-tablet-justify-center","style":{"typography":{"fontSize":"1.125rem"}},"layout":{"type":"flex","orientation":"horizontal"}} -->
 			<!-- wp:navigation-link {"label":"' . esc_html__( 'Home', 'ona' ) . '","url":"' . esc_url( get_site_url() ) . '","kind":"custom","isTopLevelLink":false} /-->
 			<!-- wp:navigation-link {"label":"' . esc_html__( 'About', 'ona' ) . '","url":"' . esc_url( get_site_url() ) . '/about","kind":"custom","isTopLevelLink":false} /-->
 			<!-- wp:navigation-link {"label":"' . esc_html__( 'Contact', 'ona' ) . '","url":"' . esc_url( get_site_url() ) . '/contact","kind":"custom","isTopLevelLink":false} /-->

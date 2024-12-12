@@ -38,6 +38,10 @@
 
 .is-style-ona-post-grid-gap-30 {
 	column-gap: 30px !important;
+
+	@include bp-lg-up {
+		row-gap: 30px !important;
+	}
 }
 
 .is-style-ona-post-grid-gap-40 {

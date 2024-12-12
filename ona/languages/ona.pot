@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language-Team: DeoThemes <hello@deothemes.com>\n"
 "Last-Translator: Alexander Samokhin <hello@deothemes.com>\n"
-"POT-Creation-Date: 2024-12-04 08:05+0000\n"
+"POT-Creation-Date: 2024-12-12 03:01+0000\n"
 "Report-Msgid-Bugs-To: https://deothemes/contact/\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Ona Getting Started"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:20, wp-content/themes/ona/inc/admin/theme-admin.php:208, wp-content/themes/ona/inc/admin/theme-admin.php:599
+#: wp-content/themes/ona/inc/admin/theme-admin.php:20, wp-content/themes/ona/inc/admin/theme-admin.php:215, wp-content/themes/ona/inc/admin/theme-admin.php:606
 msgid "Ona"
 msgstr ""
 
@@ -109,155 +109,159 @@ msgstr ""
 msgid "Studio"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:177
+#: wp-content/themes/ona/inc/admin/theme-admin.php:171
+msgid "Architecture"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:184
 msgid "Theme Installation"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:186
+#: wp-content/themes/ona/inc/admin/theme-admin.php:193
 msgid "Edit Templates and Pages"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:195
+#: wp-content/themes/ona/inc/admin/theme-admin.php:202
 msgid "Edit Navigation Menu"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:214
+#: wp-content/themes/ona/inc/admin/theme-admin.php:221
 msgid "Made by "
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:215
+#: wp-content/themes/ona/inc/admin/theme-admin.php:222
 msgid "DeoThemes"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:227
+#: wp-content/themes/ona/inc/admin/theme-admin.php:234
 msgid "Getting Started"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:229
+#: wp-content/themes/ona/inc/admin/theme-admin.php:236
 msgid "Ona is now installed and ready to use. Get ready to build something beautiful. We hope you enjoy it! If you have any suggestion of how to improve this theme feel free to contact us."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:235
+#: wp-content/themes/ona/inc/admin/theme-admin.php:242
 msgid "Note: The free child themes installed from wordpress.org repository will not work with the Ona Pro. Kindly remove them and install the child themes from the section below. %s"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:236, wp-content/themes/ona/inc/patterns/pro/general-hero-agency.php:24, wp-content/themes/ona/inc/patterns/pro/general-hero-startup.php:37, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:42, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:64, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:86, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:108
+#: wp-content/themes/ona/inc/admin/theme-admin.php:243, wp-content/themes/ona/inc/patterns/pro/general-hero-agency.php:24, wp-content/themes/ona/inc/patterns/pro/general-hero-startup.php:37, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:42, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:64, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:86, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:108
 msgid "Learn More"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:242
+#: wp-content/themes/ona/inc/admin/theme-admin.php:249
 msgid " Demos"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:255
+#: wp-content/themes/ona/inc/admin/theme-admin.php:262
 msgid "Update Now"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:266, wp-content/themes/ona/inc/admin/theme-admin.php:397
+#: wp-content/themes/ona/inc/admin/theme-admin.php:273, wp-content/themes/ona/inc/admin/theme-admin.php:404
 msgid "Pro"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:326, wp-content/themes/ona/inc/admin/theme-admin.php:306, wp-content/themes/ona/inc/admin/theme-admin.php:286
+#: wp-content/themes/ona/inc/admin/theme-admin.php:333, wp-content/themes/ona/inc/admin/theme-admin.php:313, wp-content/themes/ona/inc/admin/theme-admin.php:293
 msgid "Preview"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:332, wp-content/themes/ona/inc/merlin/merlin-config.php:46
+#: wp-content/themes/ona/inc/admin/theme-admin.php:339, wp-content/themes/ona/inc/merlin/merlin-config.php:46
 msgid "Import"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:306, wp-content/themes/ona/inc/admin/theme-admin.php:313, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2876
+#: wp-content/themes/ona/inc/admin/theme-admin.php:313, wp-content/themes/ona/inc/admin/theme-admin.php:320, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2876
 msgid "Activate"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:286, wp-content/themes/ona/inc/admin/theme-admin.php:292, wp-content/themes/ona/inc/merlin/merlin-config.php:43, wp-content/themes/ona/inc/merlin/merlin-config.php:44, wp-content/themes/ona/inc/merlin/merlin-config.php:45, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2867
+#: wp-content/themes/ona/inc/admin/theme-admin.php:293, wp-content/themes/ona/inc/admin/theme-admin.php:299, wp-content/themes/ona/inc/merlin/merlin-config.php:43, wp-content/themes/ona/inc/merlin/merlin-config.php:44, wp-content/themes/ona/inc/merlin/merlin-config.php:45, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2867
 msgid "Install"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:356, wp-content/themes/ona/inc/patterns/footer-fashion.php:27, wp-content/themes/ona/inc/patterns/footer-news.php:47, wp-content/themes/ona/inc/patterns/footer-travel.php:42, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:37
+#: wp-content/themes/ona/inc/admin/theme-admin.php:363, wp-content/themes/ona/inc/patterns/footer-fashion.php:27, wp-content/themes/ona/inc/patterns/footer-news.php:47, wp-content/themes/ona/inc/patterns/footer-travel.php:42, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:37
 msgid "Useful Links"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:359, wp-content/themes/ona/inc/merlin/merlin-config.php:79
+#: wp-content/themes/ona/inc/admin/theme-admin.php:366, wp-content/themes/ona/inc/merlin/merlin-config.php:79
 msgid "Documentation"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:362
+#: wp-content/themes/ona/inc/admin/theme-admin.php:369
 msgid "Rate us ★★★★★"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:367
+#: wp-content/themes/ona/inc/admin/theme-admin.php:374
 msgid "Contact us"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:372
+#: wp-content/themes/ona/inc/admin/theme-admin.php:379
 msgid "Follow us"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:379
+#: wp-content/themes/ona/inc/admin/theme-admin.php:386
 msgid "Suggest a Feature"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:380
+#: wp-content/themes/ona/inc/admin/theme-admin.php:387
 msgid "Missing an important feature? Let us know how we can improve the product."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:381
+#: wp-content/themes/ona/inc/admin/theme-admin.php:388
 msgid "Leave a Feedback"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:386
+#: wp-content/themes/ona/inc/admin/theme-admin.php:393
 msgid "Settings"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:389
+#: wp-content/themes/ona/inc/admin/theme-admin.php:396
 msgid "Site Editor"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:392
+#: wp-content/themes/ona/inc/admin/theme-admin.php:399
 msgid "Customizer"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:395
+#: wp-content/themes/ona/inc/admin/theme-admin.php:402
 msgid "Edit Fonts"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:406
+#: wp-content/themes/ona/inc/admin/theme-admin.php:413
 msgid "Video Tutorials"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:501
+#: wp-content/themes/ona/inc/admin/theme-admin.php:508
 msgid "The existing child theme was activated. Proceed to importing the content."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:492
+#: wp-content/themes/ona/inc/admin/theme-admin.php:499
 msgid "There was an error unzipping the file."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:485
+#: wp-content/themes/ona/inc/admin/theme-admin.php:492
 msgid "Awesome. Your child theme is now activated. Proceed to importing the content."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:540
+#: wp-content/themes/ona/inc/admin/theme-admin.php:547
 msgid "Oops... Something went wrong. Please try again."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:533
+#: wp-content/themes/ona/inc/admin/theme-admin.php:540
 msgid "Awesome. Your child theme is now updated."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:602
+#: wp-content/themes/ona/inc/admin/theme-admin.php:609
 msgid "Thank you for choosing Ona!"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:606
+#: wp-content/themes/ona/inc/admin/theme-admin.php:613
 msgid "Follow the steps to configure your new theme and begin customizing your site."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:604
+#: wp-content/themes/ona/inc/admin/theme-admin.php:611
 msgid "Run the Setup Wizard to configure your new theme and begin customizing your site."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:610
+#: wp-content/themes/ona/inc/admin/theme-admin.php:617
 msgid "Setup Instructions"
 msgstr ""
 
@@ -293,95 +297,95 @@ msgstr ""
 msgid "Gap 30"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:133
+#: wp-content/themes/ona/inc/block-styles.php:141
 msgid "Gap 40"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:142
+#: wp-content/themes/ona/inc/block-styles.php:150
 msgid "Gap 64"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:152
+#: wp-content/themes/ona/inc/block-styles.php:160
 msgid "Pill shape"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:171
+#: wp-content/themes/ona/inc/block-styles.php:179
 msgid "Cover"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:191, wp-content/themes/ona/inc/patterns/forms-newsletter.php:9
+#: wp-content/themes/ona/inc/block-styles.php:199, wp-content/themes/ona/inc/patterns/forms-newsletter.php:9
 msgid "Newsletter"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:252
+#: wp-content/themes/ona/inc/block-styles.php:260
 msgid "Style 2"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:315
+#: wp-content/themes/ona/inc/block-styles.php:323
 msgid "Style 3"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:393
+#: wp-content/themes/ona/inc/block-styles.php:401
 msgid "Alt font"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:402
+#: wp-content/themes/ona/inc/block-styles.php:410
 msgid "Stroke frame"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:415
+#: wp-content/themes/ona/inc/block-styles.php:423
 msgid "Hover scale"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:433
+#: wp-content/themes/ona/inc/block-styles.php:441
 msgid "Full link"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:450, wp-content/themes/ona/inc/block-styles.php:459, wp-content/themes/ona/inc/block-styles.php:468
+#: wp-content/themes/ona/inc/block-styles.php:458, wp-content/themes/ona/inc/block-styles.php:467, wp-content/themes/ona/inc/block-styles.php:476
 msgid "Offset left"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:477
+#: wp-content/themes/ona/inc/block-styles.php:485
 msgid "Offset right"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:486, wp-content/themes/ona/inc/block-styles.php:495
+#: wp-content/themes/ona/inc/block-styles.php:494, wp-content/themes/ona/inc/block-styles.php:503
 msgid "Offset bottom"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:504, wp-content/themes/ona/inc/block-styles.php:513
+#: wp-content/themes/ona/inc/block-styles.php:512, wp-content/themes/ona/inc/block-styles.php:521
 msgid "Offset top"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:522, wp-content/themes/ona/inc/block-styles.php:531
+#: wp-content/themes/ona/inc/block-styles.php:530, wp-content/themes/ona/inc/block-styles.php:539
 msgid "Shift right"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:540, wp-content/themes/ona/inc/block-styles.php:549
+#: wp-content/themes/ona/inc/block-styles.php:548, wp-content/themes/ona/inc/block-styles.php:557
 msgid "Shift left"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:558, wp-content/themes/ona/inc/block-styles.php:567
+#: wp-content/themes/ona/inc/block-styles.php:566, wp-content/themes/ona/inc/block-styles.php:575
 msgid "Hide on Tablet"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:576, wp-content/themes/ona/inc/block-styles.php:585
+#: wp-content/themes/ona/inc/block-styles.php:584, wp-content/themes/ona/inc/block-styles.php:593
 msgid "Hide on Mobile"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:594, wp-content/themes/ona/inc/block-styles.php:610
+#: wp-content/themes/ona/inc/block-styles.php:602, wp-content/themes/ona/inc/block-styles.php:618
 msgid "Sticky"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:624
+#: wp-content/themes/ona/inc/block-styles.php:632
 msgid "Arrow icon"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:653
+#: wp-content/themes/ona/inc/block-styles.php:661
 msgid "Color on hover"
 msgstr ""
 
-#: wp-content/themes/ona/inc/block-styles.php:675
+#: wp-content/themes/ona/inc/block-styles.php:683
 msgid "Grid Gap 70"
 msgstr ""
 
@@ -1905,11 +1909,19 @@ msgid "Welcome to Ona, where creativity meets functionality and dreams become st
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/page-about-studio.php:29
-msgid "Shaping Spaces,<br>Enriching Lives"
+msgid "Shaping Spaces,"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:29
+msgid "Enriching Lives"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/page-about-studio.php:33
-msgid "Founded in 2019 by Michael Jefferson, Ona began with a vision to transform the urban landscape while honoring the natural environment.<br>What started as a small team with big ideas has grown into a renowned architectural practice, known for innovative designs that stand the test of time."
+msgid "Founded in 2019 by Michael Jefferson, Ona began with a vision to transform the urban landscape while honoring the natural environment."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:33
+msgid "What started as a small team with big ideas has grown into a renowned architectural practice, known for innovative designs that stand the test of time."
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/page-about-studio.php:44

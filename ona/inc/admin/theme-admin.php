@@ -162,6 +162,13 @@ function ona_admin_page_content() {
             'preview' => ONA_URI . '/assets/admin/img/studio_preview.jpg',
             'slug'    => 'ona-studio',
             'pro'     => false,
+        ),
+        array(
+            'title'   => esc_html__( 'Architecture', 'ona' ),
+            'url'     => $urls['theme-url'] . 'architecture',
+            'preview' => ONA_URI . '/assets/admin/img/architecture_preview.jpg',
+            'slug'    => 'ona-architecture',
+            'pro'     => false,
         )
     );
     $videos = array(

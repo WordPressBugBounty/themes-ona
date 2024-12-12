@@ -90,7 +90,15 @@ if ( function_exists( 'register_block_style' ) ) {
     register_block_style( 'core/post-template', array(
         'name'         => 'ona-post-grid-gap-30',
         'label'        => esc_html__( 'Gap 30', 'ona' ),
-        'inline_style' => '.is-style-ona-post-grid-gap-30 { column-gap: 30px !important; }',
+        'inline_style' => '
+				.is-style-ona-post-grid-gap-30 {
+					column-gap: 30px !important;
+
+					@media only screen and (min-width: 782px) {
+						row-gap: 30px !important;
+					}					
+				}			
+			',
     ) );
     register_block_style( 'core/post-template', array(
         'name'         => 'ona-post-grid-gap-40',
