@@ -207,7 +207,7 @@
 
 .ona-heading {
 	font-size: 1.5em;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.25em;
 }
 
 .ona-demos {
@@ -338,6 +338,44 @@
 	border-radius: 13px;
 }
 
+
+/* Comparison Table
+-------------------------------------------------------*/
+.ona-comparison {
+	margin-top: 12px;
+}
+
+table.ona-comparison,
+.ona-comparison thead td,
+.ona-comparison thead th {
+	border-color: var(--deo-gray-5);
+}
+
+table.ona-comparison {
+	box-shadow: none;
+	margin-bottom: 24px;
+}
+
+.ona-comparison td,
+.ona-comparison th {
+	padding: 12px;
+}
+
+.ona-comparison tr th:not(:first-child),
+.ona-comparison tr td:not(:first-child) {
+	text-align: center;
+}
+
+.ona-list-item-icon {
+	color: var(--deo-green-30);
+}
+
+.ona-list-item-icon--no {
+	color: var(--deo-red-50);
+}
+
+
+
 /* Videos */
 
 .ona-video-tutorials__item {
@@ -407,7 +445,7 @@
 }
 
 .ona-notification {
-	margin: 20px 0;
+	margin: 20px 0 10px;
 	padding: 15px;
 	border-radius: 3px;
 	border: 1px solid var(--deo-gray-5);

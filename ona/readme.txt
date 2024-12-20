@@ -4,7 +4,7 @@ Contributors: DeoThemes, freemius
 Requires at least: 5.8
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.22.9
+Stable tag: 1.22.10
 Contributors: DeoThemes, freemius
 Theme URI: https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/
 Author URI: https://deothemes.com/
@@ -17,6 +17,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Ona is a Full Site Editing WordPress theme based on the minimal design style. It comes with many pre-defined block patterns and color scheme styles. Ona includes 17 custom child themes, 10 of them are free. Header and footer builder allows you easily edit your layout and choose pre-made elements. It's easy to customize colors and fonts via global options. This theme is perfect to build a fast optimized websites that have an instant impact On Core Web Vitals performance. Demo: https://ona.deothemes.com/
 
 == Changelog ==
+
+Version 1.22.10 - December 20, 2024
+- Improved: Updated admin page
+- Updated: OnaCore to 1.0.5
 
 Version 1.22.9 - December 12, 2024
 - Improved: Forms border color changed to --wp--preset--color--stroke

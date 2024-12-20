@@ -171,6 +171,56 @@ function ona_admin_page_content() {
             'pro'     => false,
         )
     );
+    $features = array(
+        'demos'               => array(
+            'title' => esc_html__( 'Demos', 'ona' ),
+            'url'   => '',
+            'free'  => esc_html__( '12', 'ona' ),
+            'pro'   => esc_html__( '18', 'ona' ),
+        ),
+        'demo-import'         => array(
+            'title' => esc_html__( 'Demo Import', 'ona' ),
+            'url'   => '',
+            'free'  => '<i class="ona-list-item-icon ona-list-item-icon--no dashicons dashicons-no" aria-hidden="true"></i>',
+            'pro'   => '<i class="ona-list-item-icon dashicons dashicons-yes" aria-hidden="true"></i>',
+        ),
+        'deoblocks-plugin'    => array(
+            'title' => esc_html__( 'DeoBlocks plugin', 'ona' ),
+            'url'   => 'https://deothemes.com/wordpress-plugins/deoblocks/',
+            'free'  => '<i class="ona-list-item-icon ona-list-item-icon--no dashicons dashicons-no" aria-hidden="true"></i>',
+            'pro'   => '<i class="ona-list-item-icon dashicons dashicons-yes" aria-hidden="true"></i>',
+        ),
+        'woocommerce'         => array(
+            'title' => esc_html__( 'WooCommerce support', 'ona' ),
+            'url'   => '',
+            'free'  => '<i class="ona-list-item-icon ona-list-item-icon--no dashicons dashicons-no" aria-hidden="true"></i>',
+            'pro'   => '<i class="ona-list-item-icon dashicons dashicons-yes" aria-hidden="true"></i>',
+        ),
+        'portfolio'           => array(
+            'title' => esc_html__( 'Portfolio module', 'ona' ),
+            'url'   => 'https://ona.deothemes.com/startup/projects',
+            'free'  => '<i class="ona-list-item-icon ona-list-item-icon--no dashicons dashicons-no" aria-hidden="true"></i>',
+            'pro'   => '<i class="ona-list-item-icon dashicons dashicons-yes" aria-hidden="true"></i>',
+        ),
+        'single-post-layouts' => array(
+            'title' => esc_html__( 'Single post layouts', 'ona' ),
+            'url'   => '',
+            'free'  => esc_html__( '1', 'ona' ),
+            'pro'   => esc_html__( '3', 'ona' ),
+        ),
+        'adobe-fonts'         => array(
+            'title' => esc_html__( 'Adobe fonts', 'ona' ),
+            'url'   => '',
+            'free'  => '<i class="ona-list-item-icon ona-list-item-icon--no dashicons dashicons-no" aria-hidden="true"></i>',
+            'pro'   => '<i class="ona-list-item-icon dashicons dashicons-yes" aria-hidden="true"></i>',
+        ),
+        '24-7-support'        => array(
+            'title' => esc_html__( 'Priority email support', 'ona' ),
+            'url'   => '',
+            'free'  => '<i class="ona-list-item-icon ona-list-item-icon--no dashicons dashicons-no" aria-hidden="true"></i>',
+            'pro'   => '<i class="ona-list-item-icon dashicons dashicons-yes" aria-hidden="true"></i>',
+        ),
+    );
     $videos = array(
         'theme-installation'       => array(
             'links' => array(array(
@@ -238,8 +288,87 @@ function ona_admin_page_content() {
 							<?php 
     echo esc_html__( 'Ona is now installed and ready to use. Get ready to build something beautiful. We hope you enjoy it! If you have any suggestion of how to improve this theme feel free to contact us.', 'ona' );
     ?>
-						</p>
+						</p>						
 
+						<?php 
+    ?>
+
+							<!-- Comparison -->
+							<section class="ona-section">
+								<h2 class="ona-heading"><?php 
+    echo esc_html__( 'Free Vs Pro', 'ona' );
+    ?></h2>
+								<table class="ona-comparison widefat striped table-view-list">
+									<thead>
+										<tr>
+											<th><span><?php 
+    echo esc_html__( 'Features', 'ona' );
+    ?></span></th>
+											<th><span><?php 
+    printf( esc_html__( '%s Free', 'ona' ), $theme_name );
+    ?></span></th>
+											<th><span><?php 
+    printf( esc_html__( '%s Pro', 'ona' ), $theme_name );
+    ?></span></th>
+										</tr>
+									</thead>
+									<tbody>
+										<?php 
+    foreach ( $features as $feature ) {
+        ?>
+											<tr>
+												<td>
+													<?php 
+        if ( $feature['url'] ) {
+            ?>
+														<a href="<?php 
+            echo esc_url( $feature['url'] );
+            ?>" target="_blank">
+													<?php 
+        }
+        ?>
+													<?php 
+        echo esc_html( $feature['title'] );
+        ?>
+													<?php 
+        if ( $feature['url'] ) {
+            ?>
+														</a>
+													<?php 
+        }
+        ?>
+												</td>
+												<td><?php 
+        echo wp_kses( $feature['free'], array(
+            'i' => array(
+                'class'       => array(),
+                'aria-hidden' => array(),
+            ),
+        ) );
+        ?></td>
+												<td><?php 
+        echo wp_kses( $feature['pro'], array(
+            'i' => array(
+                'class'       => array(),
+                'aria-hidden' => array(),
+            ),
+        ) );
+        ?></td>
+											</tr>
+										<?php 
+    }
+    ?>
+									</tbody>
+								</table>
+								
+								<a href="<?php 
+    echo esc_url( ona_fs()->get_upgrade_url() );
+    ?>" class="button button-primary button-hero">
+									<span><?php 
+    echo esc_html__( 'Upgrade Now', 'ona' );
+    ?></span>
+								</a>
+							</section>
 						<?php 
     ?>
 						
@@ -248,6 +377,10 @@ function ona_admin_page_content() {
 							<h2 class="ona-heading"><?php 
     echo esc_html( $theme_name ) . esc_html__( ' Demos', 'ona' );
     ?></h2>
+
+							<?php 
+    ?>
+
 							<p id="child-theme-text" class="ona-notice notice"></p>
 							<ul class="ona-demos">
 								<?php 
