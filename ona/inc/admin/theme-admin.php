@@ -169,6 +169,13 @@ function ona_admin_page_content() {
             'preview' => ONA_URI . '/assets/admin/img/architecture_preview.jpg',
             'slug'    => 'ona-architecture',
             'pro'     => false,
+        ),
+        array(
+            'title'   => esc_html__( 'Real Estate', 'ona' ),
+            'url'     => $urls['theme-url'] . 'real-estate',
+            'preview' => ONA_URI . '/assets/admin/img/real_estate_preview.jpg',
+            'slug'    => 'ona-real-estate',
+            'pro'     => true,
         )
     );
     $features = array(
@@ -176,7 +183,7 @@ function ona_admin_page_content() {
             'title' => esc_html__( 'Demos', 'ona' ),
             'url'   => '',
             'free'  => esc_html__( '12', 'ona' ),
-            'pro'   => esc_html__( '18', 'ona' ),
+            'pro'   => esc_html__( '19', 'ona' ),
         ),
         'demo-import'         => array(
             'title' => esc_html__( 'Demo Import', 'ona' ),
@@ -199,6 +206,12 @@ function ona_admin_page_content() {
         'portfolio'           => array(
             'title' => esc_html__( 'Portfolio module', 'ona' ),
             'url'   => 'https://ona.deothemes.com/startup/projects',
+            'free'  => '<i class="ona-list-item-icon ona-list-item-icon--no dashicons dashicons-no" aria-hidden="true"></i>',
+            'pro'   => '<i class="ona-list-item-icon dashicons dashicons-yes" aria-hidden="true"></i>',
+        ),
+        'properties'          => array(
+            'title' => esc_html__( 'Properties module', 'ona' ),
+            'url'   => 'https://ona.deothemes.com/real-estate',
             'free'  => '<i class="ona-list-item-icon ona-list-item-icon--no dashicons dashicons-no" aria-hidden="true"></i>',
             'pro'   => '<i class="ona-list-item-icon dashicons dashicons-yes" aria-hidden="true"></i>',
         ),

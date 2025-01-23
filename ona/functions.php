@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) {
     exit( 'Direct script access denied.' );
 }
 // Constants
-define( 'ONA_VERSION', '1.22.10' );
+define( 'ONA_VERSION', '1.23.0' );
 define( 'ONA_DIR', get_template_directory() );
 define( 'ONA_URI', get_template_directory_uri() );
 if ( !function_exists( 'ona_fs' ) ) {
@@ -286,8 +286,6 @@ function ona_get_page_by_title(  $page_title, $post_type = 'page'  ) {
 # Remove wrapping paragraphs for CF7
 --------------------------------------------------------------*/
 if ( class_exists( '\\WPCF7' ) ) {
-    add_filter( 'wpcf7_load_js', '__return_false' );
-    add_filter( 'wpcf7_load_css', '__return_false' );
     add_filter( 'wpcf7_autop_or_not', '__return_false' );
 }
 /*--------------------------------------------------------------

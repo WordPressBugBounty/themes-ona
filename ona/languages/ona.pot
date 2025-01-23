@@ -1,4 +1,4 @@
-# Copyright (C) 2024 ona
+# Copyright (C) 2025 ona
 # This file is distributed under the same license as the ona package.
 msgid ""
 msgstr ""
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language-Team: DeoThemes <hello@deothemes.com>\n"
 "Last-Translator: Alexander Samokhin <hello@deothemes.com>\n"
-"POT-Creation-Date: 2024-12-20 06:05+0000\n"
+"POT-Creation-Date: 2025-01-23 11:19+0000\n"
 "Report-Msgid-Bugs-To: https://deothemes/contact/\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
@@ -25,11 +25,11 @@ msgstr ""
 msgid "Finished"
 msgstr ""
 
-#: wp-content/themes/ona/functions.php:437
+#: wp-content/themes/ona/functions.php:435
 msgid "Primary Menu"
 msgstr ""
 
-#: wp-content/themes/ona/functions.php:438
+#: wp-content/themes/ona/functions.php:436
 msgid "Footer Menu"
 msgstr ""
 
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Ona Getting Started"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:20, wp-content/themes/ona/inc/admin/theme-admin.php:266, wp-content/themes/ona/inc/admin/theme-admin.php:706
+#: wp-content/themes/ona/inc/admin/theme-admin.php:20, wp-content/themes/ona/inc/admin/theme-admin.php:279, wp-content/themes/ona/inc/admin/theme-admin.php:719
 msgid "Ona"
 msgstr ""
 
@@ -113,223 +113,231 @@ msgstr ""
 msgid "Architecture"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:181, wp-content/themes/ona/inc/patterns/footer-environmental.php:69, wp-content/themes/ona/inc/patterns/footer-fashion.php:35, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:56
+#: wp-content/themes/ona/inc/admin/theme-admin.php:178
+msgid "Real Estate"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:188, wp-content/themes/ona/inc/patterns/footer-environmental.php:69, wp-content/themes/ona/inc/patterns/footer-fashion.php:35, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:56
 msgid "Demos"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:183
+#: wp-content/themes/ona/inc/admin/theme-admin.php:190
 msgid "12"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:184
-msgid "18"
+#: wp-content/themes/ona/inc/admin/theme-admin.php:191
+msgid "19"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:187
+#: wp-content/themes/ona/inc/admin/theme-admin.php:194
 msgid "Demo Import"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:193
+#: wp-content/themes/ona/inc/admin/theme-admin.php:200
 msgid "DeoBlocks plugin"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:199
+#: wp-content/themes/ona/inc/admin/theme-admin.php:206
 msgid "WooCommerce support"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:205
+#: wp-content/themes/ona/inc/admin/theme-admin.php:212
 msgid "Portfolio module"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:211
+#: wp-content/themes/ona/inc/admin/theme-admin.php:218
+msgid "Properties module"
+msgstr ""
+
+#: wp-content/themes/ona/inc/admin/theme-admin.php:224
 msgid "Single post layouts"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:213
+#: wp-content/themes/ona/inc/admin/theme-admin.php:226
 msgid "1"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:214
+#: wp-content/themes/ona/inc/admin/theme-admin.php:227
 msgid "3"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:217
+#: wp-content/themes/ona/inc/admin/theme-admin.php:230
 msgid "Adobe fonts"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:223
+#: wp-content/themes/ona/inc/admin/theme-admin.php:236
 msgid "Priority email support"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:235
+#: wp-content/themes/ona/inc/admin/theme-admin.php:248
 msgid "Theme Installation"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:244
+#: wp-content/themes/ona/inc/admin/theme-admin.php:257
 msgid "Edit Templates and Pages"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:253
+#: wp-content/themes/ona/inc/admin/theme-admin.php:266
 msgid "Edit Navigation Menu"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:272
+#: wp-content/themes/ona/inc/admin/theme-admin.php:285
 msgid "Made by "
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:273
+#: wp-content/themes/ona/inc/admin/theme-admin.php:286
 msgid "DeoThemes"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:285
+#: wp-content/themes/ona/inc/admin/theme-admin.php:298
 msgid "Getting Started"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:287
+#: wp-content/themes/ona/inc/admin/theme-admin.php:300
 msgid "Ona is now installed and ready to use. Get ready to build something beautiful. We hope you enjoy it! If you have any suggestion of how to improve this theme feel free to contact us."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:294
+#: wp-content/themes/ona/inc/admin/theme-admin.php:307
 msgid "Free Vs Pro"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:298, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:29
+#: wp-content/themes/ona/inc/admin/theme-admin.php:311, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:29
 msgid "Features"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:299
+#: wp-content/themes/ona/inc/admin/theme-admin.php:312
 msgid "%s Free"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:300
+#: wp-content/themes/ona/inc/admin/theme-admin.php:313
 msgid "%s Pro"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:333
+#: wp-content/themes/ona/inc/admin/theme-admin.php:346
 msgid "Upgrade Now"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:340
+#: wp-content/themes/ona/inc/admin/theme-admin.php:353
 msgid " Demos"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:345
+#: wp-content/themes/ona/inc/admin/theme-admin.php:358
 msgid "Note: The free child themes installed from wordpress.org repository will not work with the Ona Pro. Kindly remove them and install the child themes from the section below. %s"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:346, wp-content/themes/ona/inc/patterns/pro/general-hero-agency.php:24, wp-content/themes/ona/inc/patterns/pro/general-hero-startup.php:37, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:42, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:64, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:86, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:108
+#: wp-content/themes/ona/inc/admin/theme-admin.php:359, wp-content/themes/ona/inc/patterns/pro/general-hero-agency.php:24, wp-content/themes/ona/inc/patterns/pro/general-hero-startup.php:37, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:42, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:64, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:86, wp-content/themes/ona/inc/patterns/pro/general-icon-boxes-agency.php:108
 msgid "Learn More"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:362
+#: wp-content/themes/ona/inc/admin/theme-admin.php:375
 msgid "Update Now"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:373, wp-content/themes/ona/inc/admin/theme-admin.php:504
+#: wp-content/themes/ona/inc/admin/theme-admin.php:386, wp-content/themes/ona/inc/admin/theme-admin.php:517
 msgid "Pro"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:433, wp-content/themes/ona/inc/admin/theme-admin.php:413, wp-content/themes/ona/inc/admin/theme-admin.php:393
+#: wp-content/themes/ona/inc/admin/theme-admin.php:446, wp-content/themes/ona/inc/admin/theme-admin.php:426, wp-content/themes/ona/inc/admin/theme-admin.php:406
 msgid "Preview"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:439, wp-content/themes/ona/inc/merlin/merlin-config.php:46
+#: wp-content/themes/ona/inc/admin/theme-admin.php:452, wp-content/themes/ona/inc/merlin/merlin-config.php:46
 msgid "Import"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:413, wp-content/themes/ona/inc/admin/theme-admin.php:420, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2876
+#: wp-content/themes/ona/inc/admin/theme-admin.php:426, wp-content/themes/ona/inc/admin/theme-admin.php:433, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2876
 msgid "Activate"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:393, wp-content/themes/ona/inc/admin/theme-admin.php:399, wp-content/themes/ona/inc/merlin/merlin-config.php:43, wp-content/themes/ona/inc/merlin/merlin-config.php:44, wp-content/themes/ona/inc/merlin/merlin-config.php:45, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2867
+#: wp-content/themes/ona/inc/admin/theme-admin.php:406, wp-content/themes/ona/inc/admin/theme-admin.php:412, wp-content/themes/ona/inc/merlin/merlin-config.php:43, wp-content/themes/ona/inc/merlin/merlin-config.php:44, wp-content/themes/ona/inc/merlin/merlin-config.php:45, wp-content/themes/ona/inc/tgmpa/class-tgm-plugin-activation.php:2867
 msgid "Install"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:463, wp-content/themes/ona/inc/patterns/footer-fashion.php:27, wp-content/themes/ona/inc/patterns/footer-news.php:47, wp-content/themes/ona/inc/patterns/footer-travel.php:42, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:37
+#: wp-content/themes/ona/inc/admin/theme-admin.php:476, wp-content/themes/ona/inc/patterns/footer-fashion.php:27, wp-content/themes/ona/inc/patterns/footer-news.php:47, wp-content/themes/ona/inc/patterns/footer-travel.php:42, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:15, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:37
 msgid "Useful Links"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:466, wp-content/themes/ona/inc/merlin/merlin-config.php:79
+#: wp-content/themes/ona/inc/admin/theme-admin.php:479, wp-content/themes/ona/inc/merlin/merlin-config.php:79
 msgid "Documentation"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:469
+#: wp-content/themes/ona/inc/admin/theme-admin.php:482
 msgid "Rate us ★★★★★"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:474
+#: wp-content/themes/ona/inc/admin/theme-admin.php:487
 msgid "Contact us"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:479
+#: wp-content/themes/ona/inc/admin/theme-admin.php:492
 msgid "Follow us"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:486
+#: wp-content/themes/ona/inc/admin/theme-admin.php:499
 msgid "Suggest a Feature"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:487
+#: wp-content/themes/ona/inc/admin/theme-admin.php:500
 msgid "Missing an important feature? Let us know how we can improve the product."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:488
+#: wp-content/themes/ona/inc/admin/theme-admin.php:501
 msgid "Leave a Feedback"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:493
+#: wp-content/themes/ona/inc/admin/theme-admin.php:506
 msgid "Settings"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:496
+#: wp-content/themes/ona/inc/admin/theme-admin.php:509
 msgid "Site Editor"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:499
+#: wp-content/themes/ona/inc/admin/theme-admin.php:512
 msgid "Customizer"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:502
+#: wp-content/themes/ona/inc/admin/theme-admin.php:515
 msgid "Edit Fonts"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:513
+#: wp-content/themes/ona/inc/admin/theme-admin.php:526
 msgid "Video Tutorials"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:608
+#: wp-content/themes/ona/inc/admin/theme-admin.php:621
 msgid "The existing child theme was activated. Proceed to importing the content."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:599
+#: wp-content/themes/ona/inc/admin/theme-admin.php:612
 msgid "There was an error unzipping the file."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:592
+#: wp-content/themes/ona/inc/admin/theme-admin.php:605
 msgid "Awesome. Your child theme is now activated. Proceed to importing the content."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:647
+#: wp-content/themes/ona/inc/admin/theme-admin.php:660
 msgid "Oops... Something went wrong. Please try again."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:640
+#: wp-content/themes/ona/inc/admin/theme-admin.php:653
 msgid "Awesome. Your child theme is now updated."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:709
+#: wp-content/themes/ona/inc/admin/theme-admin.php:722
 msgid "Thank you for choosing Ona!"
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:713
+#: wp-content/themes/ona/inc/admin/theme-admin.php:726
 msgid "Follow the steps to configure your new theme and begin customizing your site."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:711
+#: wp-content/themes/ona/inc/admin/theme-admin.php:724
 msgid "Run the Setup Wizard to configure your new theme and begin customizing your site."
 msgstr ""
 
-#: wp-content/themes/ona/inc/admin/theme-admin.php:717
+#: wp-content/themes/ona/inc/admin/theme-admin.php:730
 msgid "Setup Instructions"
 msgstr ""
 
@@ -924,19 +932,19 @@ msgstr ""
 msgid "Get Started"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-business.php:44, wp-content/themes/ona/inc/patterns/footer-creative.php:38, wp-content/themes/ona/inc/patterns/footer-default.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:94, wp-content/themes/ona/inc/patterns/footer-fashion.php:81, wp-content/themes/ona/inc/patterns/footer-health.php:37, wp-content/themes/ona/inc/patterns/footer-minimal.php:68, wp-content/themes/ona/inc/patterns/footer-news.php:81, wp-content/themes/ona/inc/patterns/footer-photography.php:17, wp-content/themes/ona/inc/patterns/footer-travel.php:63, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:84, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:71, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:62, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:115, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:72, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:84
+#: wp-content/themes/ona/inc/patterns/footer-business.php:44, wp-content/themes/ona/inc/patterns/footer-creative.php:38, wp-content/themes/ona/inc/patterns/footer-default.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:94, wp-content/themes/ona/inc/patterns/footer-fashion.php:81, wp-content/themes/ona/inc/patterns/footer-health.php:37, wp-content/themes/ona/inc/patterns/footer-minimal.php:68, wp-content/themes/ona/inc/patterns/footer-news.php:81, wp-content/themes/ona/inc/patterns/footer-photography.php:17, wp-content/themes/ona/inc/patterns/footer-travel.php:63, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:84, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:71, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:62, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:115, wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:53, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:72, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:84
 msgid "© %d Powered by "
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-business.php:44, wp-content/themes/ona/inc/patterns/footer-creative.php:38, wp-content/themes/ona/inc/patterns/footer-default.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:94, wp-content/themes/ona/inc/patterns/footer-fashion.php:81, wp-content/themes/ona/inc/patterns/footer-health.php:37, wp-content/themes/ona/inc/patterns/footer-minimal.php:68, wp-content/themes/ona/inc/patterns/footer-news.php:81, wp-content/themes/ona/inc/patterns/footer-photography.php:17, wp-content/themes/ona/inc/patterns/footer-travel.php:63, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:84, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:71, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:62, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:115, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:72, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:84
+#: wp-content/themes/ona/inc/patterns/footer-business.php:44, wp-content/themes/ona/inc/patterns/footer-creative.php:38, wp-content/themes/ona/inc/patterns/footer-default.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:94, wp-content/themes/ona/inc/patterns/footer-fashion.php:81, wp-content/themes/ona/inc/patterns/footer-health.php:37, wp-content/themes/ona/inc/patterns/footer-minimal.php:68, wp-content/themes/ona/inc/patterns/footer-news.php:81, wp-content/themes/ona/inc/patterns/footer-photography.php:17, wp-content/themes/ona/inc/patterns/footer-travel.php:63, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:84, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:71, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:62, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:115, wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:53, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:72, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:84
 msgid "Ona WordPress theme"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-business.php:51, wp-content/themes/ona/inc/patterns/footer-creative.php:42, wp-content/themes/ona/inc/patterns/footer-default.php:47, wp-content/themes/ona/inc/patterns/footer-environmental.php:98, wp-content/themes/ona/inc/patterns/footer-fashion.php:88, wp-content/themes/ona/inc/patterns/footer-health.php:45, wp-content/themes/ona/inc/patterns/footer-minimal.php:74, wp-content/themes/ona/inc/patterns/footer-news.php:85, wp-content/themes/ona/inc/patterns/footer-photography.php:24, wp-content/themes/ona/inc/patterns/footer-travel.php:85, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:88, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:79, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:66, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:84, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:121, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:92
+#: wp-content/themes/ona/inc/patterns/footer-business.php:51, wp-content/themes/ona/inc/patterns/footer-creative.php:42, wp-content/themes/ona/inc/patterns/footer-default.php:47, wp-content/themes/ona/inc/patterns/footer-environmental.php:98, wp-content/themes/ona/inc/patterns/footer-fashion.php:88, wp-content/themes/ona/inc/patterns/footer-health.php:45, wp-content/themes/ona/inc/patterns/footer-minimal.php:74, wp-content/themes/ona/inc/patterns/footer-news.php:85, wp-content/themes/ona/inc/patterns/footer-photography.php:24, wp-content/themes/ona/inc/patterns/footer-travel.php:85, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:88, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:79, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:66, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:84, wp-content/themes/ona/inc/patterns/pro/footer-online-store.php:121, wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:57, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:92
 msgid "Privacy Policy"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-business.php:52, wp-content/themes/ona/inc/patterns/footer-creative.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:99, wp-content/themes/ona/inc/patterns/footer-minimal.php:76, wp-content/themes/ona/inc/patterns/footer-news.php:86, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:89, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:93
+#: wp-content/themes/ona/inc/patterns/footer-business.php:52, wp-content/themes/ona/inc/patterns/footer-creative.php:43, wp-content/themes/ona/inc/patterns/footer-environmental.php:99, wp-content/themes/ona/inc/patterns/footer-minimal.php:76, wp-content/themes/ona/inc/patterns/footer-news.php:86, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:89, wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:58, wp-content/themes/ona/inc/patterns/pro/footer-startup.php:93
 msgid "Terms \u0026amp; Conditions"
 msgstr ""
 
@@ -948,7 +956,7 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-creative.php:19, wp-content/themes/ona/inc/patterns/footer-environmental.php:59, wp-content/themes/ona/inc/patterns/footer-fashion.php:32, wp-content/themes/ona/inc/patterns/footer-health.php:17, wp-content/themes/ona/inc/patterns/footer-minimal.php:26, wp-content/themes/ona/inc/patterns/footer-news.php:51, wp-content/themes/ona/inc/patterns/footer-studio.php:33, wp-content/themes/ona/inc/patterns/header-architecture.php:23, wp-content/themes/ona/inc/patterns/header-business.php:21, wp-content/themes/ona/inc/patterns/header-centered-logo.php:34, wp-content/themes/ona/inc/patterns/header-creative.php:26, wp-content/themes/ona/inc/patterns/header-default.php:23, wp-content/themes/ona/inc/patterns/header-environmental.php:48, wp-content/themes/ona/inc/patterns/header-fashion.php:17, wp-content/themes/ona/inc/patterns/header-health.php:23, wp-content/themes/ona/inc/patterns/header-minimal.php:17, wp-content/themes/ona/inc/patterns/header-news.php:59, wp-content/themes/ona/inc/patterns/header-photography.php:18, wp-content/themes/ona/inc/patterns/header-studio.php:22, wp-content/themes/ona/inc/patterns/header-transparent-architecture.php:23, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:25, wp-content/themes/ona/inc/patterns/header-transparent-studio.php:22, wp-content/themes/ona/inc/patterns/header-travel.php:16, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:46, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:20, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:40, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:27, wp-content/themes/ona/inc/patterns/pro/general-page-title-coffee-shop.php:11, wp-content/themes/ona/inc/patterns/pro/header-agency.php:24, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:22, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:23, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:23, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:48, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:45, wp-content/themes/ona/inc/patterns/pro/header-startup.php:24, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:17
+#: wp-content/themes/ona/inc/patterns/footer-creative.php:19, wp-content/themes/ona/inc/patterns/footer-environmental.php:59, wp-content/themes/ona/inc/patterns/footer-fashion.php:32, wp-content/themes/ona/inc/patterns/footer-health.php:17, wp-content/themes/ona/inc/patterns/footer-minimal.php:26, wp-content/themes/ona/inc/patterns/footer-news.php:51, wp-content/themes/ona/inc/patterns/footer-studio.php:33, wp-content/themes/ona/inc/patterns/header-architecture.php:23, wp-content/themes/ona/inc/patterns/header-business.php:21, wp-content/themes/ona/inc/patterns/header-centered-logo.php:34, wp-content/themes/ona/inc/patterns/header-creative.php:26, wp-content/themes/ona/inc/patterns/header-default.php:23, wp-content/themes/ona/inc/patterns/header-environmental.php:48, wp-content/themes/ona/inc/patterns/header-fashion.php:17, wp-content/themes/ona/inc/patterns/header-health.php:23, wp-content/themes/ona/inc/patterns/header-minimal.php:17, wp-content/themes/ona/inc/patterns/header-news.php:59, wp-content/themes/ona/inc/patterns/header-photography.php:18, wp-content/themes/ona/inc/patterns/header-studio.php:22, wp-content/themes/ona/inc/patterns/header-transparent-architecture.php:23, wp-content/themes/ona/inc/patterns/header-transparent-creative.php:25, wp-content/themes/ona/inc/patterns/header-transparent-studio.php:22, wp-content/themes/ona/inc/patterns/header-travel.php:16, wp-content/themes/ona/inc/patterns/pro/footer-agency.php:46, wp-content/themes/ona/inc/patterns/pro/footer-coffee-shop.php:20, wp-content/themes/ona/inc/patterns/pro/footer-magazine.php:40, wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:35, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:27, wp-content/themes/ona/inc/patterns/pro/general-page-title-coffee-shop.php:11, wp-content/themes/ona/inc/patterns/pro/header-agency.php:24, wp-content/themes/ona/inc/patterns/pro/header-coffee-shop.php:22, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:23, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:23, wp-content/themes/ona/inc/patterns/pro/header-online-store.php:48, wp-content/themes/ona/inc/patterns/pro/header-recipes.php:45, wp-content/themes/ona/inc/patterns/pro/header-startup.php:24, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:17
 msgid "About"
 msgstr ""
 
@@ -1068,7 +1076,7 @@ msgstr ""
 msgid "We are hiring"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/footer-news.php:55, wp-content/themes/ona/inc/patterns/header-news.php:18, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:30
+#: wp-content/themes/ona/inc/patterns/footer-news.php:55, wp-content/themes/ona/inc/patterns/header-news.php:18, wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:38, wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:30
 msgid "Advertise"
 msgstr ""
 
@@ -1760,7 +1768,7 @@ msgstr ""
 msgid "Testimonials architecture"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:12
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:12, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:12
 msgid "What our customers are saying"
 msgstr ""
 
@@ -1768,51 +1776,51 @@ msgstr ""
 msgid "Here’s what people think about the Ona Architecture"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:29
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:29, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:30, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:148
 msgid "Christine Clark"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:33
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:33, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:34, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:152
 msgid "CEO of Skyline"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:44
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:44, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:45, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:163
 msgid "Ona Architecture's community-first approach set them apart. They listened to residents' concerns and incorporated our feedback at every stage. The resulting community center has become the heart of our neighborhood."
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:57, wp-content/themes/ona/inc/patterns/page-about-studio.php:177
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:57, wp-content/themes/ona/inc/patterns/page-about-studio.php:177, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:60
 msgid "Sarah Chen"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:61
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:61, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:64
 msgid "Horizon Properties"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:72
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:72, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:75
 msgid "Ona Architecture transformed our vision into reality with their innovative sustainable design approach. Their attention to detail and commitment to environmental consciousness resulted in a building that not only looks stunning but also achieved LEED Platinum certification."
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:85
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:85, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:89
 msgid "Marcus Rodriguez"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:89
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:89, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:93
 msgid "Metropolitan Council"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:100
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:100, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:104
 msgid "Working with Ona Architecture on our downtown revitalization project was a game-changer. Their ability to blend modern design with historical preservation created a perfect harmony that has revitalized our city center."
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:113
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:113, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:119, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:178
 msgid "Emily Weber"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:117
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:117, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:123, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:182
 msgid "Tech Innovations"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:128
+#: wp-content/themes/ona/inc/patterns/general-testimonials-architecture.php:128, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:133, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:193
 msgid "The team at Ona Architecture designed our new headquarters with incredible vision. They created a space that perfectly reflects our company culture while maximizing productivity and employee well-being. The result is simply breathtaking."
 msgstr ""
 
@@ -1876,7 +1884,7 @@ msgstr ""
 msgid "Works"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/header-architecture.php:24, wp-content/themes/ona/inc/patterns/header-transparent-architecture.php:24, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:21, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:21
+#: wp-content/themes/ona/inc/patterns/header-architecture.php:24, wp-content/themes/ona/inc/patterns/header-transparent-architecture.php:24, wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:37, wp-content/themes/ona/inc/patterns/pro/header-magazine-transparent.php:21, wp-content/themes/ona/inc/patterns/pro/header-magazine.php:21
 msgid "Blog"
 msgstr ""
 
@@ -2036,7 +2044,7 @@ msgstr ""
 msgid "Meet Our Visionaries"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:140
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:140, wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:16
 msgid "At Ona, our strength lies in the diverse talents and expertise of our team. Each member brings a unique perspective, contributing to our innovative and holistic approach to architecture."
 msgstr ""
 
@@ -2068,35 +2076,35 @@ msgstr ""
 msgid "Interior Design Lead"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:251
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:251, wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:29
 msgid "Carlos Mendoza"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:255
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:255, wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:33
 msgid "3D Visualization Artist"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:275
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:275, wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:53
 msgid "Leila Al-Fayed"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:279
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:279, wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:57
 msgid "Lead Architect"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:299
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:299, wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:77
 msgid "David Weiss"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:303
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:303, wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:81
 msgid "Client Relations"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:323
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:323, wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:101
 msgid "Aisha Patel"
 msgstr ""
 
-#: wp-content/themes/ona/inc/patterns/page-about-studio.php:327
+#: wp-content/themes/ona/inc/patterns/page-about-studio.php:327, wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:105
 msgid "Sustainability Specialist"
 msgstr ""
 
@@ -2492,6 +2500,26 @@ msgstr ""
 msgid "Virtual Events"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:7
+msgid "Footer real estate"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:20
+msgid "Get the App"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:36
+msgid "Careers"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:39
+msgid "Advocacy"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/footer-real-estate.php:40
+msgid "Feedback"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/pro/footer-recipes.php:6
 msgid "Footer recipes"
 msgstr ""
@@ -2716,6 +2744,18 @@ msgstr ""
 msgid "Shop Now"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-real-estate.php:6
+msgid "Hero real estate"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-real-estate.php:12
+msgid "Find Your Dream Home"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-hero-real-estate.php:12
+msgid "With No Commissions"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/pro/general-hero-slider-online-store.php:6
 msgid "Hero slider online store"
 msgstr ""
@@ -2830,6 +2870,30 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/general-intro-coffee-shop.php:35, wp-content/themes/ona/inc/patterns/pro/page-about-coffee-shop.php:47
 msgid "Praesent tristique magna sit amet purus gravida quis blandit. Cursus in hac habitasse platea dictumst quisque sagittis. Eu turpis egestas pretium aenean pharetra magna ullam corper."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-listing-with-filter.php:15
+msgid "Listing with filter"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-listing-with-filter.php:24
+msgid "Featured Listings"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-locations-with-cta.php:13
+msgid "Locations with CTA"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-locations-with-cta.php:22
+msgid "Browse by Location"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-locations-with-cta.php:26
+msgid "Discover your dream destination in our curated collection of prime locations. From vibrant urban centers to serene suburban landscapes, our expertly selected neighborhoods offer something for every lifestyle and budget."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-locations-with-cta.php:32
+msgid "View All Locations"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/general-menu-coffee-shop.php:6
@@ -3068,6 +3132,10 @@ msgstr ""
 msgid "1-888-925-8067"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/pro/general-properties-grid.php:6
+msgid "Properties Grid"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/pro/general-quote-agency.php:6
 msgid "Quote agency"
 msgstr ""
@@ -3116,12 +3184,28 @@ msgstr ""
 msgid "Samantha Wood"
 msgstr ""
 
+#: wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:6
+msgid "Team real estate"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-team-real-estate.php:12
+msgid "Meet Our Agents"
+msgstr ""
+
 #: wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:6
 msgid "Testimonials slider coffee shop"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:20, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:32, wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-coffee-shop.php:44
 msgid "Fantastic coffee that was extremely fresh. Everything we ordered was very good and we even indulged in 3 desserts. Every detail has been taken care these team are really amazing and talented!"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:6
+msgid "Testimonials slider real estate"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider-real-estate.php:16
+msgid "Here’s what people think about the Ona Real Estate"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/general-testimonials-slider.php:6
@@ -3314,6 +3398,14 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/page-archive-projects.php:11
 msgid "Our Projects"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-archive-properties.php:6
+msgid "Page archive properties"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-archive-properties.php:87
+msgid "No posts found"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/page-contact-agency.php:9
@@ -3570,6 +3662,58 @@ msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/page-single-project.php:48
 msgid "Website:"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:9
+msgid "Page single property"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:24
+msgid "14221 SW 160th Ter, Miami, FL 33177"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:31, wp-content/themes/ona/inc/patterns/pro/page-single-property.php:35
+msgid "Beds"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:41, wp-content/themes/ona/inc/patterns/pro/page-single-property.php:45
+msgid "Baths"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:51, wp-content/themes/ona/inc/patterns/pro/page-single-property.php:55
+msgid "Sq. Ft."
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:74
+msgid "Townhouse"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:78
+msgid "Property type"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:92
+msgid "$390"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:96
+msgid "Price per sq ft"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:110
+msgid "1975"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:114
+msgid "Year built"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-single-property.php:128
+msgid "Contact Agent"
+msgstr ""
+
+#: wp-content/themes/ona/inc/patterns/pro/page-taxonomy-property-location.php:6
+msgid "Page taxonomy property location"
 msgstr ""
 
 #: wp-content/themes/ona/inc/patterns/pro/posts-grid-2-columns-sticky-on-scroll-style-2.php:6

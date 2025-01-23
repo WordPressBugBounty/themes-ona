@@ -211,24 +211,22 @@
 }
 
 .ona-demos {
-	display: grid;
-	column-gap: 19px;
-	row-gap: 19px;
-	grid-template-columns: repeat(1, 1fr);
+	display: flex;
+	gap: 19px;
+	flex-wrap: wrap-reverse;
+	flex-direction: row-reverse;
 	min-height: 0;
 	min-width: 0;
 }
 
-@media screen and (min-width: 783px) {
-	.ona-demos {
-		grid-template-columns: repeat(2, 1fr);
-	}
+.ona-demos__item {
+	flex: 1;
+	flex-basis: calc(33.333% - 14px);
 }
 
-@media screen and (min-width: 1200px) {
-	.ona-demos {
-		grid-template-columns: repeat(3, 1fr);
-	}
+.ona-demos__item:last-child {
+	flex-grow: 0;
+	margin-right: auto;
 }
 
 .ona-demos__item-container {
@@ -338,7 +336,6 @@
 	border-radius: 13px;
 }
 
-
 /* Comparison Table
 -------------------------------------------------------*/
 .ona-comparison {
@@ -373,8 +370,6 @@ table.ona-comparison {
 .ona-list-item-icon--no {
 	color: var(--deo-red-50);
 }
-
-
 
 /* Videos */
 
