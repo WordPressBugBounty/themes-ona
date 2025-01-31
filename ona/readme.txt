@@ -4,7 +4,7 @@ Contributors: DeoThemes, freemius
 Requires at least: 5.8
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.23.0
+Stable tag: 1.23.1
 Contributors: DeoThemes, freemius
 Theme URI: https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/
 Author URI: https://deothemes.com/
@@ -14,9 +14,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Ona is a Full Site Editing WordPress theme based on the minimal design style. It comes with many pre-defined block patterns and color scheme styles. Ona includes 17 custom child themes, 10 of them are free. Header and footer builder allows you easily edit your layout and choose pre-made elements. It's easy to customize colors and fonts via global options. This theme is perfect to build a fast optimized websites that have an instant impact On Core Web Vitals performance. Demo: https://ona.deothemes.com/
+Ona is a Full Site Editing WordPress theme based on the minimal design style. It comes with many pre-defined block patterns and color scheme styles. Ona includes 18 custom child themes, 10 of them are free. Header and footer builder allows you easily edit your layout and choose pre-made elements. It's easy to customize colors and fonts via global options. This theme is perfect to build a fast optimized websites that have an instant impact On Core Web Vitals performance. Demo: https://ona.deothemes.com/
 
 == Changelog ==
+
+Version 1.23.1 - January 31, 2025
+- Updated: Freemius SDK
+- Updated: DeoBlocks to 1.5.1
 
 Version 1.23.0 - January 23, 2025
 - Added: Real Estate demo and patterns
