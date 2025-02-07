@@ -49,7 +49,7 @@ if ( ! class_exists( 'Ona_Theme_Update' ) ) {
 			'ona-news' 					=> '0.1',
 			'ona-photography' 	=> '1.0.0',
 			'ona-studio' 				=> '1.0.0',
-			'ona-architecture' 	=> '0.2',
+			'ona-architecture' 	=> '1.0.0',
 			'ona-real-estate' 	=> '1.0.0',
 		);
 
