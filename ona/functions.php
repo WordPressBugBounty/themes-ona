@@ -12,7 +12,7 @@ if ( !defined( 'ABSPATH' ) ) {
     exit( 'Direct script access denied.' );
 }
 // Constants
-define( 'ONA_VERSION', '1.23.2' );
+define( 'ONA_VERSION', '1.24' );
 define( 'ONA_DIR', get_template_directory() );
 define( 'ONA_URI', get_template_directory_uri() );
 if ( !function_exists( 'ona_fs' ) ) {
@@ -295,3 +295,4 @@ register_nav_menus( array(
     'primary-menu' => esc_html__( 'Primary Menu', 'ona' ),
     'footer-menu'  => esc_html__( 'Footer Menu', 'ona' ),
 ) );
+

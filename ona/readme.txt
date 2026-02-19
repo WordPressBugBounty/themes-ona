@@ -1,11 +1,11 @@
 === Ona ===
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, full-width-template, block-patterns, block-styles, rtl-language-support, sticky-post, threaded-comments, style-variations, template-editing, theme-options, translation-ready, wide-blocks
-Contributors: DeoThemes, freemius
+Contributors: DeoThemes
 Requires at least: 5.8
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.23.2
-Contributors: DeoThemes, freemius
+Stable tag: 1.24
+Contributors: DeoThemes
 Theme URI: https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/
 Author URI: https://deothemes.com/
 Author: DeoThemes
@@ -18,9 +18,12 @@ Ona is a Full Site Editing WordPress theme based on the minimal design style. It
 
 == Changelog ==
 
+Version 1.24 - February 19, 2026
+- Fixed: Missing capability check in child theme AJAX handlers. Thanks to Phat RiO for responsible disclosure
+
 Version 1.23.2 - February 7, 2025
 - Fixed: Global headings typography customization
-- Fixed: Global color customzation for Ona Architecture
+- Fixed: Global color customization for Ona Architecture
 - Updated: Ona Architecture to 1.0.0
 
 Version 1.23.1 - January 31, 2025
