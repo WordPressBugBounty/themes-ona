@@ -1,7 +1,10 @@
 <?php
 /**
  * General promo section travel
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Promo section travel', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -37,14 +40,11 @@ return array(
 			<!-- /wp:column -->
 
 			<!-- wp:column {"className":"is-style-no-spacing"} -->
-			<div class="wp-block-column is-style-no-spacing"><!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ). '/assets/img/travel/ona_travel_promo.jpg","id":20,"dimRatio":0,"minHeightUnit":"%","isDark":false,"className":"is-vertically-stretched"} -->
-			<div class="wp-block-cover is-light is-vertically-stretched"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-20" alt="" src="' . esc_url( get_template_directory_uri() ). '/assets/img/travel/ona_travel_promo.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+			<div class="wp-block-column is-style-no-spacing"><!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/img/travel/ona_travel_promo.jpg","id":20,"dimRatio":0,"minHeightUnit":"%","isDark":false,"className":"is-vertically-stretched"} -->
+			<div class="wp-block-cover is-light is-vertically-stretched"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-20" alt="" src="' . esc_url( get_template_directory_uri() ) . '/assets/img/travel/ona_travel_promo.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 			</div></div>
 			<!-- /wp:cover --></div>
 			<!-- /wp:column --></div>
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

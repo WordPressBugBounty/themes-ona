@@ -1,7 +1,10 @@
 <?php
 /**
  * General: latest YouTube video
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Latest YouTube video', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -34,6 +37,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

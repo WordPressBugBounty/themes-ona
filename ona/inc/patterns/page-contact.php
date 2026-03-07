@@ -1,7 +1,10 @@
 <?php
 /**
  * Page Contact
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Page contact', 'ona' ),
 	'categories' => array( 'ona-pages' ),
@@ -38,6 +41,3 @@ return array(
 			<!-- /wp:group --></div></div>
 			<!-- /wp:cover -->',
 );
-
-
-

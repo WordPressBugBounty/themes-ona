@@ -1,7 +1,10 @@
 <?php
 /**
  * General: gallery 5 columns
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Gallery 5 columns', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -20,6 +23,3 @@ return array(
 			<!-- /wp:gallery --></div>
 			<!-- /wp:group -->',
 );
-
-
-

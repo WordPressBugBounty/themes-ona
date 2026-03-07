@@ -1,7 +1,10 @@
 <?php
 /**
  * Header fashion
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Header fashion', 'ona' ),
 	'categories' => array( 'ona-headers' ),
@@ -31,6 +34,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

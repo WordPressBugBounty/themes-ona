@@ -1,7 +1,10 @@
 <?php
 /**
  * General: Hero architecture
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Hero architecture', 'ona' ),
 	'categories' => array( 'ona-general' ),

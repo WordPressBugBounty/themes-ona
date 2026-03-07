@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: grid 2 columns no image
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts grid 2 columns no image', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -36,6 +39,3 @@ return array(
 		<!-- /wp:group --></div>
 		<!-- /wp:group -->',
 );
-
-
-

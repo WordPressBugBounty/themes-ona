@@ -1,7 +1,10 @@
 <?php
 /**
  * General: hero minimal
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Hero minimal', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -16,6 +19,3 @@ return array(
 			<!-- /wp:media-text --></div>
 			<!-- /wp:group -->',
 );
-
-
-

@@ -1,7 +1,10 @@
 <?php
 /**
  * General promo section
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Promo section', 'ona' ),
 	'categories' => array( 'ona-general' ),

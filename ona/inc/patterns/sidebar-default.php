@@ -1,6 +1,8 @@
 <?php
 /**
  * Sidebar: default
+ *
+ * @package Ona
  */
 
 $form = ona_get_mailchimp_forms();
@@ -73,6 +75,3 @@ return array(
 		<!-- /wp:group --></div>
 		<!-- /wp:group -->',
 );
-
-
-

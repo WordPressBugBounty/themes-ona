@@ -1,7 +1,10 @@
 <?php
 /**
  * Header transparent creative
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Header transparent creative', 'ona' ),
 	'categories' => array( 'ona-headers' ),
@@ -42,6 +45,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

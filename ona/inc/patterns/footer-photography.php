@@ -1,7 +1,10 @@
 <?php
 /**
  * Footer photography
+ *
+ * @package Ona
  */
+
 $form = ona_get_mailchimp_forms();
 
 return array(
@@ -14,7 +17,10 @@ return array(
 			<div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0.7rem;margin-bottom:0.5rem"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 			<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|text-regular"}}}},"textColor":"text-regular","className":"mb-1 ona-copyright ona-md-down-text-align-center","fontSize":"base"} -->
 			<p class="mb-1 ona-copyright ona-md-down-text-align-center has-text-regular-color has-text-color has-link-color has-base-font-size">
-			' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
+			// translators: %d: Current year.
+			'
+			// translators: %d: Current year.
+			. sprintf( __( '© %d Powered by ', 'ona' ), date_i18n( 'Y' ) ) . '<a href="https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
 			<!-- /wp:paragraph --></div>
 			<!-- /wp:column -->
 
@@ -29,6 +35,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: grid 3 columns health
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts grid 3 columns health', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -68,6 +71,3 @@ return array(
 		<!-- /wp:buttons --></div>
 		<!-- /wp:group -->',
 );
-
-
-

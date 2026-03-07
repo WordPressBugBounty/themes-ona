@@ -1,7 +1,10 @@
 <?php
 /**
  * General hero health
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Hero health', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -30,6 +33,3 @@ return array(
 		<!-- /wp:columns --></div>
 		<!-- /wp:group -->',
 );
-
-
-

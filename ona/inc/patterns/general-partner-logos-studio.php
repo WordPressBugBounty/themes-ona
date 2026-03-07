@@ -1,7 +1,10 @@
 <?php
 /**
  * General partner logos studio
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Partner logos studio', 'ona' ),
 	'categories' => array( 'ona-general' ),

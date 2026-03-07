@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: list with sidebar news
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts list with sidebar news', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -94,6 +97,3 @@ return array(
 		<!-- /wp:columns --></div>
 		<!-- /wp:group -->',
 );
-
-
-

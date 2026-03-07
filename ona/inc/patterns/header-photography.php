@@ -1,7 +1,10 @@
 <?php
 /**
  * Header photography
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Header photography', 'ona' ),
 	'categories' => array( 'ona-headers' ),
@@ -31,6 +34,3 @@ return array(
 			<!-- /wp:social-links --></div>
 			<!-- /wp:group -->',
 );
-
-
-

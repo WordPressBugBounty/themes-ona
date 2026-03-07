@@ -1,11 +1,12 @@
 <?php
 /**
  * The theme update logic.
- * @author  	 DeoThemes
+ *
+ * @author       DeoThemes
  * @copyright  (c) Copyright by DeoThemes
  * @link       https://deothemes.com
- * @package 	 Ona
- * @since 		 1.6.1
+ * @package      Ona
+ * @since        1.6.1
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -30,31 +31,35 @@ if ( ! class_exists( 'Ona_Theme_Update' ) ) {
 		private static $instance;
 
 		/**
-		 * Array of child themes version
+		 * Array of child themes version.
+		 *
+		 * @var array
 		 */
 		private static $child_themes_versions = array(
-			'ona-creative' 			=> '1.0.7',
-			'ona-minimal' 			=> '1.0.10',
-			'ona-online-store' 	=> '1.0.5',
-			'ona-recipes' 			=> '1.0.5',
-			'ona-health' 				=> '1.0.4',
-			'ona-coffee-shop' 	=> '1.0.4',
-			'ona-travel' 				=> '1.0.4',
-			'ona-magazine' 			=> '1.0.3',
-			'ona-fashion' 			=> '1.0.6',
+			'ona-creative'      => '1.0.7',
+			'ona-minimal'       => '1.0.10',
+			'ona-online-store'  => '1.0.5',
+			'ona-recipes'       => '1.0.5',
+			'ona-health'        => '1.0.4',
+			'ona-coffee-shop'   => '1.0.4',
+			'ona-travel'        => '1.0.4',
+			'ona-magazine'      => '1.0.3',
+			'ona-fashion'       => '1.0.6',
 			'ona-environmental' => '1.0.3',
-			'ona-agency' 				=> '1.0.2',
-			'ona-business' 			=> '1.0.3',
-			'ona-startup' 			=> '1.0.2',
-			'ona-news' 					=> '0.1',
-			'ona-photography' 	=> '1.0.0',
-			'ona-studio' 				=> '1.0.0',
-			'ona-architecture' 	=> '1.0.0',
-			'ona-real-estate' 	=> '1.0.0',
+			'ona-agency'        => '1.0.2',
+			'ona-business'      => '1.0.3',
+			'ona-startup'       => '1.0.2',
+			'ona-news'          => '0.1',
+			'ona-photography'   => '1.0.0',
+			'ona-studio'        => '1.0.0',
+			'ona-architecture'  => '1.0.0',
+			'ona-real-estate'   => '1.0.0',
 		);
 
 		/**
-		 * If child themes requires update
+		 * If child themes requires update.
+		 *
+		 * @var array
 		 */
 		public static $requires_update = array();
 
@@ -73,9 +78,9 @@ if ( ! class_exists( 'Ona_Theme_Update' ) ) {
 		 *  Constructor
 		 */
 		public function __construct() {
-			if ( is_admin() ) {				
-				add_action( 'admin_init', __CLASS__ . '::init', 5 );				
-				add_action( 'current_screen', __CLASS__ . '::save_child_themes_versions' );				
+			if ( is_admin() ) {
+				add_action( 'admin_init', __CLASS__ . '::init', 5 );
+				add_action( 'current_screen', __CLASS__ . '::save_child_themes_versions' );
 			}
 		}
 
@@ -85,7 +90,7 @@ if ( ! class_exists( 'Ona_Theme_Update' ) ) {
 		 * @since 1.6.1
 		 */
 		public static function init() {
-			
+
 			// Get auto saved version number.
 			$saved_version = get_option( 'ona_theme_version', false );
 
@@ -94,14 +99,15 @@ if ( ! class_exists( 'Ona_Theme_Update' ) ) {
 				return;
 			}
 
-			// If updated to 1.2 update headings font setting from H1 customizer setting
+			// phpcs:disable Squiz.Commenting.InlineComment.InvalidEndChar -- commented-out code.
+			// If updated to 1.2 update headings font setting from H1 customizer setting.
 			// if ( version_compare( $saved_version, '1.2', '<' ) ) {
-			// 	self::v_1_2();
+			// self::v_1_2();
 			// }
+			// phpcs:enable Squiz.Commenting.InlineComment.InvalidEndChar
 
-			// Update auto saved version number and save child themes versions
+			// Update auto saved version number and save child themes versions.
 			update_option( 'ona_theme_version', ONA_VERSION );
-
 		}
 
 
@@ -111,11 +117,11 @@ if ( ! class_exists( 'Ona_Theme_Update' ) ) {
 		public static function save_child_themes_versions() {
 			global $current_screen;
 
-			// Run only on Ona admin page
-			if ( $current_screen->id !== 'appearance_page_ona-theme' ) {
+			// Run only on Ona admin page.
+			if ( 'appearance_page_ona-theme' !== $current_screen->id ) {
 				return;
 			}
-			
+
 			$child_themes_versions = array();
 
 			foreach ( self::$child_themes_versions as $child_theme => $new_version ) {
@@ -128,23 +134,21 @@ if ( ! class_exists( 'Ona_Theme_Update' ) ) {
 						self::$requires_update[] = $child_theme;
 					}
 
-					$child_themes_versions[$child_theme] = $version;
+					$child_themes_versions[ $child_theme ] = $version;
 				}
 			}
-			
-			update_option( 'ona_child_themes_versions', $child_themes_versions );			
+
+			update_option( 'ona_child_themes_versions', $child_themes_versions );
 		}
 
 
 		/**
-		* Updates headings font setting from H1 customizer setting.
-		* 
-		* @since 1.2
-		*/
-		public static function v_1_2() {	
-
+		 * Updates headings font setting from H1 customizer setting.
+		 *
+		 * @since 1.2
+		 */
+		public static function v_1_2() {
 		}
-		
 	}
 }
 

@@ -1,6 +1,8 @@
 <?php
 /**
  * Page Contact Studio
+ *
+ * @package Ona
  */
 
 $contact_form_7_form = ona_get_contact_form_7_forms();

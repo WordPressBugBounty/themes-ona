@@ -1,6 +1,8 @@
 <?php
 /**
  * Posts: grid 2 columns sticky on scroll style 3
+ *
+ * @package Ona
  */
 
 $form = ona_get_mailchimp_forms();

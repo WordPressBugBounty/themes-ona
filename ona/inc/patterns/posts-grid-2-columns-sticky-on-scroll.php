@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: grid 2 columns sticky on scroll
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts grid 2 columns sticky on scroll', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -44,6 +47,3 @@ return array(
 		<!-- /wp:columns --></div>
 		<!-- /wp:group -->',
 );
-
-
-

@@ -1,7 +1,10 @@
 <?php
 /**
  * General: Team business
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Team business', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -125,6 +128,3 @@ return array(
 			<!-- /wp:group -->
 			',
 );
-
-
-

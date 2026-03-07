@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: list travel
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts list travel', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -65,6 +68,3 @@ return array(
 		<!-- /wp:query --></div>
 		<!-- /wp:group -->',
 );
-
-
-

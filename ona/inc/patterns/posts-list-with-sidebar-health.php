@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: list with sidebar health
+ *
+ * @package Ona
  */
+
 $form = ona_get_mailchimp_forms();
 
 return array(
@@ -71,6 +74,3 @@ return array(
 		<!-- /wp:group --></div>
 		<!-- /wp:group -->',
 );
-
-
-

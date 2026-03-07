@@ -1,7 +1,10 @@
 <?php
 /**
  * Header transparent architecture
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Header transparent architecture', 'ona' ),
 	'categories' => array( 'ona-headers' ),
@@ -35,6 +38,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

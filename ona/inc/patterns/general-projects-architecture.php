@@ -1,7 +1,10 @@
 <?php
 /**
  * General: Projects architecture
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Projects architecture', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -92,6 +95,3 @@ return array(
 		<!-- /wp:buttons --></div>
 		<!-- /wp:group -->',
 );
-
-
-

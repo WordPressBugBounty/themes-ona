@@ -1,7 +1,10 @@
 <?php
 /**
  * General instagram feed health
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Instagram feed health', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -22,6 +25,3 @@ return array(
 			<!-- /wp:group --></div>
 			<!-- /wp:group -->',
 );
-
-
-

@@ -1,7 +1,10 @@
 <?php
 /**
  * General: hero creative
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Hero creative', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -23,6 +26,3 @@ return array(
 			<!-- /wp:spacer --></div></div>
 			<!-- /wp:cover -->',
 );
-
-
-

@@ -4,8 +4,13 @@
  * Ona: Block Patterns
  *
  * @since 1.0
+ *
+ * @package Ona
  */
 if ( !function_exists( 'ona_register_block_patterns' ) ) {
+    /**
+     * Register block patterns and pattern categories.
+     */
     function ona_register_block_patterns() {
         if ( function_exists( 'register_block_pattern_category' ) ) {
             register_block_pattern_category( 'ona-general', array(

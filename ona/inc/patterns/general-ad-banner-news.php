@@ -1,7 +1,10 @@
 <?php
 /**
  * General: ad banner news
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Ad banner news', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -12,6 +15,3 @@ return array(
 			<!-- /wp:image --></div>
 			<!-- /wp:group -->',
 );
-
-
-

@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: list creative
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts list creative', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -30,6 +33,3 @@ return array(
 		<!-- /wp:query --></div>
 		<!-- /wp:group -->',
 );
-
-
-

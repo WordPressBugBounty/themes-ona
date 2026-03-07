@@ -1,7 +1,10 @@
 <?php
 /**
  * General: Intro studio
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Intro studio', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -26,6 +29,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

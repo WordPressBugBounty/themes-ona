@@ -1,7 +1,10 @@
 <?php
 /**
  * General promo health
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Promo health', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -19,7 +22,7 @@ return array(
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"40px"}}} -->
 			<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem"}},"textColor":"background"} -->
-			<p class="has-background-color has-text-color" style="font-size:1.125rem">' . esc_html__( 'Some blogs focus more on fashion advice, featuring how-to articles for the lay reader. Articles discuss clothing fit, the matching and complementing of colors, and other information on clothes wearing and care along with prescriptive advice.' , 'ona' ) . '</p>
+			<p class="has-background-color has-text-color" style="font-size:1.125rem">' . esc_html__( 'Some blogs focus more on fashion advice, featuring how-to articles for the lay reader. Articles discuss clothing fit, the matching and complementing of colors, and other information on clothes wearing and care along with prescriptive advice.', 'ona' ) . '</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:heading {"style":{"typography":{"fontSize":"2.125rem"}},"textColor":"background","className":"is-style-ona-alt-font"} -->
@@ -38,6 +41,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

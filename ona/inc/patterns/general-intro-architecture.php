@@ -1,7 +1,10 @@
 <?php
 /**
- * General: Intro architecture 
+ * General: Intro architecture
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Intro architecture', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -26,6 +29,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

@@ -1,7 +1,10 @@
 <?php
 /**
  * General: promo boxes creative
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Promo boxes creative', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -62,6 +65,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

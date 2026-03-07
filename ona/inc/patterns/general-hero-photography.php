@@ -1,7 +1,10 @@
 <?php
 /**
  * General hero photography
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Hero photography', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -22,6 +25,3 @@ return array(
 			<!-- /wp:group --></div></div>
 			<!-- /wp:cover -->',
 );
-
-
-

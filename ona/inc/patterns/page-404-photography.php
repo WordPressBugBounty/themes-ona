@@ -1,13 +1,16 @@
 <?php
 /**
  * Page 404 photography
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Page 404 photography', 'ona' ),
 	'categories' => array( 'ona-pages' ),
 	'content'    => '
 			<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/img/photography/ona_photography_404.jpg' ) ) . '","id":391,"hasParallax":true,"dimRatio":50,"customOverlayColor":"#7f8eaa","minHeight":100,"minHeightUnit":"vh","isDark":false} -->
-			<div class="wp-block-cover is-light has-parallax" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim" style="background-color:#7f8eaa"></span><div class="wp-block-cover__image-background wp-image-391 has-parallax" style="background-position:50% 50%;background-image:url(' . esc_url( get_theme_file_uri( 'assets/img/photography/ona_photography_404.jpg' ) ) .')"></div><div class="wp-block-cover__inner-container"><!-- wp:group {"tagName":"main","layout":{"inherit":true,"type":"constrained"}} -->
+			<div class="wp-block-cover is-light has-parallax" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim" style="background-color:#7f8eaa"></span><div class="wp-block-cover__image-background wp-image-391 has-parallax" style="background-position:50% 50%;background-image:url(' . esc_url( get_theme_file_uri( 'assets/img/photography/ona_photography_404.jpg' ) ) . ')"></div><div class="wp-block-cover__inner-container"><!-- wp:group {"tagName":"main","layout":{"inherit":true,"type":"constrained"}} -->
 			<main class="wp-block-group"><!-- wp:spacer {"height":"110px"} -->
 			<div style="height:110px" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
@@ -32,6 +35,3 @@ return array(
 			<!-- /wp:group --></div></div>
 			<!-- /wp:cover -->',
 );
-
-
-

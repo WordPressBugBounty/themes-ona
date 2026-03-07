@@ -1,7 +1,10 @@
 <?php
 /**
  * General: Page title studio
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Page title studio', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -12,6 +15,3 @@ return array(
 			<!-- /wp:heading --></div></div>
 			<!-- /wp:cover -->',
 );
-
-
-

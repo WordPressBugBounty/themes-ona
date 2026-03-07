@@ -1,7 +1,10 @@
 <?php
 /**
  * Header minimal
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Header minimal', 'ona' ),
 	'categories' => array( 'ona-headers' ),
@@ -39,6 +42,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

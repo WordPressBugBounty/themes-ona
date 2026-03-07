@@ -1,7 +1,10 @@
 <?php
 /**
  * General: CTA studio
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'CTA studio', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -18,6 +21,3 @@ return array(
 			<!-- /wp:buttons --></div>
 			<!-- /wp:group -->',
 );
-
-
-

@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: mixed with sidebar
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts mixed with sidebar', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -23,6 +26,3 @@ return array(
 		</div><!-- /wp:columns -->
 		</div><!-- /wp:group -->',
 );
-
-
-

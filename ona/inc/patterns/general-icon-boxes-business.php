@@ -1,7 +1,10 @@
 <?php
 /**
  * General: Icon boxes business
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Icon boxes business', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -115,6 +118,3 @@ return array(
 			<!-- /wp:group -->
 			',
 );
-
-
-

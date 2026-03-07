@@ -1,7 +1,10 @@
 <?php
 /**
  * General quote fashion
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Quote fashion', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -22,8 +25,3 @@ return array(
 		<!-- /wp:paragraph --></div>
 		<!-- /wp:group -->',
 );
-
-
-
-
-

@@ -1,6 +1,8 @@
 <?php
 /**
  * Forms: Newsletter
+ *
+ * @package Ona
  */
 
 $form = ona_get_mailchimp_forms();
@@ -45,6 +47,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

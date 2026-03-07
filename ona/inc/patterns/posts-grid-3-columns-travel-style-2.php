@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: grid 3 columns travel style 2
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts grid 3 columns travel style 2', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -20,6 +23,3 @@ return array(
 		<!-- /wp:query --></div>
 		<!-- /wp:group -->',
 );
-
-
-

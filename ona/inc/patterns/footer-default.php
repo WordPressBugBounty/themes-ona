@@ -1,7 +1,10 @@
 <?php
 /**
  * Default footer
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Default footer', 'ona' ),
 	'categories' => array( 'ona-footers' ),
@@ -40,7 +43,9 @@ return array(
 			<div class="wp-block-group">
 			
 			<!-- wp:paragraph {"align":"center","textColor":"text-light","className":"mb-1","fontSize":"tiny"} -->
-			<p class="has-text-align-center mb-1 has-text-light-color has-text-color has-tiny-font-size">' . sprintf( __( '© %d Powered by ', 'ona' ), date_i18n("Y")) . '<a href="https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
+			<p class="has-text-align-center mb-1 has-text-light-color has-text-color has-tiny-font-size">'
+			// translators: %d: Current year.
+			. sprintf( __( '© %d Powered by ', 'ona' ), date_i18n( 'Y' ) ) . '<a href="https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/" style="color:inherit">' . esc_html__( 'Ona WordPress theme', 'ona' ) . '</a></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:navigation {"textColor":"text-light","overlayMenu":"never","layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"20px"}},"fontSize":"tiny"} -->
@@ -56,6 +61,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

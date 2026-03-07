@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: list minimal no image
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts list minimal no image', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -28,6 +31,3 @@ return array(
 		<!-- /wp:query --></div>
 		<!-- /wp:group -->',
 );
-
-
-

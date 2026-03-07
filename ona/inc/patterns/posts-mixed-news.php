@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: mixed news
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts mixed news', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -152,6 +155,3 @@ return array(
 		<!-- /wp:column --></div>
 		<!-- /wp:columns -->',
 );
-
-
-

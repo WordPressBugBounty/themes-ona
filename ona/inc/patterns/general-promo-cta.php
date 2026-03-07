@@ -1,7 +1,10 @@
 <?php
 /**
  * General Promo CTA
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Promo CTA', 'ona' ),
 	'categories' => array( 'ona-general' ),

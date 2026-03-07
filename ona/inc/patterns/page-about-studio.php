@@ -1,6 +1,8 @@
 <?php
 /**
  * Page about studio
+ *
+ * @package Ona
  */
 
 return array(
@@ -26,11 +28,11 @@ return array(
 		<div class="wp-block-column" style="flex-basis:46%"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between"}} -->
 		<div class="wp-block-group" style="min-height:100%"><!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group"><!-- wp:heading -->
-		<h2 class="wp-block-heading">' . esc_html__( 'Shaping Spaces,', 'ona') . '<br>' . esc_html__( 'Enriching Lives', 'ona' ) . '</h2>
+		<h2 class="wp-block-heading">' . esc_html__( 'Shaping Spaces,', 'ona' ) . '<br>' . esc_html__( 'Enriching Lives', 'ona' ) . '</h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.25rem"}}} -->
-		<p style="font-size:1.25rem">' . esc_html__( 'Founded in 2019 by Michael Jefferson, Ona began with a vision to transform the urban landscape while honoring the natural environment.',  'ona') . '<br>' . esc_html__( 'What started as a small team with big ideas has grown into a renowned architectural practice, known for innovative designs that stand the test of time.', 'ona' ) . '</p>
+		<p style="font-size:1.25rem">' . esc_html__( 'Founded in 2019 by Michael Jefferson, Ona began with a vision to transform the urban landscape while honoring the natural environment.', 'ona' ) . '<br>' . esc_html__( 'What started as a small team with big ideas has grown into a renowned architectural practice, known for innovative designs that stand the test of time.', 'ona' ) . '</p>
 		<!-- /wp:paragraph --></div>
 		<!-- /wp:group -->
 
@@ -409,6 +411,3 @@ return array(
 		<!-- /wp:group --></div>
 		<!-- /wp:group -->',
 );
-
-
-

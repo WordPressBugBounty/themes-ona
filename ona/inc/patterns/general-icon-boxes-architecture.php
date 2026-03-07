@@ -1,7 +1,10 @@
 <?php
 /**
  * General Icon boxes architecture
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Icon Boxes Architecture', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -64,8 +67,3 @@ return array(
 		<!-- /wp:columns --></div>
 		<!-- /wp:group -->',
 );
-
-
-
-
-

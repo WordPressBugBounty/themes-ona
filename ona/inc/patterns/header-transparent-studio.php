@@ -1,7 +1,10 @@
 <?php
 /**
  * Header transparent studio
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Header transparent studio', 'ona' ),
 	'categories' => array( 'ona-headers' ),
@@ -39,6 +42,3 @@ return array(
 			<!-- /wp:html --></div>
 			<!-- /wp:group -->',
 );
-
-
-

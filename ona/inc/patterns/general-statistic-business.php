@@ -1,7 +1,10 @@
 <?php
 /**
  * General: Statistic business
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Statistic business', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -69,6 +72,3 @@ return array(
 			<!-- /wp:group -->
 			',
 );
-
-
-

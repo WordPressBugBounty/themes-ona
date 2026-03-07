@@ -1,7 +1,10 @@
 <?php
 /**
  * General: Testimonials architecture
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Testimonials architecture', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -132,6 +135,3 @@ return array(
 		<!-- /wp:columns --></div>
 		<!-- /wp:group -->',
 );
-
-
-

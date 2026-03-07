@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: grid 2 columns masonry
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts grid 2 columns masonry', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -132,6 +135,3 @@ return array(
 		<!-- /wp:columns --></div>
 		<!-- /wp:group -->',
 );
-
-
-

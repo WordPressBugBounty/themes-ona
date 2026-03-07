@@ -1,7 +1,10 @@
 <?php
 /**
  * General promo section offset
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Promo section offset', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -30,6 +33,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

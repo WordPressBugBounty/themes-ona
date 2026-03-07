@@ -1,7 +1,10 @@
 <?php
 /**
  * Header news
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Header news', 'ona' ),
 	'categories' => array( 'ona-headers' ),
@@ -68,6 +71,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

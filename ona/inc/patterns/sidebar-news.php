@@ -1,7 +1,10 @@
 <?php
 /**
  * Sidebar: news
+ *
+ * @package Ona
  */
+
 $form = ona_get_mailchimp_forms( 'style-3' );
 
 return array(
@@ -80,6 +83,3 @@ return array(
 		
 		</div><!-- /wp:group -->',
 );
-
-
-

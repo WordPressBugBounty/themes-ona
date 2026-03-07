@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: masonry news
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts masonry news', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -78,6 +81,3 @@ return array(
 		<!-- /wp:columns --></div>
 		<!-- /wp:group -->',
 );
-
-
-

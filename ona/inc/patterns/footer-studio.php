@@ -1,7 +1,10 @@
 <?php
 /**
  * Footer studio
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Footer studio', 'ona' ),
 	'categories' => array( 'ona-footers' ),
@@ -51,6 +54,3 @@ return array(
 			<!-- /wp:group --></div>
 			<!-- /wp:group -->',
 );
-
-
-

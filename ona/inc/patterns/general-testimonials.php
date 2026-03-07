@@ -1,7 +1,10 @@
 <?php
 /**
  * General: testimonials
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Testimonials', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -74,6 +77,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

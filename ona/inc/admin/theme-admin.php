@@ -9,10 +9,10 @@ if ( !defined( 'ABSPATH' ) ) {
     exit( 'Direct script access denied.' );
 }
 /**
-* Add admin menu
-*
-* @since 1.0.0
-*/
+ * Add admin menu
+ *
+ * @since 1.0.0
+ */
 function ona_theme_admin_menu() {
     add_theme_page(
         esc_html__( 'Ona Getting Started', 'ona' ),
@@ -26,10 +26,10 @@ function ona_theme_admin_menu() {
 
 add_action( 'admin_menu', 'ona_theme_admin_menu' );
 /**
-* Add admin page content
-*
-* @since 1.0.0
-*/
+ * Add admin page content
+ *
+ * @since 1.0.0
+ */
 function ona_admin_page_content() {
     $theme = wp_get_theme();
     $theme_name = 'Ona';
@@ -317,12 +317,18 @@ function ona_admin_page_content() {
 											<th><span><?php 
     echo esc_html__( 'Features', 'ona' );
     ?></span></th>
-											<th><span><?php 
-    printf( esc_html__( '%s Free', 'ona' ), $theme_name );
-    ?></span></th>
-											<th><span><?php 
-    printf( esc_html__( '%s Pro', 'ona' ), $theme_name );
-    ?></span></th>
+											<th><span>
+												<?php 
+    // translators: %s: Theme name.
+    printf( esc_html__( '%s Free', 'ona' ), esc_html( $theme_name ) );
+    ?>
+											</span></th>
+											<th><span>
+												<?php 
+    // translators: %s: Theme name.
+    printf( esc_html__( '%s Pro', 'ona' ), esc_html( $theme_name ) );
+    ?>
+											</span></th>
 										</tr>
 									</thead>
 									<tbody>
@@ -351,22 +357,26 @@ function ona_admin_page_content() {
         }
         ?>
 												</td>
-												<td><?php 
+												<td>
+												<?php 
         echo wp_kses( $feature['free'], array(
             'i' => array(
                 'class'       => array(),
                 'aria-hidden' => array(),
             ),
         ) );
-        ?></td>
-												<td><?php 
+        ?>
+												</td>
+												<td>
+												<?php 
         echo wp_kses( $feature['pro'], array(
             'i' => array(
                 'class'       => array(),
                 'aria-hidden' => array(),
             ),
         ) );
-        ?></td>
+        ?>
+												</td>
 											</tr>
 										<?php 
     }
@@ -433,7 +443,7 @@ function ona_admin_page_content() {
 											
 												<?php 
         $theme_dir = get_theme_root() . '/' . $demo['slug'];
-        // Theme does not exist
+        // Theme does not exist.
         if ( !file_exists( $theme_dir ) ) {
             ?>
 
@@ -442,7 +452,7 @@ function ona_admin_page_content() {
 															<a href="<?php 
             echo esc_url( $demo['url'] );
             ?>" target="_blank" class="button button-primary <?php 
-            echo ( $demo['pro'] ? "ona-preview-demo" : "ona-install-child-theme" );
+            echo ( $demo['pro'] ? 'ona-preview-demo' : 'ona-install-child-theme' );
             ?>"
 																data-theme="<?php 
             echo esc_attr( $demo['slug'] );
@@ -474,7 +484,7 @@ function ona_admin_page_content() {
 															<a href="<?php 
             echo esc_url( $demo['url'] );
             ?>" target="_blank" class="button button-primary <?php 
-            echo ( $demo['pro'] ? "ona-preview-demo" : "ona-install-child-theme" );
+            echo ( $demo['pro'] ? 'ona-preview-demo' : 'ona-install-child-theme' );
             ?>"
 															data-theme="<?php 
             echo esc_attr( $demo['slug'] );
@@ -596,21 +606,21 @@ function ona_admin_page_content() {
 							<ul class="ona-useful-links">
 								<li>
 									<a href="<?php 
-    echo admin_url( 'site-editor.php' );
+    echo esc_url( admin_url( 'site-editor.php' ) );
     ?>"><?php 
     echo esc_html__( 'Site Editor', 'ona' );
     ?></a>
 								</li>
 								<li>
 									<a href="<?php 
-    echo admin_url( 'customize.php' );
+    echo esc_url( admin_url( 'customize.php' ) );
     ?>"><?php 
     echo esc_html__( 'Customizer', 'ona' );
     ?></a>
 								</li>
 								<li>
 									<a href="<?php 
-    echo ( ona_fs()->can_use_premium_code__premium_only() ? admin_url( 'customize.php?autofocus[section]=ona_core_settings_typography' ) : esc_url( $urls['fonts'] ) );
+    echo esc_url( ( ona_fs()->can_use_premium_code__premium_only() ? admin_url( 'customize.php?autofocus[section]=ona_core_settings_typography' ) : $urls['fonts'] ) );
     ?>"><?php 
     echo esc_html__( 'Edit Fonts', 'ona' );
     ?>
@@ -678,14 +688,15 @@ function ona_activate_child_theme() {
         $source = esc_url( $_POST['download_link'] );
     }
     $path = get_theme_root() . '/' . $slug;
-    // Check if child theme already exist
+    // Check if child theme already exists.
     if ( !file_exists( $path ) ) {
         $zip_file = get_theme_root() . '/' . $slug . '.zip';
         file_put_contents( $zip_file, file_get_contents( $source ) );
+        // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents, WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents -- downloading theme zip to local filesystem.
         $unzipfile = unzip_file( $zip_file, get_theme_root() );
         if ( !is_wp_error( $unzipfile ) ) {
-            unlink( $zip_file );
-            // Switch
+            wp_delete_file( $zip_file );
+            // Switch.
             $allowed_themes = get_option( 'allowedthemes' );
             $allowed_themes[$slug] = true;
             update_option( 'allowedthemes', $allowed_themes );
@@ -746,33 +757,39 @@ function ona_update_child_theme() {
 
 add_action( 'wp_ajax_ona_update_child_theme', 'ona_update_child_theme' );
 /**
-* Adds an admin notice upon successful activation.
-*/
+ * Adds an admin notice upon successful activation.
+ */
 function ona_activation_admin_notice() {
     global $current_user;
     global $current_screen;
-    // Don't show on theme main admin page
-    if ( $current_screen->id === 'appearance_page_ona-theme' || $current_screen->id === 'toplevel_page_ona' ) {
+    // Don't show on theme main admin page.
+    if ( 'appearance_page_ona-theme' === $current_screen->id || 'toplevel_page_ona' === $current_screen->id ) {
         return;
     }
     if ( is_admin() ) {
         $current_theme = wp_get_theme();
-        $welcome_dismissed = get_user_meta( $current_user->ID, 'ona_wizard_admin_notice' );
-        if ( ($current_theme->get( 'Name' ) == "Ona" || $current_theme->get( 'Name' ) == "Ona Pro") && !$welcome_dismissed ) {
+        $welcome_dismissed = get_user_meta( $current_user->ID, 'ona_wizard_admin_notice', true );
+        if ( ($current_theme->get( 'Name' ) === 'Ona' || $current_theme->get( 'Name' ) === 'Ona Pro') && !$welcome_dismissed ) {
             add_action( 'admin_notices', 'ona_wizard_admin_notice', 99 );
         }
-        wp_enqueue_style( 'ona-wizard-notice-css', get_template_directory_uri() . '/assets/admin/css/wizard-notice.css' );
+        wp_enqueue_style(
+            'ona-wizard-notice-css',
+            get_template_directory_uri() . '/assets/admin/css/wizard-notice.css',
+            array(),
+            ONA_VERSION
+        );
     }
 }
 
 add_action( 'current_screen', 'ona_activation_admin_notice' );
 /**
-* Adds a button to dismiss the notice
-*/
+ * Adds a button to dismiss the notice
+ */
 function ona_dismiss_wizard_notice() {
     global $current_user;
     $user_id = $current_user->ID;
-    if ( isset( $_GET['ona_wizard_dismiss'] ) && $_GET['ona_wizard_dismiss'] == '1' ) {
+    if ( isset( $_GET['ona_wizard_dismiss'] ) && '1' === $_GET['ona_wizard_dismiss'] ) {
+        // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- simple dismiss flag, no state change beyond user meta.
         add_user_meta(
             $user_id,
             'ona_wizard_admin_notice',
@@ -784,8 +801,8 @@ function ona_dismiss_wizard_notice() {
 
 add_action( 'admin_init', 'ona_dismiss_wizard_notice', 1 );
 /**
-* Display an admin notice linking to the wizard screen
-*/
+ * Display an admin notice linking to the wizard screen
+ */
 function ona_wizard_admin_notice() {
     if ( current_user_can( 'customize' ) ) {
         ?>
@@ -828,22 +845,25 @@ function ona_wizard_admin_notice() {
         ?>" class="notice-dismiss" target="_parent"></a>
 			</div>
 		</div>
-	<?php 
+		<?php 
     }
 }
 
 /**
-* Change theme icon
-*
-* @since 1.0.0
-*/
+ * Change theme icon
+ *
+ * @since 1.0.0
+ */
 function ona_fs_custom_icon() {
     return ONA_DIR . '/assets/admin/img/theme_thumb.png';
 }
 
 ona_fs()->add_filter( 'plugin_icon', 'ona_fs_custom_icon' );
 /**
- * Add extra permissions to Freemius
+ * Add extra permissions to Freemius.
+ *
+ * @param array $permissions Existing permissions list.
+ * @return array
  */
 function ona_freemius_extra_permissions(  $permissions  ) {
     $permissions['newsletter'] = array(
@@ -857,15 +877,15 @@ function ona_freemius_extra_permissions(  $permissions  ) {
 
 ona_fs()->add_filter( 'permission_list', 'ona_freemius_extra_permissions' );
 /**
-* Show the contact submenu item only when the user have a valid non-expired license.
-*
-* @param $is_visible The filtered value. Whether the submenu item should be visible or not.
-* @param $menu_id    The ID of the submenu item.
-*
-* @return bool If true, the menu item should be visible.
-*/
+ * Show the contact submenu item only when the user have a valid non-expired license.
+ *
+ * @param bool   $is_visible The filtered value. Whether the submenu item should be visible or not.
+ * @param string $menu_id    The ID of the submenu item.
+ *
+ * @return bool If true, the menu item should be visible.
+ */
 function ona_is_submenu_visible(  $is_visible, $menu_id  ) {
-    if ( 'contact' != $menu_id ) {
+    if ( 'contact' !== $menu_id ) {
         return $is_visible;
     }
     return ona_fs()->can_use_premium_code();

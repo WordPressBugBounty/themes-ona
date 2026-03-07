@@ -1,7 +1,10 @@
 <?php
 /**
  * General page title with image
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Page title with image', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -26,6 +29,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

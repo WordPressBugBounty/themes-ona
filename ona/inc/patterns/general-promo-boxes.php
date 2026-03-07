@@ -1,7 +1,10 @@
 <?php
 /**
  * General promo boxes
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Promo boxes', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -9,7 +12,7 @@ return array(
 			<!-- wp:group {"style":{"spacing":{"padding":{"top":"70px","bottom":"60px"}}},"backgroundColor":"background-light","className":"is-style-no-spacing","layout":{"inherit":false,"contentSize":"1170px"}} -->
 			<div class="wp-block-group is-style-no-spacing has-background-light-background-color has-background" style="padding-top:70px;padding-bottom:60px"><!-- wp:paragraph {"align":"center","textColor":"foreground","className":"ona-text-letter-spacing","fontSize":"tiny"} -->
 			<p class="has-text-align-center ona-text-letter-spacing has-headings-color has-text-color has-tiny-font-size">'
-		 . esc_html__( 'POPULAR TOPICS', 'ona' ) . '
+		. esc_html__( 'POPULAR TOPICS', 'ona' ) . '
 			</p>
 			<!-- /wp:paragraph -->
 
@@ -68,6 +71,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

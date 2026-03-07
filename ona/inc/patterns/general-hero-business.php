@@ -1,7 +1,10 @@
 <?php
 /**
  * General: hero business
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Hero business', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -10,7 +13,7 @@ return array(
 			<div class="wp-block-group is-style-no-spacing" style="padding-top:96px;padding-right:1.5rem;padding-bottom:96px;padding-left:1.5rem"><!-- wp:columns -->
 			<div class="wp-block-columns"><!-- wp:column {"width":"70%"} -->
 			<div class="wp-block-column" style="flex-basis:70%"><!-- wp:heading {"level":1,"fontSize":"x-large"} -->
-			<h1 class="has-x-large-font-size">'. __( 'We believe in incredible business with Ona', 'ona' ) . '</h1>
+			<h1 class="has-x-large-font-size">' . __( 'We believe in incredible business with Ona', 'ona' ) . '</h1>
 			<!-- /wp:heading --></div>
 			<!-- /wp:column --></div>
 			<!-- /wp:columns --></div>
@@ -20,6 +23,3 @@ return array(
 			<!-- /wp:image -->
 			',
 );
-
-
-

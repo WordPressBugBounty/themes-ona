@@ -1,7 +1,10 @@
 <?php
 /**
  * Header travel
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Header travel', 'ona' ),
 	'categories' => array( 'ona-headers' ),
@@ -40,6 +43,3 @@ return array(
 			<!-- /wp:group --></div>
 			<!-- /wp:group -->',
 );
-
-
-

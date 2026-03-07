@@ -3,13 +3,13 @@
 /**
  * This file adds block styles to the Ona WordPress theme.
  *
- * @since 	 1.5
+ * @since     1.5
  * @package Ona
  * @link    https://ona.deothemes.com
  */
-/*--------------------------------------------------------------
-# Block Styles
---------------------------------------------------------------*/
+/*
+ * Block Styles.
+ */
 if ( function_exists( 'register_block_style' ) ) {
     register_block_style( 'core/navigation', array(
         'name'         => 'ona-tablet-justify-center',
@@ -61,7 +61,7 @@ if ( function_exists( 'register_block_style' ) ) {
 				}
 			}',
     ) );
-    // Search
+    // Search.
     register_block_style( 'core/search', array(
         'name'         => 'ona-search-button-no-space',
         'label'        => esc_html__( 'Button no Space', 'ona' ),
@@ -76,7 +76,7 @@ if ( function_exists( 'register_block_style' ) ) {
 				border-bottom-right-radius: 0 !important;
 			}',
     ) );
-    // Post Template Grid
+    // Post Template Grid.
     register_block_style( 'core/post-template', array(
         'name'         => 'ona-post-grid-row-gap-20',
         'label'        => esc_html__( 'Row gap 20', 'ona' ),
@@ -110,7 +110,7 @@ if ( function_exists( 'register_block_style' ) ) {
         'label'        => esc_html__( 'Gap 64', 'ona' ),
         'inline_style' => '.is-style-ona-post-grid-gap-64 { column-gap: 64px !important; }',
     ) );
-    // Post Terms
+    // Post Terms.
     register_block_style( 'core/post-terms', array(
         'name'         => 'ona-post-terms-pill-shape',
         'label'        => esc_html__( 'Pill shape', 'ona' ),
@@ -125,7 +125,7 @@ if ( function_exists( 'register_block_style' ) ) {
 			}
 			',
     ) );
-    // Read More
+    // Read More.
     register_block_style( 'core/read-more', array(
         'name'         => 'ona-read-more-cover',
         'label'        => esc_html__( 'Cover', 'ona' ),
@@ -141,7 +141,7 @@ if ( function_exists( 'register_block_style' ) ) {
 			}',
     ) );
     if ( function_exists( 'mc4wp' ) ) {
-        // Mailchimp for WP
+        // Mailchimp for WP.
         register_block_style( 'mailchimp-for-wp/form', array(
             'name'         => 'ona-newsletter',
             'label'        => esc_html__( 'Newsletter', 'ona' ),

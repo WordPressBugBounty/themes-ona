@@ -1,7 +1,10 @@
 <?php
 /**
  * Forms: Newsletter book
+ *
+ * @package Ona
  */
+
 $form = ona_get_mailchimp_forms();
 
 return array(
@@ -44,6 +47,3 @@ return array(
 			
 			</div><!-- /wp:group -->',
 );
-
-
-

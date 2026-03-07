@@ -1,7 +1,10 @@
 <?php
 /**
  * Posts: grid 3 columns
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Posts grid 3 columns', 'ona' ),
 	'categories' => array( 'ona-posts' ),
@@ -36,6 +39,3 @@ return array(
 		<!-- /wp:query --></div>
 		<!-- /wp:group -->',
 );
-
-
-

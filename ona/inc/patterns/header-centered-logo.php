@@ -1,7 +1,10 @@
 <?php
 /**
  * Header centered logo
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Header centered logo', 'ona' ),
 	'categories' => array( 'ona-headers' ),
@@ -39,6 +42,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

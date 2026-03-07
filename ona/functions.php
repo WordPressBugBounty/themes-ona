@@ -2,38 +2,41 @@
 
 /**
  * Theme functions and definitions.
- * @author  	 DeoThemes
+ *
+ * @author       DeoThemes
  * @copyright  (c) Copyright by DeoThemes
  * @link       https://deothemes.com
- * @package 	 Ona
- * @since 		 1.0
+ * @package      Ona
+ * @since        1.0
  */
 if ( !defined( 'ABSPATH' ) ) {
     exit( 'Direct script access denied.' );
 }
-// Constants
-define( 'ONA_VERSION', '1.25.1' );
+// Constants.
+define( 'ONA_VERSION', '1.26' );
 define( 'ONA_DIR', get_template_directory() );
 define( 'ONA_URI', get_template_directory_uri() );
 if ( !function_exists( 'ona_fs' ) ) {
-    // Create a helper function for easy SDK access.
+    /**
+     * Create a helper function for easy SDK access.
+     */
     function ona_fs() {
         global $ona_fs;
         if ( !isset( $ona_fs ) ) {
             // Include Freemius SDK.
-            require_once dirname( __FILE__ ) . '/freemius/start.php';
+            require_once __DIR__ . '/vendor/autoload.php';
             $ona_fs = fs_dynamic_init( array(
-                'id'              => '9271',
-                'slug'            => 'ona',
-                'premium_slug'    => 'ona-pro',
-                'type'            => 'theme',
-                'public_key'      => 'pk_561bffcf4255bd719dad9701963a8',
-                'is_premium'      => false,
-                'premium_suffix'  => 'Pro',
-                'has_addons'      => false,
-                'has_paid_plans'  => true,
-                'has_affiliation' => 'selected',
-                'menu'            => array(
+                'id'               => '9271',
+                'slug'             => 'ona',
+                'premium_slug'     => 'ona-pro',
+                'type'             => 'theme',
+                'public_key'       => 'pk_561bffcf4255bd719dad9701963a8',
+                'is_premium'       => false,
+                'premium_suffix'   => 'Pro',
+                'has_addons'       => false,
+                'has_paid_plans'   => true,
+                'has_affiliation'  => 'selected',
+                'menu'             => array(
                     'slug'    => 'ona-theme',
                     'contact' => false,
                     'support' => false,
@@ -41,7 +44,8 @@ if ( !function_exists( 'ona_fs' ) ) {
                         'slug' => 'themes.php',
                     ),
                 ),
-                'is_live'         => true,
+                'is_live'          => true,
+                'is_org_compliant' => true,
             ) );
         }
         return $ona_fs;
@@ -57,7 +61,7 @@ if ( !isset( $content_width ) ) {
     $content_width = 1170;
     /* pixels */
 }
-// Includes
+// Includes.
 require_once ONA_DIR . '/inc/admin/theme-admin.php';
 require_once ONA_DIR . '/inc/patterns/block-patterns.php';
 require_once ONA_DIR . '/inc/block-styles.php';
@@ -66,10 +70,13 @@ require_once ONA_DIR . '/inc/class-ona-theme-update.php';
 * TGMPA plugins activation.
 */
 require_once ONA_DIR . '/inc/tgmpa/tgm-plugin-activation.php';
-/*--------------------------------------------------------------
-# Theme Setup
---------------------------------------------------------------*/
+/*
+ * Theme Setup.
+ */
 if ( !function_exists( 'ona_setup' ) ) {
+    /**
+     * Sets up theme defaults and registers support for various WordPress features.
+     */
     function ona_setup() {
         load_theme_textdomain( 'ona', get_template_directory() . '/languages' );
         add_theme_support( 'post-thumbnails' );
@@ -83,12 +90,20 @@ if ( !function_exists( 'ona_setup' ) ) {
 
     add_action( 'after_setup_theme', 'ona_setup' );
 }
-/*--------------------------------------------------------------
-# Enqueue Styles
---------------------------------------------------------------*/
+/*
+ * Enqueue Styles.
+ */
 if ( !function_exists( 'ona_styles' ) ) {
+    /**
+     * Enqueue front-end styles.
+     */
     function ona_styles() {
-        wp_register_style( 'ona-style', ONA_URI . '/assets/css/style.min.css' );
+        wp_register_style(
+            'ona-style',
+            ONA_URI . '/assets/css/style.min.css',
+            array(),
+            ONA_VERSION
+        );
         wp_add_inline_style( 'ona-style', ona_get_font_face_styles() );
         $dependencies = apply_filters( 'ona_style_dependencies', array('ona-style') );
         wp_register_style(
@@ -105,10 +120,13 @@ if ( !function_exists( 'ona_styles' ) ) {
 
     add_action( 'wp_enqueue_scripts', 'ona_styles' );
 }
-/*--------------------------------------------------------------
-# Enqueue Editor Styles
---------------------------------------------------------------*/
+/*
+ * Enqueue Editor Styles.
+ */
 if ( !function_exists( 'ona_editor_styles' ) ) {
+    /**
+     * Enqueue editor styles.
+     */
     function ona_editor_styles() {
         // Add support for editor styles.
         add_theme_support( 'editor-styles' );
@@ -121,27 +139,35 @@ if ( !function_exists( 'ona_editor_styles' ) ) {
 
     add_action( 'admin_init', 'ona_editor_styles' );
 }
-/*--------------------------------------------------------------
-# Enqueue Admin Scripts and Styles
---------------------------------------------------------------*/
+/*
+ * Enqueue Admin Scripts and Styles.
+ */
 if ( !function_exists( 'ona_admin_scripts' ) ) {
+    /**
+     * Enqueue admin scripts and styles.
+     */
     function ona_admin_scripts() {
         $screen = get_current_screen();
         $user_id = get_current_user_id();
-        wp_enqueue_style( 'ona-admin-styles', ONA_URI . '/assets/admin/css/admin-styles.css' );
-        if ( $screen->id === 'appearance_page_ona-theme' ) {
+        wp_enqueue_style(
+            'ona-admin-styles',
+            ONA_URI . '/assets/admin/css/admin-styles.css',
+            array(),
+            ONA_VERSION
+        );
+        if ( 'appearance_page_ona-theme' === $screen->id ) {
             wp_enqueue_script(
                 'ona-admin-scripts',
                 ONA_URI . '/assets/admin/js/admin-scripts.js',
                 array('jquery-core'),
-                false,
+                ONA_VERSION,
                 true
             );
             wp_enqueue_script(
                 'ona-canny-scripts',
                 ONA_URI . '/assets/admin/js/canny-scripts.js',
                 array(),
-                false,
+                ONA_VERSION,
                 true
             );
             wp_localize_script( 'ona-admin-scripts', 'ona_params', array(
@@ -162,9 +188,9 @@ if ( !function_exists( 'ona_admin_scripts' ) ) {
 
     add_action( 'admin_enqueue_scripts', 'ona_admin_scripts' );
 }
-/*--------------------------------------------------------------
-# Get Fonts
---------------------------------------------------------------*/
+/*
+ * Get Fonts.
+ */
 if ( !function_exists( 'ona_get_font_face_styles' ) ) {
     /**
      * Get font face styles.
@@ -172,18 +198,18 @@ if ( !function_exists( 'ona_get_font_face_styles' ) ) {
      * @return string
      */
     function ona_get_font_face_styles() {
-        return "\r\n\r\n\t\t@font-face{\r\n\t\t\tfont-family: 'Bestermind';\r\n\t\t\tfont-weight: 400;\r\n\t\t\tfont-style: normal;\r\n\t\t\tfont-stretch: normal;\r\n\t\t\tfont-display: swap;\r\n\t\t\tsrc: url('" . get_theme_file_uri( 'assets/fonts/bestermind/BestermindRegular.woff' ) . "') format('woff');\r\n\t\t}\r\n\r\n\t\t";
+        return "\n\n\t\t@font-face{\n\t\t\tfont-family: 'Bestermind';\n\t\t\tfont-weight: 400;\n\t\t\tfont-style: normal;\n\t\t\tfont-stretch: normal;\n\t\t\tfont-display: swap;\n\t\t\tsrc: url('" . get_theme_file_uri( 'assets/fonts/bestermind/BestermindRegular.woff' ) . "') format('woff');\n\t\t}\n\n\t\t";
     }
 
 }
-/*--------------------------------------------------------------
-# Get Mailchimp Forms
---------------------------------------------------------------*/
+/*
+ * Get Mailchimp Forms.
+ */
 if ( !function_exists( 'ona_get_mailchimp_forms' ) ) {
     /**
      * Get Mailchimp Forms.
      *
-     * @param string $style
+     * @param string $style Newsletter form style variant.
      * @return string
      */
     function ona_get_mailchimp_forms(  $style = 'style-1'  ) {
@@ -226,9 +252,9 @@ if ( !function_exists( 'ona_get_mailchimp_forms' ) ) {
     }
 
 }
-/*--------------------------------------------------------------
-# Get Contact Form 7 Forms
---------------------------------------------------------------*/
+/*
+ * Get Contact Form 7 Forms.
+ */
 if ( !function_exists( 'ona_get_contact_form_7_forms' ) ) {
     /**
      * Get Contact Form 7 Forms.
@@ -260,9 +286,16 @@ if ( !function_exists( 'ona_get_contact_form_7_forms' ) ) {
     }
 
 }
-/*--------------------------------------------------------------
-# Get page ID by title
---------------------------------------------------------------*/
+/*
+ * Get page ID by title.
+ */
+/**
+ * Get a page by its title.
+ *
+ * @param string $page_title The page title to search for.
+ * @param string $post_type  The post type to search.
+ * @return WP_Post|null
+ */
 function ona_get_page_by_title(  $page_title, $post_type = 'page'  ) {
     $posts = get_posts( array(
         'post_type'              => $post_type,
@@ -282,17 +315,16 @@ function ona_get_page_by_title(  $page_title, $post_type = 'page'  ) {
     return $post;
 }
 
-/*--------------------------------------------------------------
-# Remove wrapping paragraphs for CF7
---------------------------------------------------------------*/
+/*
+ * Remove wrapping paragraphs for CF7.
+ */
 if ( class_exists( '\\WPCF7' ) ) {
     add_filter( 'wpcf7_autop_or_not', '__return_false' );
 }
-/*--------------------------------------------------------------
-# Add classic menu
---------------------------------------------------------------*/
+/*
+ * Add classic menu.
+ */
 register_nav_menus( array(
     'primary-menu' => esc_html__( 'Primary Menu', 'ona' ),
     'footer-menu'  => esc_html__( 'Footer Menu', 'ona' ),
 ) );
-

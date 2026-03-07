@@ -1,7 +1,10 @@
 <?php
 /**
  * General partner logos business
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => __( 'Partner logos business', 'ona' ),
 	'categories' => array( 'ona-general' ),
@@ -44,6 +47,3 @@ return array(
 			<!-- /wp:columns --></div>
 			<!-- /wp:group -->',
 );
-
-
-

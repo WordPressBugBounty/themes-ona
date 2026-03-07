@@ -1,7 +1,10 @@
 <?php
 /**
  * Page About
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Page about', 'ona' ),
 	'categories' => array( 'ona-pages' ),

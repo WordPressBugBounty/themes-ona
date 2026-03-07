@@ -1,7 +1,10 @@
 <?php
 /**
  * Header architecture
+ *
+ * @package Ona
  */
+
 return array(
 	'title'      => esc_html__( 'Header architecture', 'ona' ),
 	'categories' => array( 'ona-headers' ),
