@@ -13,7 +13,7 @@ if ( !defined( 'ABSPATH' ) ) {
     exit( 'Direct script access denied.' );
 }
 // Constants.
-define( 'ONA_VERSION', '1.26' );
+define( 'ONA_VERSION', '1.27' );
 define( 'ONA_DIR', get_template_directory() );
 define( 'ONA_URI', get_template_directory_uri() );
 if ( !function_exists( 'ona_fs' ) ) {
@@ -51,10 +51,11 @@ if ( !function_exists( 'ona_fs' ) ) {
         return $ona_fs;
     }
 
-    // Init Freemius.
-    ona_fs();
-    // Signal that SDK was initiated.
-    do_action( 'ona_fs_loaded' );
+    // Init Freemius after translations are ready.
+    add_action( 'after_setup_theme', 'ona_fs' );
+    add_action( 'after_setup_theme', function () {
+        do_action( 'ona_fs_loaded' );
+    } );
 }
 // Set the content width based on the theme's design and stylesheet.
 if ( !isset( $content_width ) ) {
@@ -70,6 +71,28 @@ require_once ONA_DIR . '/inc/class-ona-theme-update.php';
 * TGMPA plugins activation.
 */
 require_once ONA_DIR . '/inc/tgmpa/tgm-plugin-activation.php';
+add_action( 'after_setup_theme', function () {
+    return;
+    /**
+     * Theme Wizard.
+     */
+    require_once get_parent_theme_file_path( '/inc/merlin/vendor/autoload.php' );
+    require_once get_parent_theme_file_path( '/inc/merlin/class-merlin.php' );
+    require_once get_parent_theme_file_path( '/inc/merlin/merlin-config.php' );
+    require_once get_parent_theme_file_path( '/inc/merlin/merlin-filters.php' );
+    /**
+     * Demo Import.
+     */
+    require_once ONA_DIR . '/inc/theme-demo-import.php';
+    /**
+     * WooCommerce Compatibility
+     */
+    if ( class_exists( 'WooCommerce' ) ) {
+        require_once ONA_DIR . '/inc/woocommerce/woocommerce-theme-setup.php';
+        require_once ONA_DIR . '/inc/woocommerce/woocommerce-theme-functions.php';
+        require_once ONA_DIR . '/inc/woocommerce/woocommerce-theme-hooks.php';
+    }
+}, 20 );
 /*
  * Theme Setup.
  */
@@ -86,6 +109,11 @@ if ( !function_exists( 'ona_setup' ) ) {
         add_theme_support( 'responsive-embeds' );
         // Adding support for core block visual styles.
         add_theme_support( 'wp-block-styles' );
+        // Add classic menu support.
+        register_nav_menus( array(
+            'primary-menu' => esc_html__( 'Primary Menu', 'ona' ),
+            'footer-menu'  => esc_html__( 'Footer Menu', 'ona' ),
+        ) );
     }
 
     add_action( 'after_setup_theme', 'ona_setup' );
@@ -315,16 +343,46 @@ function ona_get_page_by_title(  $page_title, $post_type = 'page'  ) {
     return $post;
 }
 
+add_action( 'after_setup_theme', function () {
+    return;
+    /**
+     * Migrate editor template changes from Ona Free over to Ona Pro
+     */
+    function ona_migrate_editor_changes() {
+        if ( 1 !== get_option( 'ona_pro_migration_compete' ) ) {
+            // 1. Update wp_terms ona with ona-pro
+            $ona_term = get_term_by( 'slug', 'ona', 'wp_theme' );
+            if ( !is_wp_error( $ona_term ) ) {
+                $update = wp_update_term( $ona_term->term_id, 'wp_theme', array(
+                    'name' => 'ona-pro',
+                    'slug' => 'ona-pro',
+                ) );
+            }
+            // 2. Update post content with the new slug
+            $posts = get_posts( array(
+                'post_type' => 'wp_template',
+            ) );
+            if ( $posts ) {
+                foreach ( $posts as $post ) {
+                    $content = $post->post_content;
+                    if ( strpos( $content, '"theme":"ona"' ) !== false ) {
+                        $new_content = str_replace( '"theme":"ona"', '"theme":"ona-pro"', $content );
+                        wp_update_post( array(
+                            'ID'           => $post->ID,
+                            'post_content' => $new_content,
+                        ) );
+                    }
+                }
+            }
+            update_option( 'ona_pro_migration_compete', 1 );
+        }
+    }
+
+    add_action( 'after_switch_theme', 'ona_migrate_editor_changes' );
+}, 20 );
 /*
  * Remove wrapping paragraphs for CF7.
  */
 if ( class_exists( '\\WPCF7' ) ) {
     add_filter( 'wpcf7_autop_or_not', '__return_false' );
 }
-/*
- * Add classic menu.
- */
-register_nav_menus( array(
-    'primary-menu' => esc_html__( 'Primary Menu', 'ona' ),
-    'footer-menu'  => esc_html__( 'Footer Menu', 'ona' ),
-) );

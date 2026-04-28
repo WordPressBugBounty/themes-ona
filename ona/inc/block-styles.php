@@ -10,11 +10,18 @@
 /*
  * Block Styles.
  */
-if ( function_exists( 'register_block_style' ) ) {
-    register_block_style( 'core/navigation', array(
-        'name'         => 'ona-tablet-justify-center',
-        'label'        => esc_html__( 'Tablet align center', 'ona' ),
-        'inline_style' => '@media only screen and (max-width: 781px) {
+if ( !function_exists( 'ona_register_block_styles' ) ) {
+    /**
+     * Register block styles.
+     */
+    function ona_register_block_styles() {
+        if ( !function_exists( 'register_block_style' ) ) {
+            return;
+        }
+        register_block_style( 'core/navigation', array(
+            'name'         => 'ona-tablet-justify-center',
+            'label'        => esc_html__( 'Tablet align center', 'ona' ),
+            'inline_style' => '@media only screen and (max-width: 781px) {
 				.is-style-ona-tablet-justify-center {
 					justify-content: center !important;
 					align-items: center !important;
@@ -23,11 +30,11 @@ if ( function_exists( 'register_block_style' ) ) {
 					--navigation-layout-justification-setting: center !important;
 				}
 			}',
-    ) );
-    register_block_style( 'core/navigation', array(
-        'name'         => 'ona-tablet-justify-end',
-        'label'        => esc_html__( 'Tablet align right', 'ona' ),
-        'inline_style' => '@media only screen and (max-width: 781px) {
+        ) );
+        register_block_style( 'core/navigation', array(
+            'name'         => 'ona-tablet-justify-end',
+            'label'        => esc_html__( 'Tablet align right', 'ona' ),
+            'inline_style' => '@media only screen and (max-width: 781px) {
 				.is-style-ona-tablet-justify-end {
 					justify-content: flex-end !important;
 					align-items: flex-end !important;
@@ -36,11 +43,11 @@ if ( function_exists( 'register_block_style' ) ) {
 					--navigation-layout-justification-setting: flex-end !important;
 				}
 			}',
-    ) );
-    register_block_style( 'core/navigation', array(
-        'name'         => 'ona-tablet-justify-start',
-        'label'        => esc_html__( 'Tablet align left', 'ona' ),
-        'inline_style' => '@media only screen and (max-width: 781px) {
+        ) );
+        register_block_style( 'core/navigation', array(
+            'name'         => 'ona-tablet-justify-start',
+            'label'        => esc_html__( 'Tablet align left', 'ona' ),
+            'inline_style' => '@media only screen and (max-width: 781px) {
 				.is-style-ona-tablet-justify-start {
 					justify-content: flex-start !important;
 					align-items: flex-start !important;
@@ -49,23 +56,23 @@ if ( function_exists( 'register_block_style' ) ) {
 					--navigation-layout-justification-setting: flex-start !important;
 				}
 			}',
-    ) );
-    register_block_style( 'core/navigation-submenu', array(
-        'name'         => 'ona-megamenu',
-        'label'        => esc_html__( 'Mega Menu', 'ona' ),
-        'inline_style' => '@media only screen and (min-width: 782px) {
+        ) );
+        register_block_style( 'core/navigation-submenu', array(
+            'name'         => 'ona-megamenu',
+            'label'        => esc_html__( 'Mega Menu', 'ona' ),
+            'inline_style' => '@media only screen and (min-width: 782px) {
 				.is-style-ona-megamenu .wp-block-navigation__submenu-container {
 					display: grid!important;
 					grid-template-columns: repeat(2,minmax(0,1fr));
 					min-width: 400px!important;
 				}
 			}',
-    ) );
-    // Search.
-    register_block_style( 'core/search', array(
-        'name'         => 'ona-search-button-no-space',
-        'label'        => esc_html__( 'Button no Space', 'ona' ),
-        'inline_style' => '.is-style-ona-search-button-no-space .wp-block-search__button {
+        ) );
+        // Search.
+        register_block_style( 'core/search', array(
+            'name'         => 'ona-search-button-no-space',
+            'label'        => esc_html__( 'Button no Space', 'ona' ),
+            'inline_style' => '.is-style-ona-search-button-no-space .wp-block-search__button {
 				border-top-left-radius: 0 !important;
 				border-bottom-left-radius: 0 !important;
 				margin: 0 !important;
@@ -75,22 +82,22 @@ if ( function_exists( 'register_block_style' ) ) {
 				border-top-right-radius: 0 !important;
 				border-bottom-right-radius: 0 !important;
 			}',
-    ) );
-    // Post Template Grid.
-    register_block_style( 'core/post-template', array(
-        'name'         => 'ona-post-grid-row-gap-20',
-        'label'        => esc_html__( 'Row gap 20', 'ona' ),
-        'inline_style' => '.is-style-ona-post-grid-row-gap-20 { row-gap: 20px !important; }',
-    ) );
-    register_block_style( 'core/post-template', array(
-        'name'         => 'ona-post-grid-row-gap-40',
-        'label'        => esc_html__( 'Row gap 40', 'ona' ),
-        'inline_style' => '.is-style-ona-post-grid-row-gap-40 { row-gap: 40px !important; }',
-    ) );
-    register_block_style( 'core/post-template', array(
-        'name'         => 'ona-post-grid-gap-30',
-        'label'        => esc_html__( 'Gap 30', 'ona' ),
-        'inline_style' => '
+        ) );
+        // Post Template Grid.
+        register_block_style( 'core/post-template', array(
+            'name'         => 'ona-post-grid-row-gap-20',
+            'label'        => esc_html__( 'Row gap 20', 'ona' ),
+            'inline_style' => '.is-style-ona-post-grid-row-gap-20 { row-gap: 20px !important; }',
+        ) );
+        register_block_style( 'core/post-template', array(
+            'name'         => 'ona-post-grid-row-gap-40',
+            'label'        => esc_html__( 'Row gap 40', 'ona' ),
+            'inline_style' => '.is-style-ona-post-grid-row-gap-40 { row-gap: 40px !important; }',
+        ) );
+        register_block_style( 'core/post-template', array(
+            'name'         => 'ona-post-grid-gap-30',
+            'label'        => esc_html__( 'Gap 30', 'ona' ),
+            'inline_style' => '
 				.is-style-ona-post-grid-gap-30 {
 					column-gap: 30px !important;
 
@@ -99,22 +106,22 @@ if ( function_exists( 'register_block_style' ) ) {
 					}					
 				}			
 			',
-    ) );
-    register_block_style( 'core/post-template', array(
-        'name'         => 'ona-post-grid-gap-40',
-        'label'        => esc_html__( 'Gap 40', 'ona' ),
-        'inline_style' => '.is-style-ona-post-grid-gap-40 { column-gap: 40px !important; }',
-    ) );
-    register_block_style( 'core/post-template', array(
-        'name'         => 'ona-post-grid-gap-64',
-        'label'        => esc_html__( 'Gap 64', 'ona' ),
-        'inline_style' => '.is-style-ona-post-grid-gap-64 { column-gap: 64px !important; }',
-    ) );
-    // Post Terms.
-    register_block_style( 'core/post-terms', array(
-        'name'         => 'ona-post-terms-pill-shape',
-        'label'        => esc_html__( 'Pill shape', 'ona' ),
-        'inline_style' => '.is-style-ona-post-terms-pill-shape a {
+        ) );
+        register_block_style( 'core/post-template', array(
+            'name'         => 'ona-post-grid-gap-40',
+            'label'        => esc_html__( 'Gap 40', 'ona' ),
+            'inline_style' => '.is-style-ona-post-grid-gap-40 { column-gap: 40px !important; }',
+        ) );
+        register_block_style( 'core/post-template', array(
+            'name'         => 'ona-post-grid-gap-64',
+            'label'        => esc_html__( 'Gap 64', 'ona' ),
+            'inline_style' => '.is-style-ona-post-grid-gap-64 { column-gap: 64px !important; }',
+        ) );
+        // Post Terms.
+        register_block_style( 'core/post-terms', array(
+            'name'         => 'ona-post-terms-pill-shape',
+            'label'        => esc_html__( 'Pill shape', 'ona' ),
+            'inline_style' => '.is-style-ona-post-terms-pill-shape a {
 				background-color: black;
 				background-image: none !important;
 				padding: 4px 10px;
@@ -124,12 +131,12 @@ if ( function_exists( 'register_block_style' ) ) {
 				background-color: #222222;
 			}
 			',
-    ) );
-    // Read More.
-    register_block_style( 'core/read-more', array(
-        'name'         => 'ona-read-more-cover',
-        'label'        => esc_html__( 'Cover', 'ona' ),
-        'inline_style' => '.is-style-ona-read-more-cover {
+        ) );
+        // Read More.
+        register_block_style( 'core/read-more', array(
+            'name'         => 'ona-read-more-cover',
+            'label'        => esc_html__( 'Cover', 'ona' ),
+            'inline_style' => '.is-style-ona-read-more-cover {
 				font-size: 0;
 				display: block;
 				width: 100%;
@@ -139,14 +146,14 @@ if ( function_exists( 'register_block_style' ) ) {
 				left: 0;
 				right: 0;
 			}',
-    ) );
-    if ( function_exists( 'mc4wp' ) ) {
-        // Mailchimp for WP.
-        register_block_style( 'mailchimp-for-wp/form', array(
-            'name'         => 'ona-newsletter',
-            'label'        => esc_html__( 'Newsletter', 'ona' ),
-            'is_default'   => true,
-            'inline_style' => '
+        ) );
+        if ( function_exists( 'mc4wp' ) ) {
+            // Mailchimp for WP.
+            register_block_style( 'mailchimp-for-wp/form', array(
+                'name'         => 'ona-newsletter',
+                'label'        => esc_html__( 'Newsletter', 'ona' ),
+                'is_default'   => true,
+                'inline_style' => '
 					.ona-newsletter-fields {
 						flex-grow: 1;
 						margin-bottom: 24px;
@@ -198,11 +205,11 @@ if ( function_exists( 'register_block_style' ) ) {
 						padding: 5px;
 						font-weight: 700;
 					}',
-        ) );
-        register_block_style( 'mailchimp-for-wp/form', array(
-            'name'         => 'ona-newsletter-style-2',
-            'label'        => esc_html__( 'Style 2', 'ona' ),
-            'inline_style' => '
+            ) );
+            register_block_style( 'mailchimp-for-wp/form', array(
+                'name'         => 'ona-newsletter-style-2',
+                'label'        => esc_html__( 'Style 2', 'ona' ),
+                'inline_style' => '
 					.ona-newsletter-style-2 .mc4wp-form-fields {
 						display: flex;
 						position: relative;
@@ -257,11 +264,11 @@ if ( function_exists( 'register_block_style' ) ) {
 						background-color: var(--wp--preset--color--primary);
 						color: var(--wp--preset--color--white);
 					}',
-        ) );
-        register_block_style( 'mailchimp-for-wp/form', array(
-            'name'         => 'ona-newsletter-style-3',
-            'label'        => esc_html__( 'Style 3', 'ona' ),
-            'inline_style' => '
+            ) );
+            register_block_style( 'mailchimp-for-wp/form', array(
+                'name'         => 'ona-newsletter-style-3',
+                'label'        => esc_html__( 'Style 3', 'ona' ),
+                'inline_style' => '
 					.ona-newsletter-style-3 .mc4wp-form-fields p {
 						margin-top: 0;
 						margin-bottom: 8px;
@@ -287,68 +294,68 @@ if ( function_exists( 'register_block_style' ) ) {
 						background-color: var(--wp--preset--color--dark);
 						color: var(--wp--preset--color--white);
 					}',
-        ) );
-    }
-    $ona_offset_styles = array(
-        'negative-offset-left'   => '@media only screen and (min-width: 782px) {
+            ) );
+        }
+        $ona_offset_styles = array(
+            'negative-offset-left'   => '@media only screen and (min-width: 782px) {
 			div.is-style-ona-negative-offset-left {
 				margin-left: -100px !important;
 				z-index: 1;
 			}
 		}',
-        'negative-offset-right'  => '@media only screen and (min-width: 782px) {
+            'negative-offset-right'  => '@media only screen and (min-width: 782px) {
 			div.is-style-ona-negative-offset-right {
 				margin-right: -100px !important;
 				z-index: 1;
 			}
 		}',
-        'negative-offset-bottom' => '@media only screen and (min-width: 782px) {
+            'negative-offset-bottom' => '@media only screen and (min-width: 782px) {
 			div.is-style-ona-negative-offset-bottom {
 				margin-bottom: -100px;
 				margin-block-end: -100px !important;
 				z-index: 1;
 			}
 		}',
-        'negative-offset-top'    => '@media only screen and (min-width: 782px) {
+            'negative-offset-top'    => '@media only screen and (min-width: 782px) {
 			div.is-style-ona-negative-offset-top {
 				margin-top: -100px !important;
 				margin-block-start: -100px !important;
 				z-index: 1;
 			}
 		}',
-        'shift-right'            => '@media only screen and (min-width: 782px) {
+            'shift-right'            => '@media only screen and (min-width: 782px) {
 			div.is-style-ona-shift-right {
 				margin-left: 100px !important;
 				margin-right: -100px !important;
 				z-index: 1;
 			}
 		}',
-        'shift-left'             => '@media only screen and (min-width: 782px) {
+            'shift-left'             => '@media only screen and (min-width: 782px) {
 			div.is-style-ona-shift-left {
 				margin-right: 100px !important;
 				margin-left: -100px !important;
 				z-index: 1;
 			}
 		}',
-    );
-    register_block_style( 'core/heading', array(
-        'name'         => 'ona-alt-font',
-        'label'        => esc_html__( 'Alt font', 'ona' ),
-        'inline_style' => '.is-style-ona-alt-font { font-family: var(--wp--preset--font-family--alt); }',
-    ) );
-    register_block_style( 'core/cover', array(
-        'name'         => 'ona-stroke-frame',
-        'label'        => esc_html__( 'Stroke frame', 'ona' ),
-        'inline_style' => '.is-style-ona-stroke-frame > span {
+        );
+        register_block_style( 'core/heading', array(
+            'name'         => 'ona-alt-font',
+            'label'        => esc_html__( 'Alt font', 'ona' ),
+            'inline_style' => '.is-style-ona-alt-font { font-family: var(--wp--preset--font-family--alt); }',
+        ) );
+        register_block_style( 'core/cover', array(
+            'name'         => 'ona-stroke-frame',
+            'label'        => esc_html__( 'Stroke frame', 'ona' ),
+            'inline_style' => '.is-style-ona-stroke-frame > span {
 				margin: 1.5rem;
 				border: 1px solid #fff;
 				background-color: transparent!important;
 			}',
-    ) );
-    register_block_style( 'core/cover', array(
-        'name'         => 'ona-hover-scale',
-        'label'        => esc_html__( 'Hover scale', 'ona' ),
-        'inline_style' => '.is-style-ona-hover-scale {
+        ) );
+        register_block_style( 'core/cover', array(
+            'name'         => 'ona-hover-scale',
+            'label'        => esc_html__( 'Hover scale', 'ona' ),
+            'inline_style' => '.is-style-ona-hover-scale {
 				overflow: hidden;
 			}
 			.is-style-ona-hover-scale img {
@@ -358,11 +365,11 @@ if ( function_exists( 'register_block_style' ) ) {
 			.is-style-ona-hover-scale:hover img {
 				transform: scale(1.05);
 			}',
-    ) );
-    register_block_style( 'core/cover', array(
-        'name'         => 'ona-full-link',
-        'label'        => esc_html__( 'Full link', 'ona' ),
-        'inline_style' => '.is-style-ona-full-link a::after {
+        ) );
+        register_block_style( 'core/cover', array(
+            'name'         => 'ona-full-link',
+            'label'        => esc_html__( 'Full link', 'ona' ),
+            'inline_style' => '.is-style-ona-full-link a::after {
 				display:block;
 				position:absolute;
 				left:0;
@@ -371,91 +378,91 @@ if ( function_exists( 'register_block_style' ) ) {
 				height:100%;
 				content:"";
 			}',
-    ) );
-    register_block_style( 'core/group', array(
-        'name'         => 'ona-negative-offset-left',
-        'label'        => esc_html__( 'Offset left', 'ona' ),
-        'inline_style' => $ona_offset_styles['negative-offset-left'],
-    ) );
-    register_block_style( 'core/column', array(
-        'name'         => 'ona-negative-offset-left',
-        'label'        => esc_html__( 'Offset left', 'ona' ),
-        'inline_style' => $ona_offset_styles['negative-offset-left'],
-    ) );
-    register_block_style( 'core/group', array(
-        'name'         => 'ona-negative-offset-left',
-        'label'        => esc_html__( 'Offset left', 'ona' ),
-        'inline_style' => $ona_offset_styles['negative-offset-left'],
-    ) );
-    register_block_style( 'core/column', array(
-        'name'         => 'ona-negative-offset-right',
-        'label'        => esc_html__( 'Offset right', 'ona' ),
-        'inline_style' => $ona_offset_styles['negative-offset-right'],
-    ) );
-    register_block_style( 'core/group', array(
-        'name'         => 'ona-negative-offset-bottom',
-        'label'        => esc_html__( 'Offset bottom', 'ona' ),
-        'inline_style' => $ona_offset_styles['negative-offset-bottom'],
-    ) );
-    register_block_style( 'core/column', array(
-        'name'         => 'ona-negative-offset-bottom',
-        'label'        => esc_html__( 'Offset bottom', 'ona' ),
-        'inline_style' => $ona_offset_styles['negative-offset-bottom'],
-    ) );
-    register_block_style( 'core/group', array(
-        'name'         => 'ona-negative-offset-top',
-        'label'        => esc_html__( 'Offset top', 'ona' ),
-        'inline_style' => $ona_offset_styles['negative-offset-top'],
-    ) );
-    register_block_style( 'core/column', array(
-        'name'         => 'ona-negative-offset-top',
-        'label'        => esc_html__( 'Offset top', 'ona' ),
-        'inline_style' => $ona_offset_styles['negative-offset-top'],
-    ) );
-    register_block_style( 'core/group', array(
-        'name'         => 'ona-shift-right',
-        'label'        => esc_html__( 'Shift right', 'ona' ),
-        'inline_style' => $ona_offset_styles['shift-right'],
-    ) );
-    register_block_style( 'core/column', array(
-        'name'         => 'ona-shift-right',
-        'label'        => esc_html__( 'Shift right', 'ona' ),
-        'inline_style' => $ona_offset_styles['shift-right'],
-    ) );
-    register_block_style( 'core/group', array(
-        'name'         => 'ona-shift-left',
-        'label'        => esc_html__( 'Shift left', 'ona' ),
-        'inline_style' => $ona_offset_styles['shift-left'],
-    ) );
-    register_block_style( 'core/column', array(
-        'name'         => 'ona-shift-left',
-        'label'        => esc_html__( 'Shift left', 'ona' ),
-        'inline_style' => $ona_offset_styles['shift-left'],
-    ) );
-    register_block_style( 'core/group', array(
-        'name'         => 'ona-hide-on-tablet',
-        'label'        => esc_html__( 'Hide on Tablet', 'ona' ),
-        'inline_style' => '@media only screen and (max-width: 781px) { display: none; }',
-    ) );
-    register_block_style( 'core/column', array(
-        'name'         => 'ona-hide-on-tablet',
-        'label'        => esc_html__( 'Hide on Tablet', 'ona' ),
-        'inline_style' => '@media only screen and (max-width: 781px) { display: none; }',
-    ) );
-    register_block_style( 'core/group', array(
-        'name'         => 'ona-hide-on-mobile',
-        'label'        => esc_html__( 'Hide on Mobile', 'ona' ),
-        'inline_style' => '@media only screen and (max-width: 599px) { display: none; }',
-    ) );
-    register_block_style( 'core/column', array(
-        'name'         => 'ona-hide-on-mobile',
-        'label'        => esc_html__( 'Hide on Mobile', 'ona' ),
-        'inline_style' => '@media only screen and (max-width: 599px) { display: none; }',
-    ) );
-    register_block_style( 'core/group', array(
-        'name'         => 'ona-position-fixed',
-        'label'        => esc_html__( 'Sticky', 'ona' ),
-        'inline_style' => '
+        ) );
+        register_block_style( 'core/group', array(
+            'name'         => 'ona-negative-offset-left',
+            'label'        => esc_html__( 'Offset left', 'ona' ),
+            'inline_style' => $ona_offset_styles['negative-offset-left'],
+        ) );
+        register_block_style( 'core/column', array(
+            'name'         => 'ona-negative-offset-left',
+            'label'        => esc_html__( 'Offset left', 'ona' ),
+            'inline_style' => $ona_offset_styles['negative-offset-left'],
+        ) );
+        register_block_style( 'core/group', array(
+            'name'         => 'ona-negative-offset-left',
+            'label'        => esc_html__( 'Offset left', 'ona' ),
+            'inline_style' => $ona_offset_styles['negative-offset-left'],
+        ) );
+        register_block_style( 'core/column', array(
+            'name'         => 'ona-negative-offset-right',
+            'label'        => esc_html__( 'Offset right', 'ona' ),
+            'inline_style' => $ona_offset_styles['negative-offset-right'],
+        ) );
+        register_block_style( 'core/group', array(
+            'name'         => 'ona-negative-offset-bottom',
+            'label'        => esc_html__( 'Offset bottom', 'ona' ),
+            'inline_style' => $ona_offset_styles['negative-offset-bottom'],
+        ) );
+        register_block_style( 'core/column', array(
+            'name'         => 'ona-negative-offset-bottom',
+            'label'        => esc_html__( 'Offset bottom', 'ona' ),
+            'inline_style' => $ona_offset_styles['negative-offset-bottom'],
+        ) );
+        register_block_style( 'core/group', array(
+            'name'         => 'ona-negative-offset-top',
+            'label'        => esc_html__( 'Offset top', 'ona' ),
+            'inline_style' => $ona_offset_styles['negative-offset-top'],
+        ) );
+        register_block_style( 'core/column', array(
+            'name'         => 'ona-negative-offset-top',
+            'label'        => esc_html__( 'Offset top', 'ona' ),
+            'inline_style' => $ona_offset_styles['negative-offset-top'],
+        ) );
+        register_block_style( 'core/group', array(
+            'name'         => 'ona-shift-right',
+            'label'        => esc_html__( 'Shift right', 'ona' ),
+            'inline_style' => $ona_offset_styles['shift-right'],
+        ) );
+        register_block_style( 'core/column', array(
+            'name'         => 'ona-shift-right',
+            'label'        => esc_html__( 'Shift right', 'ona' ),
+            'inline_style' => $ona_offset_styles['shift-right'],
+        ) );
+        register_block_style( 'core/group', array(
+            'name'         => 'ona-shift-left',
+            'label'        => esc_html__( 'Shift left', 'ona' ),
+            'inline_style' => $ona_offset_styles['shift-left'],
+        ) );
+        register_block_style( 'core/column', array(
+            'name'         => 'ona-shift-left',
+            'label'        => esc_html__( 'Shift left', 'ona' ),
+            'inline_style' => $ona_offset_styles['shift-left'],
+        ) );
+        register_block_style( 'core/group', array(
+            'name'         => 'ona-hide-on-tablet',
+            'label'        => esc_html__( 'Hide on Tablet', 'ona' ),
+            'inline_style' => '@media only screen and (max-width: 781px) { display: none; }',
+        ) );
+        register_block_style( 'core/column', array(
+            'name'         => 'ona-hide-on-tablet',
+            'label'        => esc_html__( 'Hide on Tablet', 'ona' ),
+            'inline_style' => '@media only screen and (max-width: 781px) { display: none; }',
+        ) );
+        register_block_style( 'core/group', array(
+            'name'         => 'ona-hide-on-mobile',
+            'label'        => esc_html__( 'Hide on Mobile', 'ona' ),
+            'inline_style' => '@media only screen and (max-width: 599px) { display: none; }',
+        ) );
+        register_block_style( 'core/column', array(
+            'name'         => 'ona-hide-on-mobile',
+            'label'        => esc_html__( 'Hide on Mobile', 'ona' ),
+            'inline_style' => '@media only screen and (max-width: 599px) { display: none; }',
+        ) );
+        register_block_style( 'core/group', array(
+            'name'         => 'ona-position-fixed',
+            'label'        => esc_html__( 'Sticky', 'ona' ),
+            'inline_style' => '
 				.is-style-ona-position-fixed {
 					--wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px);
 					top: calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));
@@ -463,11 +470,11 @@ if ( function_exists( 'register_block_style' ) ) {
 					width: 100%;
 					z-index: 10;
 				}',
-    ) );
-    register_block_style( 'core/column', array(
-        'name'         => 'ona-position-fixed',
-        'label'        => esc_html__( 'Sticky', 'ona' ),
-        'inline_style' => '
+        ) );
+        register_block_style( 'core/column', array(
+            'name'         => 'ona-position-fixed',
+            'label'        => esc_html__( 'Sticky', 'ona' ),
+            'inline_style' => '
 				.is-style-ona-position-fixed {
 					--wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px);
 					top: calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));
@@ -475,11 +482,11 @@ if ( function_exists( 'register_block_style' ) ) {
 					width: 100%;
 					z-index: 10;
 				}',
-    ) );
-    register_block_style( 'core/button', array(
-        'name'         => 'ona-button-arrow-icon',
-        'label'        => esc_html__( 'Arrow icon', 'ona' ),
-        'inline_style' => '
+        ) );
+        register_block_style( 'core/button', array(
+            'name'         => 'ona-button-arrow-icon',
+            'label'        => esc_html__( 'Arrow icon', 'ona' ),
+            'inline_style' => '
 			.is-style-ona-button-arrow-icon .wp-block-button__link::after {
 				content: "";
 				width: 18px;
@@ -501,11 +508,11 @@ if ( function_exists( 'register_block_style' ) ) {
 				transform: translateX(6px);
 			}
 			',
-    ) );
-    register_block_style( 'core/post-featured-image', array(
-        'name'         => 'ona-hover-colored-image',
-        'label'        => esc_html__( 'Color on hover', 'ona' ),
-        'inline_style' => '
+        ) );
+        register_block_style( 'core/post-featured-image', array(
+            'name'         => 'ona-hover-colored-image',
+            'label'        => esc_html__( 'Color on hover', 'ona' ),
+            'inline_style' => '
 				.is-style-ona-hover-colored-image {
 					overflow: hidden;
 				}
@@ -517,5 +524,8 @@ if ( function_exists( 'register_block_style' ) ) {
 					filter: none !important;
 					transform: scale(1.1);
 				}',
-    ) );
+        ) );
+    }
+
 }
+add_action( 'init', 'ona_register_block_styles' );

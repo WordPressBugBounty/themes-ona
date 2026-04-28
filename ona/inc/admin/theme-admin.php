@@ -677,22 +677,62 @@ function ona_activate_child_theme() {
         ) );
     }
     global $wp_filesystem;
-    WP_Filesystem();
-    if ( !empty( $_POST['slug'] ) ) {
-        $slug = sanitize_key( $_POST['slug'] );
+    // WP_Filesystem() returns false when the chosen FS_METHOD needs credentials
+    // that are not available (e.g. ftpext without saved creds). In that case
+    // $wp_filesystem stays null and any later method call fatals on PHP 8+.
+    if ( !WP_Filesystem() ) {
+        wp_send_json_error( array(
+            'message' => esc_html__( 'Filesystem unavailable.', 'ona' ),
+        ) );
     }
-    if ( !empty( $_POST['pro'] ) ) {
-        $pro = $_POST['pro'];
-    }
-    if ( !empty( $_POST['download_link'] ) ) {
-        $source = esc_url( $_POST['download_link'] );
+    $slug = ( isset( $_POST['slug'] ) ? sanitize_key( wp_unslash( $_POST['slug'] ) ) : '' );
+    $pro = !empty( $_POST['pro'] );
+    $source = ( isset( $_POST['download_link'] ) ? esc_url_raw( wp_unslash( $_POST['download_link'] ) ) : '' );
+    // Restrict download source to https://downloads.wordpress.org. The JS
+    // resolves the link via api.wordpress.org, which only ever returns
+    // downloads.wordpress.org URLs, so this is the only host we need to
+    // accept. esc_url_raw() does not enforce a scheme, so an http:// URL
+    // to the allowed host would otherwise be fetched in plaintext and an
+    // on-path attacker could substitute a malicious zip → theme RCE.
+    // The premium branch below overwrites $source with a bundled local zip,
+    // so we only validate when this AJAX request actually intends to fetch
+    // remotely.
+    if ( !ona_fs()->can_use_premium_code__premium_only() || !$pro ) {
+        $scheme = wp_parse_url( $source, PHP_URL_SCHEME );
+        $host = wp_parse_url( $source, PHP_URL_HOST );
+        $allowed_hosts = array('downloads.wordpress.org');
+        if ( !$source || 'https' !== $scheme || !in_array( $host, $allowed_hosts, true ) ) {
+            wp_send_json_error( array(
+                'message' => esc_html__( 'Invalid download source.', 'ona' ),
+            ) );
+        }
     }
     $path = get_theme_root() . '/' . $slug;
     // Check if child theme already exists.
     if ( !file_exists( $path ) ) {
         $zip_file = get_theme_root() . '/' . $slug . '.zip';
-        file_put_contents( $zip_file, file_get_contents( $source ) );
-        // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_file_put_contents, WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents -- downloading theme zip to local filesystem.
+        $response = wp_safe_remote_get( $source, array(
+            'timeout' => 30,
+        ) );
+        if ( is_wp_error( $response ) || 200 !== wp_remote_retrieve_response_code( $response ) ) {
+            wp_send_json_error( array(
+                'message' => esc_html__( 'Could not download the child theme.', 'ona' ),
+            ) );
+        }
+        $body = wp_remote_retrieve_body( $response );
+        // Confirm the payload is a zip archive (magic bytes "PK\x03\x04")
+        // so an attacker who slips past the host allowlist still cannot
+        // drop arbitrary content into the themes directory.
+        if ( '' === $body || 0 !== strpos( $body, "PK\x03\x04" ) ) {
+            wp_send_json_error( array(
+                'message' => esc_html__( 'Downloaded file is not a valid theme archive.', 'ona' ),
+            ) );
+        }
+        if ( !$wp_filesystem->put_contents( $zip_file, $body ) ) {
+            wp_send_json_error( array(
+                'message' => esc_html__( 'Could not write the theme archive.', 'ona' ),
+            ) );
+        }
         $unzipfile = unzip_file( $zip_file, get_theme_root() );
         if ( !is_wp_error( $unzipfile ) ) {
             wp_delete_file( $zip_file );
@@ -732,7 +772,11 @@ function ona_update_child_theme() {
         ) );
     }
     global $wp_filesystem;
-    WP_Filesystem();
+    if ( !WP_Filesystem() ) {
+        wp_send_json_error( array(
+            'message' => esc_html__( 'Filesystem unavailable.', 'ona' ),
+        ) );
+    }
     if ( !empty( $_POST['slug'] ) ) {
         $slug = sanitize_key( $_POST['slug'] );
     }

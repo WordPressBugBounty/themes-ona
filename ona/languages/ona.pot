@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Ona 1.26\n"
+"Project-Id-Version: Ona 1.27\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/ona\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-03-07T12:08:05+00:00\n"
+"POT-Creation-Date: 2026-04-28T21:11:48+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: ona\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: style.css
 #: inc/admin/theme-admin.php:20
 #: inc/admin/theme-admin.php:279
-#: inc/admin/theme-admin.php:757
+#: inc/admin/theme-admin.php:795
 msgid "Ona"
 msgstr ""
 
@@ -43,20 +43,20 @@ msgstr ""
 msgid "https://deothemes.com"
 msgstr ""
 
-#: functions.php:239
-msgid "Processing"
-msgstr ""
-
-#: functions.php:240
-msgid "Finished"
-msgstr ""
-
-#: functions.php:483
+#: functions.php:143
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:484
+#: functions.php:144
 msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:259
+msgid "Processing"
+msgstr ""
+
+#: functions.php:260
+msgid "Finished"
 msgstr ""
 
 #: inc/admin/theme-admin.php:19
@@ -382,177 +382,199 @@ msgid "Video Tutorials"
 msgstr ""
 
 #: inc/admin/theme-admin.php:592
-#: inc/admin/theme-admin.php:670
+#: inc/admin/theme-admin.php:705
 msgid "Unauthorized."
 msgstr ""
 
-#: inc/admin/theme-admin.php:640
+#: inc/admin/theme-admin.php:601
+#: inc/admin/theme-admin.php:711
+#: inc/merlin/class-merlin.php:1265
+msgid "Filesystem unavailable."
+msgstr ""
+
+#: inc/admin/theme-admin.php:623
+msgid "Invalid download source."
+msgstr ""
+
+#: inc/admin/theme-admin.php:644
+msgid "Could not download the child theme."
+msgstr ""
+
+#: inc/admin/theme-admin.php:653
+msgid "Downloaded file is not a valid theme archive."
+msgstr ""
+
+#: inc/admin/theme-admin.php:657
+msgid "Could not write the theme archive."
+msgstr ""
+
+#: inc/admin/theme-admin.php:675
 msgid "Awesome. Your child theme is now activated. Proceed to importing the content."
 msgstr ""
 
-#: inc/admin/theme-admin.php:647
+#: inc/admin/theme-admin.php:682
 msgid "There was an error unzipping the file."
 msgstr ""
 
-#: inc/admin/theme-admin.php:656
+#: inc/admin/theme-admin.php:691
 msgid "The existing child theme was activated. Proceed to importing the content."
 msgstr ""
 
-#: inc/admin/theme-admin.php:691
+#: inc/admin/theme-admin.php:729
 msgid "Awesome. Your child theme is now updated."
 msgstr ""
 
-#: inc/admin/theme-admin.php:698
+#: inc/admin/theme-admin.php:736
 msgid "Oops... Something went wrong. Please try again."
 msgstr ""
 
-#: inc/admin/theme-admin.php:760
+#: inc/admin/theme-admin.php:798
 msgid "Thank you for choosing Ona!"
 msgstr ""
 
-#: inc/admin/theme-admin.php:762
+#: inc/admin/theme-admin.php:800
 msgid "Run the Setup Wizard to configure your new theme and begin customizing your site."
 msgstr ""
 
-#: inc/admin/theme-admin.php:764
+#: inc/admin/theme-admin.php:802
 msgid "Follow the steps to configure your new theme and begin customizing your site."
 msgstr ""
 
-#: inc/admin/theme-admin.php:768
+#: inc/admin/theme-admin.php:806
 msgid "Setup Instructions"
 msgstr ""
 
-#: inc/block-styles.php:19
+#: inc/block-styles.php:26
 msgid "Tablet align center"
 msgstr ""
 
-#: inc/block-styles.php:36
+#: inc/block-styles.php:43
 msgid "Tablet align right"
 msgstr ""
 
-#: inc/block-styles.php:53
+#: inc/block-styles.php:60
 msgid "Tablet align left"
 msgstr ""
 
-#: inc/block-styles.php:70
+#: inc/block-styles.php:77
 msgid "Mega Menu"
 msgstr ""
 
-#: inc/block-styles.php:86
+#: inc/block-styles.php:93
 msgid "Button no Space"
 msgstr ""
 
-#: inc/block-styles.php:105
+#: inc/block-styles.php:112
 msgid "Row gap 20"
 msgstr ""
 
-#: inc/block-styles.php:114
+#: inc/block-styles.php:121
 msgid "Row gap 40"
 msgstr ""
 
-#: inc/block-styles.php:123
+#: inc/block-styles.php:130
 msgid "Gap 30"
 msgstr ""
 
-#: inc/block-styles.php:140
+#: inc/block-styles.php:147
 msgid "Gap 40"
 msgstr ""
 
-#: inc/block-styles.php:149
+#: inc/block-styles.php:156
 msgid "Gap 64"
 msgstr ""
 
-#: inc/block-styles.php:159
+#: inc/block-styles.php:166
 msgid "Pill shape"
 msgstr ""
 
-#: inc/block-styles.php:178
+#: inc/block-styles.php:185
 msgid "Cover"
 msgstr ""
 
-#: inc/block-styles.php:198
+#: inc/block-styles.php:205
 #: inc/patterns/forms-newsletter.php:11
 msgid "Newsletter"
 msgstr ""
 
-#: inc/block-styles.php:259
+#: inc/block-styles.php:266
 msgid "Style 2"
 msgstr ""
 
-#: inc/block-styles.php:322
+#: inc/block-styles.php:329
 msgid "Style 3"
 msgstr ""
 
-#: inc/block-styles.php:400
+#: inc/block-styles.php:407
 msgid "Alt font"
 msgstr ""
 
-#: inc/block-styles.php:409
+#: inc/block-styles.php:416
 msgid "Stroke frame"
 msgstr ""
 
-#: inc/block-styles.php:422
+#: inc/block-styles.php:429
 msgid "Hover scale"
 msgstr ""
 
-#: inc/block-styles.php:440
+#: inc/block-styles.php:447
 msgid "Full link"
 msgstr ""
 
-#: inc/block-styles.php:457
-#: inc/block-styles.php:466
-#: inc/block-styles.php:475
+#: inc/block-styles.php:464
+#: inc/block-styles.php:473
+#: inc/block-styles.php:482
 msgid "Offset left"
 msgstr ""
 
-#: inc/block-styles.php:484
+#: inc/block-styles.php:491
 msgid "Offset right"
 msgstr ""
 
-#: inc/block-styles.php:493
-#: inc/block-styles.php:502
+#: inc/block-styles.php:500
+#: inc/block-styles.php:509
 msgid "Offset bottom"
 msgstr ""
 
-#: inc/block-styles.php:511
-#: inc/block-styles.php:520
+#: inc/block-styles.php:518
+#: inc/block-styles.php:527
 msgid "Offset top"
 msgstr ""
 
-#: inc/block-styles.php:529
-#: inc/block-styles.php:538
+#: inc/block-styles.php:536
+#: inc/block-styles.php:545
 msgid "Shift right"
 msgstr ""
 
-#: inc/block-styles.php:547
-#: inc/block-styles.php:556
+#: inc/block-styles.php:554
+#: inc/block-styles.php:563
 msgid "Shift left"
 msgstr ""
 
-#: inc/block-styles.php:565
-#: inc/block-styles.php:574
+#: inc/block-styles.php:572
+#: inc/block-styles.php:581
 msgid "Hide on Tablet"
 msgstr ""
 
-#: inc/block-styles.php:583
-#: inc/block-styles.php:592
+#: inc/block-styles.php:590
+#: inc/block-styles.php:599
 msgid "Hide on Mobile"
 msgstr ""
 
-#: inc/block-styles.php:601
-#: inc/block-styles.php:617
+#: inc/block-styles.php:608
+#: inc/block-styles.php:624
 msgid "Sticky"
 msgstr ""
 
-#: inc/block-styles.php:633
+#: inc/block-styles.php:640
 msgid "Arrow icon"
 msgstr ""
 
-#: inc/block-styles.php:663
+#: inc/block-styles.php:670
 msgid "Color on hover"
 msgstr ""
 
-#: inc/block-styles.php:685
+#: inc/block-styles.php:692
 msgid "Grid Gap 70"
 msgstr ""
 
@@ -577,7 +599,7 @@ msgid "Plugins"
 msgstr ""
 
 #: inc/merlin/class-merlin.php:723
-#: inc/merlin/class-merlin.php:1720
+#: inc/merlin/class-merlin.php:1722
 msgid "Content"
 msgstr ""
 
@@ -618,166 +640,166 @@ msgstr ""
 msgid "The final step has been displayed"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1283
+#: inc/merlin/class-merlin.php:1285
 msgid "The existing child theme was activated"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1301
+#: inc/merlin/class-merlin.php:1303
 msgid "The newly generated child theme was activated"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1361
+#: inc/merlin/class-merlin.php:1363
 msgid "The child theme functions.php content was generated"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1392
+#: inc/merlin/class-merlin.php:1394
 msgid "The child theme style.css content was generated"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1426
+#: inc/merlin/class-merlin.php:1428
 msgid "The child theme screenshot was copied to the child theme, with the following result"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1428
+#: inc/merlin/class-merlin.php:1430
 msgid "The child theme screenshot was not generated, because of these results"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1457
+#: inc/merlin/class-merlin.php:1459
 msgid "Activating"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1473
+#: inc/merlin/class-merlin.php:1475
 msgid "Updating"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1489
-#: inc/merlin/class-merlin.php:1505
-#: inc/merlin/class-merlin.php:1723
-#: inc/merlin/class-merlin.php:1736
-#: inc/merlin/class-merlin.php:1749
-#: inc/merlin/class-merlin.php:1762
-#: inc/merlin/class-merlin.php:1775
-#: inc/merlin/class-merlin.php:1788
-#: inc/merlin/class-merlin.php:1831
+#: inc/merlin/class-merlin.php:1491
+#: inc/merlin/class-merlin.php:1507
+#: inc/merlin/class-merlin.php:1725
+#: inc/merlin/class-merlin.php:1738
+#: inc/merlin/class-merlin.php:1751
+#: inc/merlin/class-merlin.php:1764
+#: inc/merlin/class-merlin.php:1777
+#: inc/merlin/class-merlin.php:1790
+#: inc/merlin/class-merlin.php:1833
 msgid "Installing"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1497
+#: inc/merlin/class-merlin.php:1499
 msgid "A plugin with the following data will be processed"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1509
+#: inc/merlin/class-merlin.php:1511
 msgid "A plugin with the following data was processed"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1518
+#: inc/merlin/class-merlin.php:1520
+#: inc/merlin/class-merlin.php:1726
+#: inc/merlin/class-merlin.php:1739
+#: inc/merlin/class-merlin.php:1752
+#: inc/merlin/class-merlin.php:1765
+#: inc/merlin/class-merlin.php:1778
+#: inc/merlin/class-merlin.php:1791
+msgid "Success"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1543
+msgid "The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1548
+msgid "Invalid content!"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1559
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1601
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1612
+msgid "Error"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1626
+msgid "The content importer AJAX call for retrieving total content import items failed to start, because of incorrect data."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1631
+msgid "Invalid data!"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1723
+msgid "Demo content data."
+msgstr ""
+
 #: inc/merlin/class-merlin.php:1724
 #: inc/merlin/class-merlin.php:1737
 #: inc/merlin/class-merlin.php:1750
 #: inc/merlin/class-merlin.php:1763
 #: inc/merlin/class-merlin.php:1776
 #: inc/merlin/class-merlin.php:1789
-msgid "Success"
-msgstr ""
-
-#: inc/merlin/class-merlin.php:1541
-msgid "The content importer AJAX call failed to start, because of incorrect data"
-msgstr ""
-
-#: inc/merlin/class-merlin.php:1546
-msgid "Invalid content!"
-msgstr ""
-
-#: inc/merlin/class-merlin.php:1557
-msgid "The content import AJAX call will be executed with this import data"
-msgstr ""
-
-#: inc/merlin/class-merlin.php:1599
-msgid "The content import AJAX call failed with this passed data"
-msgstr ""
-
-#: inc/merlin/class-merlin.php:1610
-msgid "Error"
-msgstr ""
-
-#: inc/merlin/class-merlin.php:1624
-msgid "The content importer AJAX call for retrieving total content import items failed to start, because of incorrect data."
-msgstr ""
-
-#: inc/merlin/class-merlin.php:1629
-msgid "Invalid data!"
-msgstr ""
-
-#: inc/merlin/class-merlin.php:1721
-msgid "Demo content data."
-msgstr ""
-
-#: inc/merlin/class-merlin.php:1722
-#: inc/merlin/class-merlin.php:1735
-#: inc/merlin/class-merlin.php:1748
-#: inc/merlin/class-merlin.php:1761
-#: inc/merlin/class-merlin.php:1774
-#: inc/merlin/class-merlin.php:1787
 msgid "Pending"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1733
+#: inc/merlin/class-merlin.php:1735
 msgid "Widgets"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1734
+#: inc/merlin/class-merlin.php:1736
 msgid "Sample widgets data."
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1746
+#: inc/merlin/class-merlin.php:1748
 msgid "Revolution Slider"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1747
+#: inc/merlin/class-merlin.php:1749
 msgid "Sample Revolution sliders data."
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1759
+#: inc/merlin/class-merlin.php:1761
 msgid "Options"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1760
+#: inc/merlin/class-merlin.php:1762
 msgid "Sample theme options data."
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1772
+#: inc/merlin/class-merlin.php:1774
 msgid "Redux Options"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1773
+#: inc/merlin/class-merlin.php:1775
 msgid "Redux framework options."
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1785
+#: inc/merlin/class-merlin.php:1787
 msgid "After import setup"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1786
+#: inc/merlin/class-merlin.php:1788
 msgid "After import setup."
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1815
+#: inc/merlin/class-merlin.php:1817
 msgid "The revolution slider import was executed"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1852
+#: inc/merlin/class-merlin.php:1854
 msgid "The home page was set"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1862
+#: inc/merlin/class-merlin.php:1864
 msgid "The blog page was set"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1877
+#: inc/merlin/class-merlin.php:1879
 msgid "The Hello world post status was set to draft"
 msgstr ""
 
-#: inc/merlin/class-merlin.php:1901
+#: inc/merlin/class-merlin.php:1903
 msgid "This predefined demo import does not have the name parameter: import_file_name"
 msgstr ""
 
