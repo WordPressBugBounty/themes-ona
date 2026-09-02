@@ -2,9 +2,9 @@
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, full-width-template, block-patterns, block-styles, rtl-language-support, sticky-post, threaded-comments, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Contributors: DeoThemes
 Requires at least: 5.8
-Tested up to: 6.7
+Tested up to: 7.1
 Requires PHP: 5.6
-Stable tag: 1.27
+Stable tag: 1.28
 Contributors: DeoThemes
 Theme URI: https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/
 Author URI: https://deothemes.com/
@@ -17,6 +17,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Ona is a Full Site Editing WordPress theme based on the minimal design style. It comes with many pre-defined block patterns and color scheme styles. Ona includes 18 custom child themes, 10 of them are free. Header and footer builder allows you easily edit your layout and choose pre-made elements. It's easy to customize colors and fonts via global options. This theme is perfect to build a fast optimized websites that have an instant impact On Core Web Vitals performance. Demo: https://ona.deothemes.com/
 
 == Changelog ==
+
+Version 1.28 - September 2, 2026
+- Fixed: Main, Minimal, Creative, Travel, Environmental and Business demo imports failed because their content files were no longer hosted remotely. The demo content is now bundled with the theme
+- Fixed: Online Store and Coffee Shop demo imports failed at the final setup step with an undefined function error
+- Fixed: DeoBlocks fatal error on activation with PHP builds that lack GLOB_BRACE support (for example Alpine Linux hosting)
+- Fixed: Ona Core loaded translated customizer labels too early, causing a WordPress 6.7+ notice
+- Fixed: PHP 8.1+ deprecation notice in the child theme installer
+- Fixed: PHP warning from the Ona Pro template migration on sites that never used the free version
+- Updated: Tested up to WordPress 7.1
+- Updated: Freemius SDK to 2.13.4
+- Updated: DeoBlocks to 1.5.1.1 and Ona Core to 1.0.5.1
+- Updated: Build tooling dependencies
 
 Version 1.27 - April 29, 2026
 - Fixed: Authenticated SSRF in child theme installer via the download_link AJAX parameter. Thanks to Nguyen Truong (Roll) for responsible disclosure

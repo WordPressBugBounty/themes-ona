@@ -13,7 +13,7 @@ if ( !defined( 'ABSPATH' ) ) {
     exit( 'Direct script access denied.' );
 }
 // Constants.
-define( 'ONA_VERSION', '1.27' );
+define( 'ONA_VERSION', '1.28' );
 define( 'ONA_DIR', get_template_directory() );
 define( 'ONA_URI', get_template_directory_uri() );
 if ( !function_exists( 'ona_fs' ) ) {
@@ -352,7 +352,8 @@ add_action( 'after_setup_theme', function () {
         if ( 1 !== get_option( 'ona_pro_migration_compete' ) ) {
             // 1. Update wp_terms ona with ona-pro
             $ona_term = get_term_by( 'slug', 'ona', 'wp_theme' );
-            if ( !is_wp_error( $ona_term ) ) {
+            // get_term_by() returns false when the term does not exist (fresh installs).
+            if ( $ona_term instanceof WP_Term ) {
                 $update = wp_update_term( $ona_term->term_id, 'wp_theme', array(
                     'name' => 'ona-pro',
                     'slug' => 'ona-pro',

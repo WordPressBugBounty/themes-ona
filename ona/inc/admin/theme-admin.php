@@ -737,7 +737,7 @@ function ona_activate_child_theme() {
         if ( !is_wp_error( $unzipfile ) ) {
             wp_delete_file( $zip_file );
             // Switch.
-            $allowed_themes = get_option( 'allowedthemes' );
+            $allowed_themes = (array) get_option( 'allowedthemes', array() );
             $allowed_themes[$slug] = true;
             update_option( 'allowedthemes', $allowed_themes );
             switch_theme( $slug );
