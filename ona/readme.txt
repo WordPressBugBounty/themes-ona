@@ -1,10 +1,10 @@
 === Ona ===
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, full-width-template, block-patterns, block-styles, rtl-language-support, sticky-post, threaded-comments, style-variations, template-editing, theme-options, translation-ready, wide-blocks
 Contributors: DeoThemes
-Requires at least: 5.8
+Requires at least: 6.8
 Tested up to: 7.1
-Requires PHP: 5.6
-Stable tag: 1.28
+Requires PHP: 7.4
+Stable tag: 1.29
 Contributors: DeoThemes
 Theme URI: https://deothemes.com/wordpress-themes/ona-block-wordpress-theme/
 Author URI: https://deothemes.com/
@@ -17,6 +17,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Ona is a Full Site Editing WordPress theme based on the minimal design style. It comes with many pre-defined block patterns and color scheme styles. Ona includes 18 custom child themes, 10 of them are free. Header and footer builder allows you easily edit your layout and choose pre-made elements. It's easy to customize colors and fonts via global options. This theme is perfect to build a fast optimized websites that have an instant impact On Core Web Vitals performance. Demo: https://ona.deothemes.com/
 
 == Changelog ==
+
+Version 1.29 - September 2, 2026
+- Updated: Minimum requirements are now WordPress 6.8 and PHP 7.4
+- Updated: Tested up to WooCommerce 11.0
+- Fixed: Demo import linked theme images from the free theme folder, so they returned 404 on Ona Pro installs
+- Fixed: Main, Creative, Fashion and Photography demo content linked hero and contact background images by their old .jpg names, which the theme ships as .webp since 1.22.7
+- Fixed: PHP deprecation notice from the theme setup wizard on WordPress 6.4 and newer
 
 Version 1.28 - September 2, 2026
 - Fixed: Main, Minimal, Creative, Travel, Environmental and Business demo imports failed because their content files were no longer hosted remotely. The demo content is now bundled with the theme
